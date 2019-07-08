@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { colors } from '../utils/variables';
+import { colors, breakpoints } from '../utils/variables'
 import Path from '../resources/path-rocket-icon.svg';
 import Rocket from '../resources/rocket-icon.svg';
 
@@ -10,16 +10,24 @@ const StyledHeader = styled.header`
 
     .path {
         position: absolute;
-        top: 30%;
+        top: 28%;
         right: 0;
         height: 46rem;
+
+        @media(max-width: ${breakpoints.sm}) {
+            display: none;
+        }
     }
 
     .rocket {
         position: absolute;
-        top: 26%;
-        right: 13%;
+        top: 25%;
+        right: 14%;
         height: 7.6rem;
+
+        @media(max-width: ${breakpoints.sm}) {
+            display: none;
+        }
     }
 `
 
@@ -44,6 +52,10 @@ const Hero = styled.div`
 
     p {
         width: 60%;
+
+        &:not(:last-child) {
+            margin-bottom: 2rem;
+        }
     }
 
     .btn {

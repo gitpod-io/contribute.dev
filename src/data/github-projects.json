@@ -1,0 +1,149 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "FreeCodeCamp",
+            "description": "Open source codebase and curriculum. Learn to code for free together with millions of people.",
+            "stars": "11k",
+            "language": "Phython",
+            "tags": [
+                {
+                    "name": "Beginner-friendly",
+                    "color": "#331fa1"
+                },
+                {
+                    "name": "App",
+                    "color": "#9700cb"
+                },
+                {
+                    "name": "Help-wanted",
+                    "color": "#4a00a1"
+                }
+            ],
+            "repoURL": "https://github.com/freeCodeCamp/freeCodeCamp",
+            "logo": "freecodecamp.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Gatsby",
+            "description": "Build blazing fast, modern apps and websites with React.",
+            "stars": "11k",
+            "language": "Phython",
+            "tags": [
+                {
+                    "name": "Beginner-friendly",
+                    "color": "#331fa1"
+                },
+                {
+                    "name": "App",
+                    "color": "#9700cb"
+                },
+                {
+                    "name": "Help-wanted",
+                    "color": "#4a00a1"
+                }
+            ],
+            "repoURL": "https://github.com/gatsbyjs/gatsby",
+            "logo": "gatsby.png"
+        },
+        {
+            "id": 3,
+            "title": "Ant Design",
+            "description": "An enterprise-class UI design language and React implementation.",
+            "stars": "11k",
+            "language": "Javascript",
+            "tags": [
+                {
+                    "name": "App",
+                    "color": "#9700cb"
+                },
+                {
+                    "name": "Beginner-friendly",
+                    "color": "#331fa1"
+                }
+            ],
+            "repoURL": "https://github.com/ant-design/ant-design/",
+            "logo": "antdesign.svg"
+        },
+        {
+            "id": 4,
+            "title": "Dev Hub",
+            "description": "DevHub is a mobile and desktop app to help you manage Github Notifications and stay on top of repository activities.",
+            "stars": "11k",
+            "language": "Phython",
+            "tags": [
+                {
+                    "name": "React",
+                    "color": "#4a00a1"
+                },
+                {
+                    "name": "App",
+                    "color": "#9700cb"
+                },
+                {
+                    "name": "Help-wanted",
+                    "color": "#331fa1"
+                }
+            ],
+            "repoURL": "https://github.com/devhubapp/devhub",
+            "logo": "devhub.png"
+        },
+        {
+            "id": 5,
+            "title": "Dev.to",
+            "description": "A platform where software developers write articles, take part in discussions and build their professional.",
+            "stars": "11k",
+            "language": "Phython",
+            "tags": [
+                {
+                    "name": "Beginner-friendly",
+                    "color": "#331fa1"
+                },
+                {
+                    "name": "App",
+                    "color": "#9700cb"
+                },
+                {
+                    "name": "React",
+                    "color": "#4a00a1"
+                }
+            ],
+            "repoURL": "https://github.com/thepracticaldev/dev.to",
+            "logo": "devto.jpeg"
+        },
+        {
+            "id": 6,
+            "title": "Peertube",
+            "description": "Be part of a network of multiple small federated, interoperable video hosting providers.",
+            "stars": "11k",
+            "language": "Javascript",
+            "tags": [
+                {
+                    "name": "React",
+                    "color": "#4a00a1"
+                },
+                {
+                    "name": "App",
+                    "color": "#9700cb"
+                }
+            ],
+            "repoURL": "https://github.com/Chocobozzz/PeerTube",
+            "logo": "peertube.png"
+        },
+        {
+            "id": 6,
+            "title": "jsPDF",
+            "description": "A library to generate PDFs in Javascript.",
+            "stars": "11k",
+            "language": "Javascript",
+            "tags": [
+                {
+                    "name": "Help-wanted",
+                    "color": "#4a00a1"
+                }
+            ],
+            "repoURL": "https://github.com/MrRio/jsPDF",
+            "logo": "jspdf.svg"
+        }
+    ]
+}

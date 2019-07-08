@@ -2,12 +2,11 @@ import React from 'react'
 import { Global, css } from '@emotion/core'
 import Helmet from 'react-helmet'
 import useSiteMetadata from '../hooks/use-site-metadata'
-import { fontSizes, colors, grid } from '../utils/variables'
+import { fontSizes, colors, grid, breakpoints } from '../utils/variables'
 import Header from '../components/Header'
 
 const Layout = ({ children }) => {
     const {title, description} = useSiteMetadata()
-    console.log(children)
     return (
         <>
             <Global styles={css`
@@ -26,12 +25,25 @@ const Layout = ({ children }) => {
 
                 html {
                     font-size: 62.5%;
+
+                    @media(max-width: ${breakpoints.md}) {
+                        font-size: 60.5%;
+                    }
+
+                    @media(max-width: ${breakpoints.sm}) {
+                        font-size: 59.5%;
+                    }
                 }
 
                 body {
                     font-size: ${fontSizes.default};
                     color: ${colors.textPrimary};
                     font-family: 'Cera Pro', sans-serif;
+                    line-height: 1.4;
+                }
+
+                section {
+                    padding: 6rem 0;
                 }
 
                 /* --------------------------------------------- */
@@ -43,6 +55,7 @@ const Layout = ({ children }) => {
                 h3,
                 h4 {
                     font-family: 'Playfair Display', serif;
+                    line-height: 1.1;
                 }
 
                 h1 {
@@ -50,8 +63,13 @@ const Layout = ({ children }) => {
                     margin-bottom: 3.2rem;
                 }
 
-                * + * {
-                    margin-bottom: 2rem;
+                h2 {
+                    font-size: ${fontSizes.large};
+                    margin-bottom: 1.2rem;
+                }
+
+                h3 {
+                    font-size: 2.3rem;
                 }
 
                 /* --------------------------------------------- */
@@ -99,6 +117,7 @@ const Layout = ({ children }) => {
             <Helmet>
                 <html lang='en'/>
                 <title>{title}</title>
+                <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap" rel="stylesheet" />
                 <meta name='description' content={description}/>
             </Helmet>
             <Header />

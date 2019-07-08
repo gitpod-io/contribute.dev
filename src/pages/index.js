@@ -1,12 +1,11 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import Header from '../components/Header'
-import styled from '@emotion/styled'
+import FindProject from '../components/FindProject'
 
 export default () => {
     return (
         <Layout>
-    
+            <FindProject />
         </Layout>
     )
 }
