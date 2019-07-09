@@ -104,12 +104,12 @@ const Layout = ({ children }) => {
                     &::before {
                         content: '';
                         position: absolute;
-                        top: 3%;
+                        top: 0;
                         left: -2.5rem;
                         display: block;
                         background: ${colors.purple};
                         width: 8px;
-                        height: 100%;
+                        height: 105%;
                     }
                 }
 

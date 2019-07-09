@@ -131,7 +131,7 @@
             "logo": "peertube.png"
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "jsPDF",
             "description": "A library to generate PDFs in Javascript.",
             "stars": "11k",
