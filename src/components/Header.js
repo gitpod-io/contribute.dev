@@ -52,10 +52,6 @@ const Hero = styled.div`
 
     p {
         width: 60%;
-
-        &:not(:last-child) {
-            margin-bottom: 2rem;
-        }
     }
 
     .btn {

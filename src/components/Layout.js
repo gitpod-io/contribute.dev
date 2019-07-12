@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import useSiteMetadata from '../hooks/use-site-metadata'
 import { fontSizes, colors, grid, breakpoints } from '../utils/variables'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 const Layout = ({ children }) => {
     const {title, description} = useSiteMetadata()
@@ -72,6 +73,12 @@ const Layout = ({ children }) => {
                     font-size: 2.3rem;
                 }
 
+                p {
+                    &:not(:last-child) {
+                        margin-bottom: 2rem;
+                    }
+                }
+
                 /* --------------------------------------------- */
                 /* ----- Layout Helpers ----- */
                 /* --------------------------------------------- */
@@ -88,7 +95,7 @@ const Layout = ({ children }) => {
 
                 .btn {
                     display: inline-block;
-                    padding: 1.4rem 3rem;
+                    padding: 1.2rem 3.2rem;
                     border: 1px solid;
                     text-decoration: none;
                     color: ${colors.textPrimary};
@@ -124,6 +131,7 @@ const Layout = ({ children }) => {
              <main role="main">
                 {children}
              </main>
+             <Footer />
         </>
     )
 }
