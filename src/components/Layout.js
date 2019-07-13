@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
                 body {
                     font-size: ${fontSizes.default};
                     color: ${colors.textPrimary};
-                    font-family: 'Cera Pro', sans-serif;
+                    font-family: 'Nunito', sans-serif;
                     line-height: 1.4;
                 }
 
@@ -124,7 +124,8 @@ const Layout = ({ children }) => {
             <Helmet>
                 <html lang='en'/>
                 <title>{title}</title>
-                <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet" />
                 <meta name='description' content={description}/>
             </Helmet>
             <Header />
