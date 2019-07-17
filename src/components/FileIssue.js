@@ -44,8 +44,8 @@ const Styled = styled.section`
 const FileIssue = () => (
     <Styled>
         <div>
-            <h2>Would you like your repository to be listed here?</h2>
-            <p>That's great! Please file an issue with a link to your repo here so we can enable the one-click experience with Gitpod. Afterwards we'll add your repository to the list and you can add the
+            <h2>Get your repo listed</h2>
+            <p>That's great! Please file an issue with a link to your repository so we can help you set up the one-click experience with Gitpod. Afterwards we'll add your repository to the list and you can add the
             <span className="sheilds">
                 <span className="sheild sheild--1">contributor&nbsp;</span>
                 <span className="sheild sheild--2">friendly</span>

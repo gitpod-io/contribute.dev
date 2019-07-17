@@ -10,7 +10,7 @@ const SectionFind = styled.section`
         color: red;
     }
 
-    button, select {
+    button {
         display: inline-block;
         padding: 5px 10px;
         font-family: inherit;
@@ -19,16 +19,6 @@ const SectionFind = styled.section`
 
         &:not(:last-child) {
             margin-right: 2rem;
-        }
-    }
-
-    .showing {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 2rem;
-
-        .bold {
-            font-weight: bold;
         }
     }
 
@@ -59,15 +49,8 @@ class FindProject extends React.Component {
                     </div>
                     <div className="filters">
                         <button>
-                            Filter by tag &nbsp; &nbsp; &nbsp;&rarr;
+                            Search by tag &nbsp; &nbsp; &nbsp;&rarr;
                         </button>
-                        <button>
-                            Filter by stars
-                        </button>
-                    </div>
-                    <div className="showing">
-                        <span>48 results</span>
-                        <span>Show&nbsp;<span className="bold">10</span>&nbsp;| 50 | 100</span>
                     </div>
                     <div>
                         {

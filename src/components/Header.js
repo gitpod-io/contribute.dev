@@ -73,14 +73,14 @@ const Header = () => (
         <div className='row'>
             <Navigation role='navigation'>
                 <a href='#'>Find a Project</a>
+                <a href='#'>About</a>
                 <a href='#'>Sponsoring</a>
-                <a href='#'>Help us out</a>
             </Navigation>
             <Hero>
                 <div className="outline-left">
                     <h1>Frictionless open-source contribution</h1>
-                    <p>Let’s leverage open-source projects by making contributions as simple as possible.</p>
-                    <p className="seconed">You can contribute to all repositories listed below with one click. No need to install dependencies, go through long README files or compile code for hours. <span>Just ‚open in Gitpod‘ and start coding.</span></p>
+                    <p>Let’s empower open-source projects by making contributions as simple as possible.</p>
+                    <p className="seconed">You can contribute to all repositories listed below with one click. No need to install dependencies, go through long README files or compile code for hours.<span> Just ‚open in Gitpod‘ and start coding.</span></p>
                 </div>
             </Hero>
         </div>
