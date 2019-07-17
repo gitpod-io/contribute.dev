@@ -51,11 +51,20 @@ const Hero = styled.div`
     transform: translateY(-30%);
 
     p {
-        width: 60%;
-    }
+        width: 95%;
 
-    .btn {
-        margin-top: 5rem;
+        @media(min-width: ${breakpoints.sm}) {
+            width: 50%;
+
+            &.seconed {
+                width: 40%;
+                margin-top: 50px;
+
+                span {
+                    font-weight: bold;
+                }
+            }
+        }
     }
 `
 
@@ -69,11 +78,10 @@ const Header = () => (
             </Navigation>
             <Hero>
                 <div className="outline-left">
-                    <h1>On a mission to frictionless open-source contribution</h1>
-                    <p>Let's make open-source contribution together as convenient as possible.</p>
-                    <p>Adding a gitpod button lets you contribute with one click. Have a look at the Projects that are already taking part in this journey.</p>
+                    <h1>Frictionless open-source contribution</h1>
+                    <p>Let’s leverage open-source projects by making contributions as simple as possible.</p>
+                    <p className="seconed">You can contribute to all repositories listed below with one click. No need to install dependencies, go through long README files or compile code for hours. <span>Just ‚open in Gitpod‘ and start coding.</span></p>
                 </div>
-                <a href="#" className="btn">Submit a repository</a>
             </Hero>
         </div>
         <img src={Rocket} className="rocket" />

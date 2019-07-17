@@ -5,14 +5,13 @@ import Layout from '../components/Layout'
 import FindProject from '../components/FindProject'
 import Feedback from '../components/Feedback'
 import FileIssue from '../components/FileIssue'
-import BlogPostPreview from '../resources/teaser-gitpodify.jpg'
+import BlogPostPreview from '../resources/teaser-launch-min.jpg'
 import GoogleIcon from '../resources/google.png'
 import FirefoxIcon from '../resources/firefox.svg'
+import NetlifyIcon from '../resources/netlify.svg'
 
 const SectionBlogPost = styled.section`
     display: flex;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
     margin: 5rem 0;
 
     @media(max-width: ${breakpoints.sm}) {
@@ -46,7 +45,7 @@ const SectionSponsoring = styled.section`
     .icons {
         display: flex;
         justify-content: center;
-        margin: 14rem auto 9rem;
+        margin: 14rem auto 5rem;
 
         img {
             height: 5rem;
@@ -67,31 +66,33 @@ export default () => {
             <div className="row">
                 <section>
                     <div className="outline-left">
-                        <h2>Help us out</h2>
+                        <h2>About</h2>
                         <p>
-                            Would you like to know how to simplify contributions on Github repository? Take a look at gitpodified projects, this might help you to get a feeling for it. If you need more detailed descriptions, have a look at the blog post underneath.</p>
-                        <p>
-                            If you get stuck feel free to reach out to @dgjdgh, @gedge @hjdg or @hjgd.
-                    </p>
+                           Open source is great! And it lives from passionate contributors who are investing their precious free time in it. Let’s not waste that time for tedious setups.
+                        </p>
+                        <p>  
+                           By adding a Gitpod button to your GitHub repository, your contributors can start coding immediately: no more waiting for builds to run and code to compile, it’s just coding. If you would like to know more about Gitpod and how it works, have a look at the blog post below.
+                        </p>
                     </div>
                 </section>
                 <SectionBlogPost>
                     <div class="img">&nbsp;</div>
                     <div>
-                        <h2>How to fully automate your dev enviroments on Github?</h2>
-                        <p>If you'd like add the one click experience to a Github repository, have a look at Jan's blog post "Gitpodify - The Ultimate Guide". He explains you how to get a repository smoothly running in Gitpod.</p>
+                        <h2>Introducing Gitpod &mdash; Frictionless Coding on GitHub</h2>
+                        <p>Every day developers waste millions of hours switching contexts between projects and branches, setting up development environments, or simply waiting for builds to complete.</p>
                         <a href="#" className="btn">Blog Post</a>
                     </div>
                 </SectionBlogPost>
                 <SectionSponsoring>
                     <div className="outline-left">
                         <h2>Sponsoring</h2>
-                        <p>Big shout out to our sponsors who make it possible for us to support the open-source community! Thanks a lot!. If you'd also like to support us financially or by giving us resources, please let us know.</p>
+                        <p>Big shout out to our sponsors who help empower the open-source community. Thanks a lot! If you’d also like to support frictionless open-source contribution financially or by providing resources, please let us know.</p>
                         <a href="#" className="btn">Become a sponsor</a>
                     </div>
                     <div className="icons">
-                        <img src={GoogleIcon} alt="Google" style={{height: '3.3rem', transform: 'translateY(1rem)'}} />
-                        <img src={FirefoxIcon} alt="Firefox" />
+                        <img src={GoogleIcon} alt="Google Logo" style={{height: '3.3rem', transform: 'translateY(1rem)'}} />
+                        <img src={FirefoxIcon} alt="Firefox Logo" />
+                        <img src={NetlifyIcon} alt="Netlify Logo" style={{transform: 'scale(.9)'}} />
                     </div>
                 </SectionSponsoring>
             </div>

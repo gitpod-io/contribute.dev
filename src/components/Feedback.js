@@ -21,7 +21,7 @@ const Feedback = () => {
             <div className="row">
                 <div className='outline-left'>
                     <h2>Community Feedback</h2>
-                    <p>Let's have a look how the maintainers, comunity leaders and contributors experienced Gitpod.</p>
+                    <p>This is how contributors, maintainers and community leaders perceived the one-click experience with Gitpod.</p>
                 </div>
             </div>
             <Tweets>

@@ -60,7 +60,7 @@ const Layout = ({ children }) => {
                 }
 
                 h1 {
-                    font-size: ${fontSizes.medium};
+                    font-size: ${fontSizes.large};
                     margin-bottom: 3.2rem;
                 }
 

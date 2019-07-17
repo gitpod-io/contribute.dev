@@ -2,6 +2,7 @@ import React from 'react'
 import styled from '@emotion/styled'
 import projectsData from '../data/github-projects.json'
 import Project from '../components/Project'
+import LoadMore from '../resources/load-more.svg'
 
 const SectionFind = styled.section`
     .filters {
@@ -23,11 +24,21 @@ const SectionFind = styled.section`
 
     .showing {
         display: flex;
-        justify-content: flex-end;
-        margin-top: 4rem;
+        justify-content: space-between;
+        margin-bottom: 2rem;
 
-        span {
+        .bold {
             font-weight: bold;
+        }
+    }
+
+    .load-more {
+        display: block;
+        border: none;
+        margin: 5rem auto;
+
+        & img {
+            height: 6rem;
         }
     }
 `
@@ -44,25 +55,29 @@ class FindProject extends React.Component {
                 <div className='row'>
                     <div className='outline-left'>
                         <h2>Find a Project</h2>
-                        <p>These projects are already a part of the frictionless open-source contribution. Find a fitting one and start contribution immideiately with Gitpod.</p>
+                        <p>Look through the projects, filter them, find your favorite project and click on ‚open in Gitpod‘ to enjoy the one-click experience.</p>
                     </div>
                     <div className="filters">
                         <button>
                             Filter by tag &nbsp; &nbsp; &nbsp;&rarr;
                         </button>
-                        <select>
-                            <option>Filter by</option>
-                            <option>Stars</option>
-                            <option>Tag</option>
-                        </select>
+                        <button>
+                            Filter by stars
+                        </button>
+                    </div>
+                    <div className="showing">
+                        <span>48 results</span>
+                        <span>Show&nbsp;<span className="bold">10</span>&nbsp;| 50 | 100</span>
                     </div>
                     <div>
                         {
                             this.state.projects.map(project => <Project key={project.id} {...project}/>)
                         }
                     </div>
-                    <div className="showing">
-                        Show&nbsp;<span>10</span>&nbsp;| 50 | 100
+                    <div>
+                        <button className="load-more">
+                            <img src={LoadMore} alt="Load More Projects button"/>
+                        </button>
                     </div>
                 </div>
             </SectionFind>

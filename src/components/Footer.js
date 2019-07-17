@@ -5,11 +5,9 @@ const StyledFooter = styled.footer`
     display: flex;
     justify-content: center;
     width: 80%;
-    margin: 0 auto 10rem;
+    margin: 0 auto 6rem;
     padding-top: 4rem;
-    border-top: 1px solid;
     text-align: center;
-
 `
 
 const Footer = () => (
