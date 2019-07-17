@@ -47,6 +47,11 @@ const Layout = ({ children }) => {
                     padding: 6rem 0;
                 }
 
+                a,
+                button {
+                    cursor: pointer;
+                }
+
                 /* --------------------------------------------- */
                 /* ----- Headlines and Paragraphs ----- */
                 /* --------------------------------------------- */

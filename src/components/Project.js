@@ -188,9 +188,11 @@ const Project = (props) => {
             </div>
             <div className="call-to-action">
                 <div className="stars"><img src={Star} />&nbsp;&nbsp;{props.stars}</div>
-                <button className="open-in-gitpod">
-                    <img src={GitpodButton} alt="Open in Gitpod" />
-                </button>
+                <a href={`https://gitpod.io#${props.repoURL}`}>
+                    <button className="open-in-gitpod">
+                        <img src={GitpodButton} alt="Open in Gitpod" />
+                    </button>
+                </a>
             </div>
         </Styled>
     )
