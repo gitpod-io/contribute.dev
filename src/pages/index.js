@@ -49,7 +49,7 @@ const SectionSponsoring = styled.section`
 
         img {
             height: 5rem;
-            
+
             &:not(:last-child) {
                 margin-right: 9rem;
             }
@@ -70,17 +70,17 @@ export default () => {
                         <p>
                            Open source is great! And it lives from passionate contributors who are investing their precious free time in it. Let’s not waste that time for tedious setups.
                         </p>
-                        <p>  
+                        <p>
                            By adding a Gitpod button to your GitHub repository, your contributors can start coding immediately: no more waiting for builds to run and code to compile, it’s just coding. If you would like to know more about Gitpod and how it works, have a look at the blog post below.
                         </p>
                     </div>
                 </section>
                 <SectionBlogPost>
-                    <div class="img">&nbsp;</div>
+                    <div className="img">&nbsp;</div>
                     <div>
                         <h2>Introducing Gitpod &mdash; Frictionless Coding on GitHub</h2>
                         <p>Every day developers waste millions of hours switching contexts between projects and branches, setting up development environments, or simply waiting for builds to complete.</p>
-                        <a href="#" className="btn">Blog Post</a>
+                        <a href="https://www.gitpod.io/blog/gitpod-launch/" className="btn">Blog Post</a>
                     </div>
                 </SectionBlogPost>
                 <SectionSponsoring>

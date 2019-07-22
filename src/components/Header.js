@@ -36,11 +36,30 @@ const Navigation = styled.nav`
     padding: 9rem 0;
 
     a {
+        position: relative;
         text-decoration: none;
         color: ${colors.textPrimary};
+        padding-bottom: .8rem;
 
         &:not(:last-child) {
             margin-right: 4rem;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            border-bottom: 2px solid ${colors.purple};
+            right: 100%;
+            bottom: 0;
+            left: 0;
+            transition: right .4s cubic-bezier(0,.5,0, 1);
+        }
+
+        &:hover,
+        &:focus {
+            &::after {
+                right: 0;
+            }
         }
     }
 `

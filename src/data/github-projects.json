@@ -8,10 +8,6 @@
             "language": "JavaScript",
             "tags": [
                 {
-                    "name": "build passing",
-                    "color": "#00f300"
-                },
-                {
                     "name": "PRs welcome",
                     "color": "#00f300"
                 },
@@ -39,15 +35,7 @@
             "language": "JavaScript",
             "tags": [
                 {
-                    "name": "build passing",
-                    "color": "#00f300"
-                },
-                {
                     "name": "PRs welcome",
-                    "color": "#00f300"
-                },
-                {
-                    "name": "contributor friendly",
                     "color": "#00f300"
                 },
                 {
@@ -71,10 +59,6 @@
             "tags": [
                 {
                     "name": "build passing",
-                    "color": "#00f300"
-                },
-                {
-                    "name": "PRs welcome",
                     "color": "#00f300"
                 },
                 {
@@ -113,10 +97,6 @@
                     "color": "#00f300"
                 },
                 {
-                    "name": "code-helpers 773",
-                    "color": "#c24400"
-                },
-                {
                     "name": "first-timers-only friendly",
                     "color": "#4d52d3"
                 }
@@ -146,10 +126,6 @@
                 {
                     "name": "code-helpers 773",
                     "color": "#c24400"
-                },
-                {
-                    "name": "first-timers-only friendly",
-                    "color": "#4d52d3"
                 }
             ],
             "repoURL": "https://github.com/thepracticaldev/dev.to",
@@ -162,10 +138,6 @@
             "stars": "304k",
             "language": "Javascript",
             "tags": [
-                {
-                    "name": "build passing",
-                    "color": "#00f300"
-                },
                 {
                     "name": "PRs welcome",
                     "color": "#00f300"
@@ -208,10 +180,6 @@
                 {
                     "name": "code-helpers 773",
                     "color": "#c24400"
-                },
-                {
-                    "name": "first-timers-only friendly",
-                    "color": "#4d52d3"
                 }
             ],
             "repoURL": "https://github.com/MrRio/jsPDF",

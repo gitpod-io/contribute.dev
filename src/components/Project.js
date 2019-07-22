@@ -95,8 +95,20 @@ const Styled = styled.div`
         padding: 0;
         margin: 0;
         text-align: right;
+        transition: all .2s;
         img {
+            display: block;
             height: 32px;
+        }
+
+        &:hover,
+        &:focus {
+            transform: translateY(-.3rem);
+            box-shadow: 0 1rem 2rem rgba(0,0,0, .25);
+        }
+
+        &:active {
+            transform: translateY(-.1rem);
         }
     }
 `
@@ -114,7 +126,7 @@ const StyledTag = styled.span`
 `
 
 const Tag = (props) => (
-    <StyledTag {...props}>
+    <StyledTag>
         {
             props.content.split(' ').map(
                 (entity, i) => {
@@ -126,7 +138,9 @@ const Tag = (props) => (
                                     background: `${props.color}`,
                                     borderTopRightRadius: 3,
                                     borderBottomRightRadius: 3
-                                }}>
+                                }}
+                                key={i}
+                            >
                                 {entity}
                             </span>
                         )
@@ -139,6 +153,7 @@ const Tag = (props) => (
                                 borderTopLeftRadius: 3,
                                 borderBottomLeftRadius: 3
                             }}
+                            key={i}
                         >
                             {entity}
                         </span>
@@ -183,7 +198,9 @@ const Project = (props) => {
                 </span>
                 <br />
                 {
-                    props.tags.map((tag, i) => <Tag color={tag.color} content={tag.name} key={i} />)
+                    props.tags.map((tag, i) =>
+                            <Tag key={i} color={tag.color} content={tag.name}/>
+                        )
                 }
             </div>
             <div className="call-to-action">

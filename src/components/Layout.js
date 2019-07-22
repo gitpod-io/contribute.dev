@@ -50,7 +50,15 @@ const Layout = ({ children }) => {
                 a,
                 button {
                     cursor: pointer;
+                    outline: none;
                 }
+
+                button,
+                input {
+                    font-family: inherit;
+                    outline: none;
+                }
+
 
                 /* --------------------------------------------- */
                 /* ----- Headlines and Paragraphs ----- */
@@ -105,6 +113,18 @@ const Layout = ({ children }) => {
                     text-decoration: none;
                     color: ${colors.textPrimary};
                     border-radius: 3px;
+                    transition: all .2s ease-in;
+
+                    &:hover,
+                    &:focus {
+                        transform: translateY(-.3rem);
+                        box-shadow: 0 1rem 2rem rgba(0,0,0, .25);
+                    }
+
+                    &:active {
+                        transform: translateY(-.1rem);
+                        box-shadow: 0 .5rem 1rem rgba(0,0,0, .25);
+                    }
                 }
 
                 /* --------------------------------------------- */
