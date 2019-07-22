@@ -63,7 +63,7 @@ export default () => {
             <FindProject />
             <Feedback />
             <FileIssue />
-            <div className="row">
+            <div className="row" id="about">
                 <section>
                     <div className="outline-left">
                         <h2>About</h2>
@@ -84,7 +84,7 @@ export default () => {
                     </div>
                 </SectionBlogPost>
                 <SectionSponsoring>
-                    <div className="outline-left">
+                    <div className="outline-left" id="sponsor">
                         <h2>Sponsoring</h2>
                         <p>Big shout out to our sponsors who help empower the open-source community. Thanks a lot! If you’d also like to support frictionless open-source contribution financially or by providing resources, please let us know.</p>
                         <a href="#" className="btn">Become a sponsor</a>

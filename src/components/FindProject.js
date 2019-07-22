@@ -102,7 +102,7 @@ class FindProject extends React.Component {
     render() {
         return (
             <SectionFind>
-                <div className='row'>
+                <div className='row' id="find">
                     <div className='outline-left'>
                         <h2>Find a Project</h2>
                         <p>Look through the projects, filter them, find your favorite project and click on ‚open in Gitpod‘ to enjoy the one-click experience.</p>

@@ -91,9 +91,9 @@ const Header = () => (
     <StyledHeader role='header'>
         <div className='row'>
             <Navigation role='navigation'>
-                <a href='#'>Find a Project</a>
-                <a href='#'>About</a>
-                <a href='#'>Sponsoring</a>
+                <a href='#find'>Find a Project</a>
+                <a href='#about'>About</a>
+                <a href='#sponsor'>Sponsoring</a>
             </Navigation>
             <Hero>
                 <div className="outline-left">
