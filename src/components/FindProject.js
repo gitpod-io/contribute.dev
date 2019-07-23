@@ -4,6 +4,7 @@ import { colors } from '../utils/variables'
 import projectsData from '../data/github-projects.json'
 import Project from '../components/Project'
 import LoadMore from '../resources/load-more.svg'
+import IconSmiley from '../resources/icon-smiley.svg'
 
 const SectionFind = styled.section`
     .filters {
@@ -68,12 +69,25 @@ const SectionFind = styled.section`
 
     .nothing-found {
         margin: 10rem 0;
-        font-size: 2rem;
         text-align: center;
 
-        div {
-            font-size: 5rem;
-            margin-bottom: 2.5rem;
+        img {
+            display: inline-block;
+            width: 15rem;
+            margin-bottom: 6rem;
+        }
+
+        h4 {
+            font-size: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        button {
+            padding: 0;
+            font-size: 1.6rem;
+            margin-right: .5rem;
+            text-decoration: underline;
+            border: none;
         }
     }
 `
@@ -121,8 +135,21 @@ class FindProject extends React.Component {
                             this.state.filteredProjects.length &&
                             this.state.filteredProjects.map(project => <Project key={project.id} {...project}/>) ||
                             <div className="nothing-found">
-                                <div>🙁</div>
-                                <p>No Projects Found....</p>
+                                <img src={IconSmiley} alt="" aria-hidden={true}/>
+                                <h4>Sorry, we can't find any projects matching your search</h4>
+                                <p>Try&nbsp;
+                                    <button onClick={() => this.handleSearchByTag('help wanted')}>
+                                        help wanted
+                                    </button>
+                                    ,&nbsp;
+                                    <button onClick={() => this.handleSearchByTag('PRs welcome')}>
+                                        PRs welcome
+                                    </button>
+                                    , &nbsp;
+                                    <button onClick={() => this.handleSearchByTag('first-timers-only')}>
+                                        first-timers-only
+                                    </button>
+                                </p>
                             </div>
                         }
                     </div>
