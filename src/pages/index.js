@@ -87,7 +87,7 @@ export default () => {
                     <div className="outline-left" id="sponsor">
                         <h2>Sponsoring</h2>
                         <p>Big shout out to our sponsors who help empower the open-source community. Thanks a lot! If you’d also like to support frictionless open-source contribution financially or by providing resources, please let us know.</p>
-                        <a href="#" className="btn">Become a sponsor</a>
+                        <a href="mailto:contact@gitpod.io?subject=Become a Sponsor automatically?" className="btn">Become a sponsor</a>
                     </div>
                     <div className="icons">
                         <img src={GoogleIcon} alt="Google Logo" style={{height: '3.3rem', transform: 'translateY(1rem)'}} />

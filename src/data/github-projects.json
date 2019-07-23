@@ -24,6 +24,7 @@
                     "color": "#4d52d3"
                 }
             ],
+            "repoName": "freeCodeCamp/freeCodeCamp",
             "repoURL": "https://github.com/freeCodeCamp/freeCodeCamp",
             "logo": "freecodecamp.jpg"
         },
@@ -47,6 +48,7 @@
                     "color": "#4d52d3"
                 }
             ],
+            "repoName": "gatsbyjs/gatsby",
             "repoURL": "https://github.com/gatsbyjs/gatsby",
             "logo": "gatsby.png"
         },
@@ -74,6 +76,7 @@
                     "color": "#4d52d3"
                 }
             ],
+            "repoName": "ant-design/ant-design",
             "repoURL": "https://github.com/ant-design/ant-design/",
             "logo": "antdesign.svg"
         },
@@ -101,6 +104,7 @@
                     "color": "#4d52d3"
                 }
             ],
+            "repoName": "devhubapp/devhub",
             "repoURL": "https://github.com/devhubapp/devhub",
             "logo": "devhub.png"
         },
@@ -128,6 +132,7 @@
                     "color": "#c24400"
                 }
             ],
+            "repoName": "thepracticaldev/dev.to",
             "repoURL": "https://github.com/thepracticaldev/dev.to",
             "logo": "devto.jpeg"
         },
@@ -155,6 +160,7 @@
                     "color": "#4d52d3"
                 }
             ],
+            "repoName": "Chocobozzz/PeerTube",
             "repoURL": "https://github.com/Chocobozzz/PeerTube",
             "logo": "peertube.png"
         },
@@ -182,6 +188,7 @@
                     "color": "#c24400"
                 }
             ],
+            "repoName": "MrRio/jsPDF",
             "repoURL": "https://github.com/MrRio/jsPDF",
             "logo": "jspdf.svg"
         }
