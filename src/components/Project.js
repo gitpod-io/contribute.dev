@@ -76,10 +76,7 @@ const Styled = styled.div`
     .stars {
         font-size: 1.6rem;
         text-align: right;
-        img {
-            height: 16px;
-        }
-
+        
          @media(max-width: ${breakpoints.md}) {
             text-align: left;
         }
@@ -199,7 +196,7 @@ const Project = (props) => {
                 }
             </div>
             <div className="call-to-action">
-                <div className="stars"><img src={`https://img.shields.io/github/stars/${props.repoName}.svg?style=social`} alt={props.title} /></div>
+                <div className="stars"><img src={`https://img.shields.io/github/stars/${props.repoName}.svg?style=social`} alt={props.title} style={{height: 20}} /></div>
                 <a href={`https://gitpod.io#${props.repoURL}`}>
                     <button className="open-in-gitpod">
                         <img src={GitpodButton} alt="Open in Gitpod" />
