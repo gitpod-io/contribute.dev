@@ -44,6 +44,10 @@
                     "color": "#c24400"
                 },
                 {
+                    "name": "help wanted",
+                    "color": "#00f300"
+                },
+                {
                     "name": "first-timers-only friendly",
                     "color": "#4d52d3"
                 }
@@ -97,6 +101,10 @@
                 },
                 {
                     "name": "contributor friendly",
+                    "color": "#00f300"
+                },
+                {
+                    "name": "help wanted",
                     "color": "#00f300"
                 },
                 {
