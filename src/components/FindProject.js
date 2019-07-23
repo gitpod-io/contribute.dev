@@ -32,7 +32,7 @@ const SectionFind = styled.section`
 
         & > span {
             position: absolute;
-            top: 2px;
+            top: 3px;
             left: 153px;
             font-size: 2rem;
             transition: all .2s;

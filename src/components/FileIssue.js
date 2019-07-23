@@ -51,7 +51,7 @@ const FileIssue = () => (
                 <span className="sheild sheild--2">friendly</span>
             </span> tag if you like.</p>
             <div style={{textAlign: 'center'}}>
-                <a href="https://github.com/gitpod-io/contribute.dev/issues/new?title=Please+add+my+project" className="btn">File issue</a>
+                <a href="https://github.com/gitpod-io/contribute.dev/issues/new?title=Please+add+my+project" target="_blank" className="btn">File issue</a>
             </div>
         </div>
     </Styled>

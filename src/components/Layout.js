@@ -7,7 +7,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 const Layout = ({ children }) => {
-    const {title, description} = useSiteMetadata()
+    const { title, description } = useSiteMetadata()
     return (
         <>
             <Global styles={css`
@@ -145,19 +145,19 @@ const Layout = ({ children }) => {
                     }
                 }
 
-            `}/>
+            `} />
             <Helmet>
-                <html lang='en'/>
+                <html lang='en' />
                 <title>{title}</title>
                 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet" />
-                <meta name='description' content={description}/>
+                <link href="https://fonts.googleapis.com/css?family=Nunito:400,900&display=swap" rel="stylesheet" />
+                <meta name='description' content={description} />
             </Helmet>
             <Header />
-             <main role="main">
+            <main role="main">
                 {children}
-             </main>
-             <Footer />
+            </main>
+            <Footer />
         </>
     )
 }

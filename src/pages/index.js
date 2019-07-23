@@ -7,7 +7,6 @@ import Feedback from '../components/Feedback'
 import FileIssue from '../components/FileIssue'
 import BlogPostPreview from '../resources/teaser-launch-min.jpg'
 import GoogleIcon from '../resources/google.png'
-import FirefoxIcon from '../resources/firefox.svg'
 import NetlifyIcon from '../resources/netlify.svg'
 
 const SectionBlogPost = styled.section`
@@ -47,12 +46,14 @@ const SectionSponsoring = styled.section`
         justify-content: center;
         margin: 14rem auto 5rem;
 
-        img {
-            height: 5rem;
-
+        a {
             &:not(:last-child) {
                 margin-right: 9rem;
             }
+        }
+
+        img {
+            height: 5rem;
         }
     }
 `
@@ -80,7 +81,8 @@ export default () => {
                     <div>
                         <h2>Introducing Gitpod &mdash; Frictionless Coding on GitHub</h2>
                         <p>Every day developers waste millions of hours switching contexts between projects and branches, setting up development environments, or simply waiting for builds to complete.</p>
-                        <a href="https://www.gitpod.io/blog/gitpod-launch/" className="btn">Blog Post</a>
+                        <a href="https://www.gitpod.io/blog/gitpod-launch/"
+                        target="_blank" className="btn">Blog Post</a>
                     </div>
                 </SectionBlogPost>
                 <SectionSponsoring>
@@ -90,9 +92,12 @@ export default () => {
                         <a href="mailto:contact@gitpod.io?subject=Become a Sponsor automatically?" className="btn">Become a sponsor</a>
                     </div>
                     <div className="icons">
-                        <img src={GoogleIcon} alt="Google Logo" style={{height: '3.3rem', transform: 'translateY(1rem)'}} />
-                        <img src={FirefoxIcon} alt="Firefox Logo" />
-                        <img src={NetlifyIcon} alt="Netlify Logo" style={{transform: 'scale(.9)'}} />
+                        <a href="https://cloud.google.com" target="_blank">
+                            <img src={GoogleIcon} alt="Google Logo" style={{height: '3.3rem', transform: 'translateY(1rem)'}} />
+                        </a>
+                        <a href="https://www.netlify.com/" target="_blank">
+                            <img src={NetlifyIcon} alt="Netlify Logo" style={{transform: 'scale(.9)'}} />
+                        </a>
                     </div>
                 </SectionSponsoring>
             </div>
