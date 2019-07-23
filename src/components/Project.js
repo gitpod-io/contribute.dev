@@ -26,6 +26,10 @@ const Styled = styled.div`
     .img-container {
         flex: .4;
         text-align: center;
+        
+         @media(max-width: ${breakpoints.md}) {
+            margin-bottom: 2rem;
+        }
     }
 
     .text {
@@ -69,6 +73,7 @@ const Styled = styled.div`
 
         @media(max-width: ${breakpoints.md}) {
             flex-direction: row;
+            padding: 0 2rem;
             margin-top: 4rem;
         }
     }
@@ -78,6 +83,8 @@ const Styled = styled.div`
         text-align: right;
         
          @media(max-width: ${breakpoints.md}) {
+            display: flex;
+            align-items: center;
             text-align: left;
         }
     }
