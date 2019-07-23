@@ -178,7 +178,7 @@ const Project = (props) => {
                 <img src={icons[props.logo]} alt={props.title} />
             </div>
             <div className="text">
-                <h3>{props.title} <img src={GithubMark} alt="Github Mark" /></h3>
+                <h3>{props.title} <a href={props.repoURL} target="_blank"><img src={GithubMark} alt="Github Mark" /></a></h3>
                 <p>{props.description}</p>
             </div>
             <div className="tags">
