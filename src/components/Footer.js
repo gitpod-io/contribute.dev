@@ -12,7 +12,7 @@ const StyledFooter = styled.footer`
 
 const Footer = () => (
     <StyledFooter>
-            <p>Copyright 2019 Typefox | All Rights Reserved | Imprint | Privacy | Terms</p>
+            <p>Copyright 2019 Typefox | All Rights Reserved</p>
     </StyledFooter>
 )
 
