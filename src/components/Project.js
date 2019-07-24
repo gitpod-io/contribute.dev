@@ -153,8 +153,8 @@ const Project = (props) => {
                 </span>
                 <br />
                 {
-                    props.tags.map((tag) =>
-                            <a href={tag.href}>
+                    props.tags.map((tag, i) =>
+                            <a href={tag.href} key={i}>
                                 <img
                                     className="tag__img"
                                     src={tag.src}

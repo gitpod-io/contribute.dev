@@ -49,11 +49,19 @@ const SectionSponsoring = styled.section`
         a {
             &:not(:last-child) {
                 margin-right: 9rem;
+
+                @media(max-width: ${breakpoints.md}) {
+                    margin-right: 4rem;
+                }
             }
         }
 
         img {
             height: 5rem;
+
+            @media(max-width: ${breakpoints.md}) {
+                height: 4rem;
+            }
         }
     }
 `
