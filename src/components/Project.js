@@ -26,7 +26,7 @@ const Styled = styled.div`
     .img-container {
         flex: .4;
         text-align: center;
-        
+
          @media(max-width: ${breakpoints.md}) {
             margin-bottom: 2rem;
         }
@@ -44,6 +44,13 @@ const Styled = styled.div`
         flex: 1.2;
         padding: 0 2rem;
         margin-bottom: 1rem;
+    }
+
+    .tag {
+        &__img {
+            height: 20px;
+            margin-right: 5px;
+        }
     }
 
     .stars {
@@ -81,7 +88,7 @@ const Styled = styled.div`
     .stars {
         font-size: 1.6rem;
         text-align: right;
-        
+
          @media(max-width: ${breakpoints.md}) {
             display: flex;
             align-items: center;
@@ -111,57 +118,6 @@ const Styled = styled.div`
         }
     }
 `
-
-const StyledTag = styled.span`
-    display: inline-block;
-    border-radius: 3px;
-    font-size: 1.3rem;
-    color: #fff;
-
-    &:not(:last-child) {
-        margin-right: .5rem;
-        margin-bottom: 1rem;
-    }
-`
-
-const Tag = (props) => (
-    <StyledTag>
-        {
-            props.content.split(' ').map(
-                (entity, i) => {
-                    if (i == 1) {
-                        return (
-                            <span
-                                style={{
-                                    padding: '.4rem .8rem',
-                                    background: `${props.color}`,
-                                    borderTopRightRadius: 3,
-                                    borderBottomRightRadius: 3
-                                }}
-                                key={i}
-                            >
-                                {entity}
-                            </span>
-                        )
-                    }
-                    return (
-                        <span
-                            style={{
-                                padding: '.4rem .8rem',
-                                background: '#595858' ,
-                                borderTopLeftRadius: 3,
-                                borderBottomLeftRadius: 3
-                            }}
-                            key={i}
-                        >
-                            {entity}
-                        </span>
-                    )
-                }
-            )
-        }
-    </StyledTag>
-)
 
 const importAll = (r) => {
     let icons = {}
@@ -197,8 +153,13 @@ const Project = (props) => {
                 </span>
                 <br />
                 {
-                    props.tags.map((tag, i) =>
-                            <Tag key={i} color={tag.color} content={tag.name}/>
+                    props.tags.map((tag) =>
+                            <a href={tag.href}>
+                                <img
+                                    className="tag__img"
+                                    src={tag.src}
+                                />
+                            </a>
                         )
                 }
             </div>

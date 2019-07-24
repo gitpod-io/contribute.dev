@@ -96,21 +96,6 @@ class FindProject extends React.Component {
 
     state = {
         projects: projectsData.projects || [],
-        filteredProjects: [],
-        searchTerm: '',
-    }
-
-    componentDidMount () {
-        this.handleSearchByTag()
-    }
-
-    handleSearchByTag = (searchTerm = '') => {
-        this.setState(() => ({searchTerm}))
-        const filteredProjects = this.state.projects.filter((project) => {
-            const isSearchTextMatch = project.tags.some(({name}) => name.toLowerCase().includes(searchTerm.toLowerCase()))
-            return isSearchTextMatch
-        })
-        this.setState(() => ({filteredProjects}))
     }
 
     render() {
@@ -123,30 +108,29 @@ class FindProject extends React.Component {
                     </div>
                     <div className="filters">
                         <input
-                            placeholder="Search by Tag"
-                            aria-label="Search by Tag"
+                            placeholder="Search"
+                            aria-label="Search"
                             value={this.state.searchTerm}
-                            onChange={(e) => this.handleSearchByTag(e.target.value)}
                         />
                         <span>&rarr;</span>
                     </div>
                     <div>
                         {
-                            this.state.filteredProjects.length &&
-                            this.state.filteredProjects.map(project => <Project key={project.id} {...project}/>) ||
+                            this.state.projects.length &&
+                            this.state.projects.map(project => <Project key={project.id} {...project}/>) ||
                             <div className="nothing-found">
                                 <img src={IconSmiley} alt="" aria-hidden={true}/>
                                 <h4>Sorry, we can't find any projects matching your search</h4>
                                 <p>Try&nbsp;
-                                    <button onClick={() => this.handleSearchByTag('help wanted')}>
+                                    <button>
                                         help wanted
                                     </button>
                                     ,&nbsp;
-                                    <button onClick={() => this.handleSearchByTag('PRs welcome')}>
+                                    <button>
                                         PRs welcome
                                     </button>
                                     , &nbsp;
-                                    <button onClick={() => this.handleSearchByTag('first-timers-only')}>
+                                    <button>
                                         first-timers-only
                                     </button>
                                 </p>
