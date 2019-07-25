@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { colors } from '../utils/variables'
+import { colors, breakpoints } from '../utils/variables'
 
 const Styled = styled.section`
     width: 70%;
@@ -8,6 +8,10 @@ const Styled = styled.section`
     margin: 10rem auto;
     padding: 5rem 0;
     border: 3px solid ${colors.purple};
+
+    @media(max-width: ${breakpoints.sm}) {
+        width: 90%;
+    }
 
     & > div {
         width: 75%;

@@ -59,6 +59,10 @@ const Layout = ({ children }) => {
 
                 section {
                     padding: 6rem 0;
+
+                    @media(max-width: ${breakpoints.md}) {
+                        padding: 4rem 0;
+                    }
                 }
 
                 a,

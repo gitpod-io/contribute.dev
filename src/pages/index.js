@@ -47,6 +47,11 @@ const SectionSponsoring = styled.section`
         justify-content: center;
         margin: 14rem auto 5rem;
 
+        @media(max-width: ${breakpoints.xs}) {
+            flex-direction: column;
+            text-align: center;
+        }
+
         a {
             &:not(:last-child) {
                 margin-right: 9rem;
@@ -59,9 +64,23 @@ const SectionSponsoring = styled.section`
 
         img {
             height: 5rem;
+            display: inline-block;
 
             @media(max-width: ${breakpoints.md}) {
                 height: 4rem;
+            }
+
+            @media(max-width: ${breakpoints.sm}) {
+                margin-bottom: 5rem;
+            }
+        }
+
+        img[alt="Google Logo"] {
+            height: 3.5rem;
+            transform: translateY(1rem);
+
+            @media(max-width: ${breakpoints.sm}) {
+                transform: translatex(3rem);
             }
         }
     }
@@ -94,6 +113,11 @@ const SectionSponsoring = styled.section`
 
         &:not(:last-child) {
             margin-right: 3rem;
+
+            @media(max-width: ${breakpoints.sm}) {
+                margin: 0;
+                margin-bottom: 2rem;
+            }
         }
     }
 `
@@ -132,7 +156,7 @@ export default () => {
                     </div>
                     <div className="icons">
                         <a href="https://cloud.google.com" target="_blank">
-                            <img src={GoogleIcon} alt="Google Logo" style={{height: '3.3rem', transform: 'translateY(1rem)'}} />
+                            <img src={GoogleIcon} alt="Google Logo"/>
                         </a>
                         <a href="https://www.netlify.com/" target="_blank">
                             <img src={NetlifyIcon} alt="Netlify Logo" style={{transform: 'scale(.9)'}} />
