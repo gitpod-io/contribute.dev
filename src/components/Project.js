@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import GithubMark from '../resources/githubmark.png'
-import Star from '../resources/star.svg'
 import GitpodLogo from '../resources/gitpod.png'
 import GitpodButton from '../resources/open-in-gitpod.svg'
 import { breakpoints, colors } from '../utils/variables.js'

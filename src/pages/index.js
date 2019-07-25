@@ -8,6 +8,7 @@ import FileIssue from '../components/FileIssue'
 import BlogPostPreview from '../resources/teaser-launch-min.jpg'
 import GoogleIcon from '../resources/google.png'
 import NetlifyIcon from '../resources/netlify.svg'
+import Patreon from '../resources/patreon.jpg'
 
 const SectionBlogPost = styled.section`
     display: flex;
@@ -64,17 +65,47 @@ const SectionSponsoring = styled.section`
             }
         }
     }
+
+    .btn {
+
+        &--patreon {
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+            background: #ff5a49;
+            border-radius: 0;
+            border-color: #ff5a49;
+            padding-left: 4.5rem;
+            padding-right: 1rem;
+
+            &::before {
+                position: absolute;
+                top: 11%;
+                left: 5px;
+                content: '';
+                background: url(${Patreon});
+                display: inline-block;
+                background-size: 3.5rem 3.5rem;
+                width: 3.5rem;
+                height: 3.5rem;
+                transfrom: translateY(-50%);
+            }
+        }
+
+        &:not(:last-child) {
+            margin-right: 3rem;
+        }
+    }
 `
 
 export default () => {
     return (
         <Layout>
             <FindProject />
-            <Feedback />
             <FileIssue />
+            <Feedback />
             <div className="row" id="about">
                 <section>
-                    <div className="outline-left">
                         <h2>About</h2>
                         <p>
                            Open source is great! And it lives from passionate contributors who are investing their precious free time in it. Let’s not waste that time for tedious setups.
@@ -82,7 +113,6 @@ export default () => {
                         <p>
                            By adding a Gitpod button to your GitHub repository, your contributors can start coding immediately: no more waiting for builds to run and code to compile, it’s just coding. If you would like to know more about Gitpod and how it works, have a look at the blog post below.
                         </p>
-                    </div>
                 </section>
                 <SectionBlogPost>
                     <div className="img">&nbsp;</div>
@@ -94,10 +124,11 @@ export default () => {
                     </div>
                 </SectionBlogPost>
                 <SectionSponsoring>
-                    <div className="outline-left" id="sponsor">
+                    <div id="sponsor">
                         <h2>Sponsoring</h2>
                         <p>Big shout out to our sponsors who help empower the open-source community. Thanks a lot! If you’d also like to support frictionless open-source contribution financially or by providing resources, please let us know.</p>
                         <a href="mailto:contact@gitpod.io?subject=Become a Sponsor automatically?" className="btn">Become a sponsor</a>
+                        <a href="#" className="btn btn--patreon">Become a Patreon</a>
                     </div>
                     <div className="icons">
                         <a href="https://cloud.google.com" target="_blank">
