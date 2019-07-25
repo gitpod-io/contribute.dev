@@ -22,6 +22,10 @@ const StyledHeader = styled.header`
             left: 0;
         }
 
+        @media(max-width: 55.5rem) {
+            left: -10%;
+        }
+
         .container {
             position: relative;
             width: 100%;
