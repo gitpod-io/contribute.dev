@@ -19,5 +19,5 @@ export const breakpoints = {
   sm: '57.6rem',
   md: '76.8rem',
   lg: '99.2rem',
-  xl: '128rem'
+  xl: '128rem',
 }

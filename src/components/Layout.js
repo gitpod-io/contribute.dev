@@ -41,6 +41,7 @@ const Layout = ({ children }) => {
                     color: ${colors.textPrimary};
                     font-family: 'Nunito', sans-serif;
                     line-height: 1.4;
+                    overflow-x: hidden;
                 }
 
                 section {
@@ -73,8 +74,8 @@ const Layout = ({ children }) => {
                 }
 
                 h1 {
-                    font-size: ${fontSizes.large};
-                    margin-bottom: 3.2rem;
+                    font-size: 3.2rem;
+                    margin-bottom: 2.5rem;
                 }
 
                 h2 {
@@ -107,6 +108,7 @@ const Layout = ({ children }) => {
                 /* --------------------------------------------- */
 
                 .btn {
+                    position: relative;
                     display: inline-block;
                     padding: 1.2rem 3.2rem;
                     border: 1px solid;
@@ -126,25 +128,6 @@ const Layout = ({ children }) => {
                         box-shadow: 0 .5rem 1rem rgba(0,0,0, .25);
                     }
                 }
-
-                /* --------------------------------------------- */
-                /* ----- Borders and Shadows ----- */
-                /* --------------------------------------------- */
-
-                .outline-left {
-                    position: relative;
-                    &::before {
-                        content: '';
-                        position: absolute;
-                        top: 0;
-                        left: -2.5rem;
-                        display: block;
-                        background: ${colors.purple};
-                        width: 8px;
-                        height: 105%;
-                    }
-                }
-
             `} />
             <Helmet>
                 <html lang='en' />

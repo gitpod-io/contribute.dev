@@ -1,90 +1,78 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import { colors, breakpoints } from '../utils/variables'
-import Path from '../resources/path-rocket.svg'
-import Rocket from '../resources/rocket-icon.svg'
+import Plane from '../resources/plane.svg'
+import Stream from '../resources/stream.svg'
 
 const StyledHeader = styled.header`
     position: relative;
-    height: 100vh;
+    height: 55vh;
 
-    .path {
+    .svg {
         position: absolute;
-        top: 190px;
-        right: 0;
-        height: 46rem;
+        top: 0;
+        left: 32%;
+        width: 100%;
 
         @media(max-width: ${breakpoints.sm}) {
-            display: none;
-        }
-    }
-
-    .rocket {
-        position: absolute;
-        top: 150px;
-        right: 150px;
-        height: 7.6rem;
-
-        @media(max-width: ${breakpoints.sm}) {
-            display: none;
-        }
-    }
-`
-
-const Navigation = styled.nav`
-    display: flex;
-    padding: 9rem 0;
-
-    a {
-        position: relative;
-        text-decoration: none;
-        color: ${colors.textPrimary};
-        padding-bottom: .8rem;
-
-        &:not(:last-child) {
-            margin-right: 4rem;
+            left: 20px;
         }
 
-        &::after {
-            content: '';
-            position: absolute;
-            border-bottom: 2px solid ${colors.purple};
-            right: 100%;
-            bottom: 0;
+        @media(max-width: 55.5rem) {
             left: 0;
-            transition: right .4s cubic-bezier(0,.5,0, 1);
         }
 
-        &:hover,
-        &:focus {
-            &::after {
-                right: 0;
-            }
+        .container {
+            position: relative;
+            width: 100%;
         }
     }
+
+    .plane {
+        position: absolute;
+        height: 5rem;
+        top: 67px;
+        left: 577px;
+
+        @media(max-width: ${breakpoints.sm}) {
+            height: 4rem;
+            top: 61px;
+            left: 464px;
+        }
+
+        @media(max-width: 55.5rem) {
+            height: 3rem;
+            top: 40px;
+            left: 378px;
+        }
+    }
+
+    .stream {
+        position: absolute;
+        top: -100px;
+        height: 30rem;
+
+        @media(max-width: ${breakpoints.sm}) {
+            top: -70px;
+            height: 25rem;
+        }
+
+        @media(max-width: 55.5rem) {
+            height: 20rem;
+        }
+    }
+
 `
 
 const Hero = styled.div`
     position: absolute;
-    top: 50%;
-    transform: translateY(-30%);
+    bottom: 0;
 
     p {
         width: 95%;
 
-        &.seconed {
-            & span {
-                font-weight: bolder;
-            }
-        }
-
         @media(min-width: ${breakpoints.sm}) {
-            width: 50%;
-
-            &.seconed {
-                width: 40%;
-                margin-top: 50px;
-            }
+            width: 45%;
         }
     }
 `
@@ -92,21 +80,27 @@ const Hero = styled.div`
 const Header = () => (
     <StyledHeader role='header'>
         <div className='row'>
-            <Navigation role='navigation'>
-                <a href='#find'>Find a Project</a>
-                <a href='#about'>About</a>
-                <a href='#sponsor'>Sponsoring</a>
-            </Navigation>
-            <Hero>
-                <div className="outline-left">
-                    <h1>Frictionless open-source contribution</h1>
-                    <p>Let’s empower open-source projects by making contributions as simple as possible.</p>
-                    <p className="seconed">You can contribute to all repositories listed below with one click. No need to install dependencies, go through long README files or compile code for hours.<span> Just ‚open in Gitpod‘ and start coding.</span></p>
+            <div className="svg">
+                <div className="container">
+                    <img
+                        src={Stream}
+                        className='stream'
+                        alt='Plance Stream'
+                    />
+                    <img
+                        src={Plane}
+                        className='plane'
+                        alt='Paper Plane'
+                    />
+                    &nbsp;
                 </div>
+                &nbsp;
+            </div>
+            <Hero>
+                    <h1>Frictionless open-source contribution</h1>
+                    <p className="seconed">You can contribute to all repositories listed below with one click. No need to install dependencies, go through long README files or compile code for hours.</p>
             </Hero>
         </div>
-        <img src={Rocket} className="rocket" />
-        <img src={Path} className='path'/>
     </StyledHeader>
 )
 
