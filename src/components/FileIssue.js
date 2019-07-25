@@ -47,8 +47,7 @@ const FileIssue = () => (
             <h2>Get your repo listed</h2>
             <p>That's great! Please file an issue with a link to your repository so we can help you set up the one-click experience with Gitpod. Afterwards we'll add your repository to the list and you can add the &nbsp;
             <span className="sheilds">
-                <span className="sheild sheild--1">contributor&nbsp;</span>
-                <span className="sheild sheild--2">friendly</span>
+                <span className="sheild sheild--1">contributor&nbsp;</span><span className="sheild sheild--2">friendly</span>
             </span> tag if you like.</p>
             <div style={{textAlign: 'center'}}>
                 <a href="https://github.com/gitpod-io/contribute.dev/issues/new?title=Please+add+my+project" target="_blank" className="btn">File issue</a>

@@ -80,7 +80,7 @@ const Hero = styled.div`
 const Header = () => (
     <StyledHeader role='header'>
         <div className='row'>
-            <div className="svg">
+            <div className="svg" aria-hidden={true}>
                 <div className="container">
                     <img
                         src={Stream}

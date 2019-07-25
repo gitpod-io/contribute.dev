@@ -5,6 +5,7 @@ import useSiteMetadata from '../hooks/use-site-metadata'
 import { fontSizes, colors, grid, breakpoints } from '../utils/variables'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import Stream from '../resources/stream1.svg'
 
 const Layout = ({ children }) => {
     const { title, description } = useSiteMetadata()
@@ -37,11 +38,23 @@ const Layout = ({ children }) => {
                 }
 
                 body {
+                    position: relative;
                     font-size: ${fontSizes.default};
                     color: ${colors.textPrimary};
                     font-family: 'Nunito', sans-serif;
                     line-height: 1.4;
                     overflow-x: hidden;
+                }
+
+                .stream-left {
+                    position: absolute;
+                    height: 70vh;
+                    top: 10vh;
+                    left: -40vh;
+                    
+                    @media(max-width: ${breakpoints.md}) {
+                        display: none;
+                    }
                 }
 
                 section {
@@ -136,6 +149,7 @@ const Layout = ({ children }) => {
                 <link href="https://fonts.googleapis.com/css?family=Nunito:400,900&display=swap" rel="stylesheet" />
                 <meta name='description' content={description} />
             </Helmet>
+            <img src={Stream} aria-hidden={true} className="stream-left"/>
             <Header />
             <main role="main">
                 {children}
