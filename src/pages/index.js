@@ -27,6 +27,7 @@ const SectionBlogPost = styled.section`
 
     .img {
         min-height: 30rem;
+        min-width: 25rem;
         background: url(${BlogPostPreview});
         background-position: center;
         background-size: cover;
