@@ -21,7 +21,7 @@ const SectionFind = styled.section`
             &:hover {
                 border: 2px solid ${colors.purple};
                 transform: translateY(-.3rem);
-                box-shadow: 0 1rem 2rem rgba(0,0,0, .2);
+                box-shadow: 0 .5rem 1rem rgba(0,0,0, .2);
 
                 & + span {
                     transform: translateY(-.3rem);

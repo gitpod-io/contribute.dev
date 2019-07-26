@@ -10,12 +10,16 @@ const Styled = styled.div`
     display: flex;
     justify-contents: space-between;
     font-size: 1.6rem;
-    padding: 2rem;
+    padding: 3rem 2rem 1rem;
     box-shadow: 0 .2rem .4rem rgba(0,0,0, .65);
     border-radius: 3px;
 
     @media(max-width: ${breakpoints.md}) {
         flex-direction: column;
+    }
+
+    @media(max-width: ${breakpoints.sm}) {
+        padding: 1rem;
     }
 
     &:not(:last-child) {
@@ -29,6 +33,10 @@ const Styled = styled.div`
          @media(max-width: ${breakpoints.md}) {
             margin-bottom: 2rem;
         }
+
+        @media(max-width: ${breakpoints.sm}) {
+            margin-top: 2rem;
+        }
     }
 
     .text {
@@ -36,6 +44,10 @@ const Styled = styled.div`
         padding: 0 2rem;
         @media(max-width: ${breakpoints.md}) {
             margin-bottom: 2rem;
+        }
+
+        @media(max-width: ${breakpoints.sm}) {
+            margin-bottom: 1rem;
         }
     }
 
@@ -52,6 +64,16 @@ const Styled = styled.div`
         }
     }
 
+    .tag {
+        display: inline-block;
+        padding: .4rem .8rem;
+        margin-bottom: 2rem;
+        font-size: 1.3rem;
+        background: #dfdfdf;
+        color: ${colors.textPrimary};
+        border-radius: .3rem;
+    }
+
     .stars {
         flex: .8;
     }
@@ -61,7 +83,7 @@ const Styled = styled.div`
     }
 
     h3 {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
        & img {
            height: 1.8rem;
        }
@@ -70,6 +92,15 @@ const Styled = styled.div`
     p {
         margin-bottom: 3rem;
         max-width: 40rem;
+
+        @media(max-width: ${breakpoints.sm}) {
+            margin-bottom: 1rem;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: ${colors.textPrimary};
     }
 
     .call-to-action {
@@ -81,6 +112,10 @@ const Styled = styled.div`
             flex-direction: row;
             padding: 0 2rem;
             margin-top: 4rem;
+        }
+
+        @media(max-width: ${breakpoints.sm}) {
+            margin-top: 1rem;
         }
     }
 
@@ -130,26 +165,18 @@ const Project = (props) => {
     return (
         <Styled>
             <div className="img-container">
-                <img src={icons[props.logo]} alt={props.title} />
+                <a href={props.repoURL} target="_blank">
+                    <img src={icons[props.logo]} alt={props.title} />
+                </a>
             </div>
             <div className="text">
-                <h3>{props.title} <a href={props.repoURL} target="_blank"><img src={GithubMark} alt="Github Mark" /></a></h3>
+                <a href={props.repoURL} target="_blank">
+                    <h3>{props.title}&nbsp;<img src={GithubMark} alt="Github Mark" /></h3>
+                </a>
                 <p>{props.description}</p>
             </div>
             <div className="tags">
-                <span
-                    style={{
-                        display: 'inline-block',
-                        padding: '.4rem .8rem',
-                        marginBottom: '1rem',
-                        fontSize: '1.3rem',
-                        backgroundColor: '#dfdfdf',
-                        color: `${colors.textPrimary}`,
-                        borderRadius: '.3rem',
-                    }}
-                >
-                    {props.language}
-                </span>
+                <span className="tag">{props.language}</span>
                 <br />
                 {
                     props.tags.map((tag, i) =>
@@ -163,7 +190,9 @@ const Project = (props) => {
                 }
             </div>
             <div className="call-to-action">
-                <div className="stars"><img src={`https://img.shields.io/github/stars/${props.repoName}.svg?style=social`} alt={props.title} style={{height: 20}} /></div>
+                <a href={props.repoURL} target="_blank">
+                    <div className="stars"><img src={`https://img.shields.io/github/stars/${props.repoName}.svg?style=social`} alt={props.title} style={{height: 20}} /></div>
+                </a>
                 <a href={`https://gitpod.io#${props.repoURL}`} target="_blank">
                     <button className="open-in-gitpod">
                         <img src={GitpodButton} alt="Open in Gitpod" />
