@@ -6,7 +6,7 @@ import Stream from '../resources/stream.svg'
 
 const StyledHeader = styled.header`
     position: relative;
-    height: 55vh;
+    height: 45vh;
 
     .svg {
         position: absolute;
@@ -74,9 +74,14 @@ const Hero = styled.div`
 
     p {
         width: 95%;
+        font-size: 1.8rem;
 
         @media(min-width: ${breakpoints.sm}) {
             width: 45%;
+        }
+
+        @media(max-width: ${breakpoints.xs}) {
+            font-size: 1.6rem;
         }
     }
 `

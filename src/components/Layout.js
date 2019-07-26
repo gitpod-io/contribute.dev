@@ -91,8 +91,12 @@ const Layout = ({ children }) => {
                 }
 
                 h1 {
-                    font-size: 3.2rem;
+                    font-size: 3.6rem;
                     margin-bottom: 2.5rem;
+
+                    @media(max-width: ${breakpoints.xs}) {
+                        font-size: 2.8rem;
+                    }
                 }
 
                 h2 {
