@@ -115,8 +115,7 @@ const SectionSponsoring = styled.section`
         &:not(:last-child) {
             margin-right: 3rem;
 
-            @media(max-width: ${breakpoints.sm}) {
-                margin: 0;
+            @media(max-width: ${breakpoints.xs}) {
                 margin-bottom: 2rem;
             }
         }
