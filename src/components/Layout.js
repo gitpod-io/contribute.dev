@@ -51,7 +51,7 @@ const Layout = ({ children }) => {
                     height: 70vh;
                     top: 10vh;
                     left: -40vh;
-                    
+
                     @media(max-width: ${breakpoints.md}) {
                         display: none;
                     }
@@ -141,12 +141,12 @@ const Layout = ({ children }) => {
                     &:hover,
                     &:focus {
                         transform: translateY(-.3rem);
-                        box-shadow: 0 1rem 2rem rgba(0,0,0, .25);
+                        box-shadow: 0 .5rem 1rem rgba(0,0,0, .25);
                     }
 
                     &:active {
                         transform: translateY(-.1rem);
-                        box-shadow: 0 .5rem 1rem rgba(0,0,0, .25);
+                        box-shadow: 0 .25rem 5rem rgba(0,0,0, .25);
                     }
                 }
             `} />
