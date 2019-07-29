@@ -27,28 +27,6 @@
             "logo": "freecodecamp.jpg"
         },
         {
-            "id": 2,
-            "title": "Gatsby",
-            "description": "Build blazing fast, modern apps and websites with React.",
-            "stars": "37",
-            "language": "JavaScript",
-            "tags": [
-                {
-                    "href": "https://gatsbyjs.org/contributing/how-to-contribute/",
-                    "src": "https://img.shields.io/badge/PRs-welcome-brightgreen.svg",
-                    "alt": "PRs Welcome"
-                },
-                {
-                    "href": "https://twitter.com/intent/follow?screen_name=gatsbyjs",
-                    "src": "https://img.shields.io/twitter/follow/gatsbyjs.svg?label=Follow%20@gatsbyjs",
-                    "alt": "Follow @gatsbyjs 31k"
-                }
-            ],
-            "repoName": "gatsbyjs/gatsby",
-            "repoURL": "https://github.com/gatsbyjs/gatsby",
-            "logo": "gatsby.png"
-        },
-        {
             "id": 3,
             "title": "Ant Design",
             "description": "An enterprise-class UI design language and React implementation.",
@@ -71,55 +49,26 @@
             "logo": "antdesign.svg"
         },
         {
-            "id": 4,
-            "title": "Dev Hub",
-            "description": "DevHub is a mobile and desktop app to help you manage Github Notifications and stay on top of repository activities.",
-            "stars": "5.8",
-            "language": "TypeScript",
-            "tags": [
-            ],
-            "repoName": "devhubapp/devhub",
-            "repoURL": "https://github.com/devhubapp/devhub",
-            "logo": "devhub.png"
-        },
-        {
-            "id": 5,
-            "title": "Dev.to",
-            "description": "A platform where software developers write articles, take part in discussions and build their professional.",
-            "stars": "9.8",
-            "language": "Ruby",
+            "id": 2,
+            "title": "Gatsby",
+            "description": "Build blazing fast, modern apps and websites with React.",
+            "stars": "37",
+            "language": "JavaScript",
             "tags": [
                 {
-                    "href": "https://www.codetriage.com/thepracticaldev/dev.to",
-                    "src": "https://www.codetriage.com/thepracticaldev/dev.to/badges/users.svg",
-                    "alt": "Code helpers 31"
-                }
-            ],
-            "repoName": "thepracticaldev/dev.to",
-            "repoURL": "https://github.com/thepracticaldev/dev.to",
-            "logo": "devto.jpeg"
-        },
-        {
-            "id": 6,
-            "title": "Peertube",
-            "description": "Be part of a network of multiple small federated, interoperable video hosting providers.",
-            "stars": 5.8,
-            "language": "TypeScript",
-            "tags": [
-                {
-                 "href": "https://david-dm.org/Chocobozzz/PeerTube?type=dev",
-                 "src": "https://david-dm.org/Chocobozzz/PeerTube/dev-status.svg",
-                 "alt": "dev dependencies up to date"
+                    "href": "https://gatsbyjs.org/contributing/how-to-contribute/",
+                    "src": "https://img.shields.io/badge/PRs-welcome-brightgreen.svg",
+                    "alt": "PRs Welcome"
                 },
                 {
-                    "href": "http://standardjs.com/",
-                    "src": "https://img.shields.io/badge/code%20style-standard-brightgreen.svg",
-                    "alt": "code style standard"
+                    "href": "https://twitter.com/intent/follow?screen_name=gatsbyjs",
+                    "src": "https://img.shields.io/twitter/follow/gatsbyjs.svg?label=Follow%20@gatsbyjs",
+                    "alt": "Follow @gatsbyjs 31k"
                 }
             ],
-            "repoName": "Chocobozzz/PeerTube",
-            "repoURL": "https://github.com/Chocobozzz/PeerTube",
-            "logo": "peertube.png"
+            "repoName": "gatsbyjs/gatsby",
+            "repoURL": "https://github.com/gatsbyjs/gatsby",
+            "logo": "gatsby.png"
         },
         {
             "id": 7,
@@ -142,6 +91,57 @@
             "repoName": "MrRio/jsPDF",
             "repoURL": "https://github.com/MrRio/jsPDF",
             "logo": "jspdf.svg"
+        },
+        {
+            "id": 5,
+            "title": "Dev.to",
+            "description": "A platform where software developers write articles, take part in discussions and build their professional.",
+            "stars": "9.8",
+            "language": "Ruby",
+            "tags": [
+                {
+                    "href": "https://www.codetriage.com/thepracticaldev/dev.to",
+                    "src": "https://www.codetriage.com/thepracticaldev/dev.to/badges/users.svg",
+                    "alt": "Code helpers 31"
+                }
+            ],
+            "repoName": "thepracticaldev/dev.to",
+            "repoURL": "https://github.com/thepracticaldev/dev.to",
+            "logo": "devto.jpeg"
+        },
+        {
+            "id": 4,
+            "title": "Dev Hub",
+            "description": "DevHub is a mobile and desktop app to help you manage Github Notifications and stay on top of repository activities.",
+            "stars": "5.8",
+            "language": "TypeScript",
+            "tags": [
+            ],
+            "repoName": "devhubapp/devhub",
+            "repoURL": "https://github.com/devhubapp/devhub",
+            "logo": "devhub.png"
+        },
+        {
+            "id": 6,
+            "title": "Peertube",
+            "description": "Be part of a network of multiple small federated, interoperable video hosting providers.",
+            "stars": 5.8,
+            "language": "TypeScript",
+            "tags": [
+                {
+                 "href": "https://david-dm.org/Chocobozzz/PeerTube?type=dev",
+                 "src": "https://david-dm.org/Chocobozzz/PeerTube/dev-status.svg",
+                 "alt": "dev dependencies up to date"
+                },
+                {
+                    "href": "http://standardjs.com/",
+                    "src": "https://img.shields.io/badge/code%20style-standard-brightgreen.svg",
+                    "alt": "code style standard"
+                }
+            ],
+            "repoName": "Chocobozzz/PeerTube",
+            "repoURL": "https://github.com/Chocobozzz/PeerTube",
+            "logo": "peertube.png"
         }
     ]
 }
