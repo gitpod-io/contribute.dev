@@ -145,15 +145,21 @@ class FindProject extends React.Component {
                                 <img src={IconSmiley} alt="" aria-hidden={true}/>
                                 <h4>Sorry, we can't find any projects matching your search</h4>
                                 <p>Try&nbsp;
-                                    <button>
+                                    <button
+                                        onClick={() => this.handleSearch('help wanted')}
+                                    >
                                         help wanted
                                     </button>
                                     ,&nbsp;
-                                    <button>
+                                    <button
+                                         onClick={() => this.handleSearch('Prs welcome')}
+                                    >
                                         PRs welcome
                                     </button>
                                     , &nbsp;
-                                    <button>
+                                    <button
+                                         onClick={() => this.handleSearch('first timers only')}
+                                    >
                                         first-timers-only
                                     </button>
                                 </p>
