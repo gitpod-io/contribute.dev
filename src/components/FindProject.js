@@ -96,6 +96,32 @@ class FindProject extends React.Component {
 
     state = {
         projects: projectsData.projects || [],
+        searchTerm: '',
+        filteredProjects: '',
+    }
+
+    componentDidMount() {
+        this.handleSearch()
+    }
+
+    handleSearch = (term = '') => {
+        const searchTerm = term.toLowerCase()
+        this.setState(() => ({searchTerm}))
+        const filteredProjects = this.state.projects.filter((project) => {
+            const isSearchTextMatch = Object.values(project).some((value) => {
+                if (Array.isArray(value)) {
+                    return value.some(val => {
+                         return val["alt"].toLowerCase().includes(searchTerm)
+                    })
+                } else {
+                    if(!(typeof value === "number")) {
+                        return value.toLowerCase().includes(searchTerm)
+                    }
+                }
+            })
+            return isSearchTextMatch
+        })
+        this.setState({filteredProjects})
     }
 
     render() {
@@ -107,13 +133,14 @@ class FindProject extends React.Component {
                             placeholder="Search"
                             aria-label="Search"
                             value={this.state.searchTerm}
+                            onChange={(e) => this.handleSearch(e.target.value)}
                         />
                         <span>&rarr;</span>
                     </div>
                     <div>
                         {
-                            this.state.projects.length &&
-                            this.state.projects.map(project => <Project key={project.id} {...project}/>) ||
+                            this.state.filteredProjects.length &&
+                            this.state.filteredProjects.map(project => <Project key={project.id} {...project}/>) ||
                             <div className="nothing-found">
                                 <img src={IconSmiley} alt="" aria-hidden={true}/>
                                 <h4>Sorry, we can't find any projects matching your search</h4>

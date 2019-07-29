@@ -4,7 +4,7 @@
             "id": 1,
             "title": "FreeCodeCamp",
             "description": "Open source codebase and curriculum. Learn to code for free together with millions of people.",
-            "stars": "304k",
+            "stars": "304",
             "language": "JavaScript",
             "tags": [
                 {
@@ -15,11 +15,11 @@
                 {
                     "src": "https://img.shields.io/badge/first--timers--only-friendly-blue.svg",
                     "href": "http://www.firsttimersonly.com/",
-                    "alt": "First timers only"
+                    "alt": "First timers only friendly"
                 },{
                     "src": "https://www.codetriage.com/freecodecamp/freecodecamp/badges/users.svg",
                     "href": "https://www.codetriage.com/freecodecamp/freecodecamp",
-                    "alt": "Code helpers 777"
+                    "alt": "Code helpers 784"
                 }
             ],
             "repoName": "freeCodeCamp/freeCodeCamp",
@@ -30,18 +30,18 @@
             "id": 2,
             "title": "Gatsby",
             "description": "Build blazing fast, modern apps and websites with React.",
-            "stars": "9k",
+            "stars": "37",
             "language": "JavaScript",
             "tags": [
                 {
                     "href": "https://gatsbyjs.org/contributing/how-to-contribute/",
                     "src": "https://img.shields.io/badge/PRs-welcome-brightgreen.svg",
-                    "alt": "Contributor Friendly"
+                    "alt": "PRs Welcome"
                 },
                 {
                     "href": "https://twitter.com/intent/follow?screen_name=gatsbyjs",
                     "src": "https://img.shields.io/twitter/follow/gatsbyjs.svg?label=Follow%20@gatsbyjs",
-                    "alt": "Follow @gatsbyjs"
+                    "alt": "Follow @gatsbyjs 31k"
                 }
             ],
             "repoName": "gatsbyjs/gatsby",
@@ -52,18 +52,18 @@
             "id": 3,
             "title": "Ant Design",
             "description": "An enterprise-class UI design language and React implementation.",
-            "stars": "34k",
+            "stars": "50",
             "language": "Javascript",
             "tags": [
                 {
                     "href": "https://github.com/ant-design/ant-design/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22",
                     "src": "https://flat.badgen.net/github/label-issues/ant-design/ant-design/help%20wanted/open",
-                    "alt": "Help wanted"
+                    "alt": "Help wanted 40"
                 },
                 {
                     "href": "https://twitter.com/AntDesignUI",
                     "src": "https://img.shields.io/twitter/follow/AntDesignUI.svg?label=Ant%20Design&style=social",
-                    "alt": "Twitter Account"
+                    "alt": "Ant Design 1.5k"
                 }
             ],
             "repoName": "ant-design/ant-design",
@@ -74,7 +74,7 @@
             "id": 4,
             "title": "Dev Hub",
             "description": "DevHub is a mobile and desktop app to help you manage Github Notifications and stay on top of repository activities.",
-            "stars": "304k",
+            "stars": "5.8",
             "language": "JavaScript",
             "tags": [
             ],
@@ -86,13 +86,13 @@
             "id": 5,
             "title": "Dev.to",
             "description": "A platform where software developers write articles, take part in discussions and build their professional.",
-            "stars": "304k",
+            "stars": "9.8",
             "language": "JavaScript",
             "tags": [
                 {
                     "href": "https://www.codetriage.com/thepracticaldev/dev.to",
                     "src": "https://www.codetriage.com/thepracticaldev/dev.to/badges/users.svg",
-                    "alt": "Code helpers"
+                    "alt": "Code helpers 31"
                 }
             ],
             "repoName": "thepracticaldev/dev.to",
@@ -103,18 +103,18 @@
             "id": 6,
             "title": "Peertube",
             "description": "Be part of a network of multiple small federated, interoperable video hosting providers.",
-            "stars": "304k",
+            "stars": 5.8,
             "language": "Javascript",
             "tags": [
                 {
                  "href": "https://david-dm.org/Chocobozzz/PeerTube?type=dev",
                  "src": "https://david-dm.org/Chocobozzz/PeerTube/dev-status.svg",
-                 "alt": "devDependency Status"
+                 "alt": "dev dependencies up to date"
                 },
                 {
                     "href": "http://standardjs.com/",
                     "src": "https://img.shields.io/badge/code%20style-standard-brightgreen.svg",
-                    "alt": "JavaScript Style Guide"
+                    "alt": "code style standard"
                 }
             ],
             "repoName": "Chocobozzz/PeerTube",
@@ -125,18 +125,18 @@
             "id": 7,
             "title": "jsPDF",
             "description": "A library to generate PDFs in Javascript.",
-            "stars": "304k",
+            "stars": "17",
             "language": "Javascript",
             "tags": [
                 {
                     "href": "https://greenkeeper.io/",
                     "src": "https://badges.greenkeeper.io/MrRio/jsPDF.svg",
-                    "alt": "Greenkeeper badge"
+                    "alt": "Greenkeeper enabled"
                 },
                 {
                     "href": "https://lgtm.com/projects/g/MrRio/jsPDF/context:javascript",
                     "src": "https://img.shields.io/lgtm/grade/javascript/g/MrRio/jsPDF.svg?logo=lgtm&logoWidth=18",
-                    "alt": "Language grade: JavaScript"
+                    "alt": "code quality: js/ts A"
                 }
             ],
             "repoName": "MrRio/jsPDF",
