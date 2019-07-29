@@ -99,6 +99,7 @@ class FindProject extends React.Component {
         projects: projectsData.projects || [],
         searchTerm: '',
         filteredProjects: '',
+        toggle: false
     }
 
     componentDidMount() {
@@ -134,14 +135,17 @@ class FindProject extends React.Component {
                             placeholder="Search"
                             aria-label="Search"
                             value={this.state.searchTerm}
-                            onChange={(e) => this.handleSearch(e.target.value)}
+                            onChange={(e) => {
+                                this.handleSearch(e.target.value)
+                                this.setState({toggle: true})
+                            }}
                         />
                         <span>&rarr;</span>
                     </div>
                     <div>
                         {
                             this.state.filteredProjects.length &&
-                            this.state.filteredProjects.map(project => <Project key={project.id} {...project}/>) ||
+                            this.state.filteredProjects.map(project => <Project key={project.id} {...project}/>) || this.state.toggle &&
                             <div className="nothing-found">
                                 <img src={IconSmiley} alt="" aria-hidden={true}/>
                                 <h4>Sorry, we can't find any projects matching your search</h4>
