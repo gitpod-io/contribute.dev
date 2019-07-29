@@ -53,7 +53,7 @@
             "title": "Ant Design",
             "description": "An enterprise-class UI design language and React implementation.",
             "stars": "50",
-            "language": "Javascript",
+            "language": "TypeScript",
             "tags": [
                 {
                     "href": "https://github.com/ant-design/ant-design/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22",
@@ -75,7 +75,7 @@
             "title": "Dev Hub",
             "description": "DevHub is a mobile and desktop app to help you manage Github Notifications and stay on top of repository activities.",
             "stars": "5.8",
-            "language": "JavaScript",
+            "language": "TypeScript",
             "tags": [
             ],
             "repoName": "devhubapp/devhub",
@@ -87,7 +87,7 @@
             "title": "Dev.to",
             "description": "A platform where software developers write articles, take part in discussions and build their professional.",
             "stars": "9.8",
-            "language": "JavaScript",
+            "language": "Ruby",
             "tags": [
                 {
                     "href": "https://www.codetriage.com/thepracticaldev/dev.to",
@@ -104,7 +104,7 @@
             "title": "Peertube",
             "description": "Be part of a network of multiple small federated, interoperable video hosting providers.",
             "stars": 5.8,
-            "language": "Javascript",
+            "language": "TypeScript",
             "tags": [
                 {
                  "href": "https://david-dm.org/Chocobozzz/PeerTube?type=dev",
