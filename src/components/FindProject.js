@@ -166,11 +166,13 @@ class FindProject extends React.Component {
                             </div>
                         }
                     </div>
-                    <div>
-                        <button className="load-more">
-                            <img src={LoadMore} alt="Load more projects"/>
-                        </button>
-                    </div>
+                    {/*
+                        <div>
+                            <button className="load-more">
+                                <img src={LoadMore} alt="Load more projects"/>
+                            </button>
+                        </div>
+                    */}
                 </div>
             </SectionFind>
         )
