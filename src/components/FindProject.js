@@ -9,11 +9,11 @@ import IconSmiley from '../resources/icon-smiley.svg'
 const SectionFind = styled.section`
     .filters {
         position: relative;
-        max-width: 15rem;
+        width: 18.5rem;
         margin: 4rem 0;
 
         input {
-            max-width: 15rem;
+            width: 100%;
             border: 2px solid rgba(0,0,0, .4);
             padding: 0.5rem 1.5rem;
             transition: all .2s;
@@ -33,14 +33,14 @@ const SectionFind = styled.section`
 
         & > span {
             position: absolute;
-            top: 3px;
-            right: -12%;
+            top: .3rem;
+            right: 8%;
             font-size: 2rem;
             transition: all .2s;
         }
     }
 
-    button {
+        button {
         display: inline-block;
         padding: 5px 10px;
         font-family: inherit;

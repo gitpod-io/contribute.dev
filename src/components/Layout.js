@@ -44,6 +44,7 @@ const Layout = ({ children }) => {
                     font-family: 'Nunito', sans-serif;
                     line-height: 1.4;
                     overflow-x: hidden;
+                    box-sizing: border-box;
                 }
 
                 .stream-left {
