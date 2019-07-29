@@ -9,6 +9,7 @@ import IconSmiley from '../resources/icon-smiley.svg'
 const SectionFind = styled.section`
     .filters {
         position: relative;
+        max-width: 15rem;
         margin: 4rem 0;
 
         input {
@@ -33,7 +34,7 @@ const SectionFind = styled.section`
         & > span {
             position: absolute;
             top: 3px;
-            left: 153px;
+            right: -12%;
             font-size: 2rem;
             transition: all .2s;
         }
