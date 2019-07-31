@@ -5,4 +5,5 @@
 This repository contains the website hosted on https://contribute-dev.netlify.com/ .
 
 Contributing is as easy as starting a new workspace   
+
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/contribute.dev)
