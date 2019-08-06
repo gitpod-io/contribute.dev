@@ -3,6 +3,7 @@ import { Global, css } from '@emotion/core'
 import Helmet from 'react-helmet'
 import useSiteMetadata from '../hooks/use-site-metadata'
 import { fontSizes, colors, grid, breakpoints } from '../utils/variables'
+import Favicon from '../resources/favicon.ico'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Stream from '../resources/stream1.svg'
@@ -154,9 +155,10 @@ const Layout = ({ children }) => {
             <Helmet>
                 <html lang='en' />
                 <title>{title}</title>
+                <meta name='description' content={description} />
+                <link rel="shortcut icon" href={Favicon} />
                 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css?family=Nunito:400,900&display=swap" rel="stylesheet" />
-                <meta name='description' content={description} />
             </Helmet>
             <img src={Stream} aria-hidden={true} className="stream-left"/>
             <Header />
