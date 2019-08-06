@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
         title: 'Contribute.dev',
-        description: "Want to contribute to Open Source, but don't know where to start? Here is a list of really cool repositories where you can get started without any friction, in a single click."
+        description: "You can contribute to all repositories listed here with one click. No need to install dependencies, go through long README files or compile code for hours."
     },
     plugins: [
         'gatsby-plugin-emotion'
