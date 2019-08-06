@@ -6,8 +6,10 @@ import FindProject from '../components/FindProject'
 import Feedback from '../components/Feedback'
 import FileIssue from '../components/FileIssue'
 import BlogPostPreview from '../resources/teaser-launch-min.jpg'
+import GitpodLogo from '../resources/gitpod-dark.svg'
 import GoogleIcon from '../resources/google.png'
 import NetlifyIcon from '../resources/netlify.svg'
+import NewsNowICon from '../resources/news-now.svg'
 import Patreon from '../resources/patreon.jpg'
 
 const SectionBlogPost = styled.section`
@@ -155,11 +157,17 @@ export default () => {
                         <a href="https://www.patreon.com/bePatron?u=22556675" target="_blank" data-patreon-widget-type="become-patron-button" className="btn btn--patreon">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
                     </div>
                     <div className="icons">
+                        <a href="https://gitpod.io" target="_blank">
+                            <img src={GitpodLogo} alt="Gitpod Logo" />
+                        </a>
                         <a href="https://cloud.google.com" target="_blank">
                             <img src={GoogleIcon} alt="Google Logo"/>
                         </a>
                         <a href="https://www.netlify.com/" target="_blank">
                             <img src={NetlifyIcon} alt="Netlify Logo" style={{transform: 'scale(.9)'}} />
+                        </a>
+                        <a href="https://www.newsnow.co.uk" target="_blank">
+                            <img src={NewsNowICon} alt="News Now Logo" />
                         </a>
                     </div>
                 </SectionSponsoring>
