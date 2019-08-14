@@ -69,7 +69,7 @@
             ],
             "repoName": "gatsbyjs/gatsby",
             "repoURL": "https://github.com/gatsbyjs/gatsby",
-            "logo": "gatsby.png"
+            "logo": "gatsby.svg"
         },
         {
             "id": 4,
@@ -113,7 +113,7 @@
             ],
             "repoName": "carbon-app/carbon",
             "repoURL": "https://github.com/carbon-app/carbon",
-            "logo": "carbon.png"
+            "logo": "carbon.svg"
         },
         {
             "id": 6,
