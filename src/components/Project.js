@@ -30,6 +30,10 @@ const Styled = styled.div`
         flex: .4;
         text-align: center;
 
+        img {
+           max-width: 100%;
+        }
+
          @media(max-width: ${breakpoints.md}) {
             margin-bottom: 2rem;
         }

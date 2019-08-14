@@ -27,7 +27,7 @@
             "logo": "freecodecamp.jpg"
         },
         {
-            "id": 3,
+            "id": 2,
             "title": "Ant Design",
             "description": "An enterprise-class UI design language and React implementation.",
             "stars": "50",
@@ -49,7 +49,7 @@
             "logo": "antdesign.svg"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Gatsby",
             "description": "Build blazing fast, modern apps and websites with React.",
             "stars": "37",
@@ -71,7 +71,51 @@
             "logo": "gatsby.png"
         },
         {
-            "id": 7,
+            "id": 4,
+            "title": "Carbon",
+            "description": "Create and share beautiful images of your source code",
+            "stars": "21",
+            "language": "JavaScript",
+            "tags": [
+                {
+                    "href": "https://github.com/carbon-app/carbon/blob/master/README.md#contributors",
+                    "src": "https://img.shields.io/badge/all_contributors-53-orange.svg?style=flat-square",
+                    "alt": "Contributors"
+                },
+                {
+                    "href": "https://spectrum.chat/carbon-now",
+                    "src": "https://withspectrum.github.io/badge/badge.svg",
+                    "alt": "Join the community on Spectrum"
+                }
+            ],
+            "repoName": "carbon-app/carbon",
+            "repoURL": "https://github.com/carbon-app/carbon",
+            "logo": "carbon.png"
+        },
+        {
+            "id": 5,
+            "title": "Tesseract",
+            "description": "Tesseract.js is a javascript library that gets words in almost any language out of images.",
+            "stars": "17",
+            "language": "JavaScript",
+            "tags": [
+                {
+                    "href": "https://github.com/naptha/tesseract.js/graphs/commit-activity",
+                    "src": "https://img.shields.io/badge/Maintained%3F-yes-green.svg",
+                    "alt": "Maintenance"
+                },
+                {
+                    "href": "https://github.com/airbnb/javascript",
+                    "src": "https://badgen.net/badge/code%20style/airbnb/ff5a5f?icon=airbnb",
+                    "alt": "Code Style"
+                }
+            ],
+            "repoName": "naptha/tesseract.js",
+            "repoURL": "https://github.com/naptha/tesseract.js",
+            "logo": "tesseract.png"
+        },
+        {
+            "id": 6,
             "title": "jsPDF",
             "description": "A library to generate PDFs in Javascript.",
             "stars": "17",
@@ -93,7 +137,7 @@
             "logo": "jspdf.svg"
         },
         {
-            "id": 5,
+            "id": 7,
             "title": "Dev.to",
             "description": "A platform where software developers write articles, take part in discussions and build their professional.",
             "stars": "9.8",
@@ -110,7 +154,7 @@
             "logo": "devto.jpeg"
         },
         {
-            "id": 4,
+            "id": 8,
             "title": "Dev Hub",
             "description": "DevHub is a mobile and desktop app to help you manage Github Notifications and stay on top of repository activities.",
             "stars": "5.8",
@@ -122,7 +166,7 @@
             "logo": "devhub.png"
         },
         {
-            "id": 6,
+            "id": 9,
             "title": "Peertube",
             "description": "Be part of a network of multiple small federated, interoperable video hosting providers.",
             "stars": 5.8,
