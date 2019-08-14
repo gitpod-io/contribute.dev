@@ -72,6 +72,28 @@
         },
         {
             "id": 4,
+            "title": "Algorithm Visualizer",
+            "description": "Algorithm Visualizer is an interactive online platform that visualizes algorithms from code.",
+            "stars": "23",
+            "language": "JavaScript",
+            "tags": [
+                {
+                    "href": "https://github.com/algorithm-visualizer/algorithm-visualizer/graphs/contributors",
+                    "src": "https://img.shields.io/github/contributors/algorithm-visualizer/algorithm-visualizer.svg?style=flat-square",
+                    "alt": "GitHub contributors"
+                },
+                {
+                    "href": "https://github.com/algorithm-visualizer/algorithm-visualizer/blob/master/LICENSE",
+                    "src": "https://img.shields.io/github/license/algorithm-visualizer/algorithm-visualizer.svg?style=flat-square",
+                    "alt": "GitHub license"
+                }
+            ],
+            "repoName": "algorithm-visualizer/algorithm-visualizer",
+            "repoURL": "https://github.com/algorithm-visualizer/algorithm-visualizer",
+            "logo": "visualizer.png"
+        },
+        {
+            "id": 5,
             "title": "Carbon",
             "description": "Create and share beautiful images of your source code",
             "stars": "21",
@@ -93,7 +115,7 @@
             "logo": "carbon.png"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Tesseract",
             "description": "Tesseract.js is a javascript library that gets words in almost any language out of images.",
             "stars": "17",
@@ -115,7 +137,7 @@
             "logo": "tesseract.png"
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "jsPDF",
             "description": "A library to generate PDFs in Javascript.",
             "stars": "17",
@@ -137,7 +159,7 @@
             "logo": "jspdf.svg"
         },
         {
-            "id": 7,
+            "id": 8,
             "title": "Dev.to",
             "description": "A platform where software developers write articles, take part in discussions and build their professional.",
             "stars": "9.8",
@@ -154,7 +176,7 @@
             "logo": "devto.jpeg"
         },
         {
-            "id": 8,
+            "id": 9,
             "title": "Dev Hub",
             "description": "DevHub is a mobile and desktop app to help you manage Github Notifications and stay on top of repository activities.",
             "stars": "5.8",
@@ -166,7 +188,7 @@
             "logo": "devhub.png"
         },
         {
-            "id": 9,
+            "id": 10,
             "title": "Peertube",
             "description": "Be part of a network of multiple small federated, interoperable video hosting providers.",
             "stars": 5.8,

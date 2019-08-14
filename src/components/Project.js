@@ -170,7 +170,7 @@ const Project = (props) => {
         <Styled>
             <div className="img-container">
                 <a href={props.repoURL} target="_blank">
-                    <img src={icons[props.logo]} alt={props.title} />
+                    { props.logo ? <img src={icons[props.logo]} alt={props.title} /> : null }
                 </a>
             </div>
             <div className="text">
