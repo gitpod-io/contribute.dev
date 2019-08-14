@@ -16,7 +16,8 @@
                     "src": "https://img.shields.io/badge/first--timers--only-friendly-blue.svg",
                     "href": "http://www.firsttimersonly.com/",
                     "alt": "First timers only friendly"
-                },{
+                },
+                {
                     "src": "https://www.codetriage.com/freecodecamp/freecodecamp/badges/users.svg",
                     "href": "https://www.codetriage.com/freecodecamp/freecodecamp",
                     "alt": "Code helpers 784"
@@ -177,27 +178,53 @@
         },
         {
             "id": 9,
+            "title": "Shields.io",
+            "description": "Concise, consistent, and legible badges in SVG and raster format",
+            "stars": "8.8",
+            "language": "JavaScript",
+            "tags": [
+                {
+                    "href": "https://github.com/badges/shields/graphs/contributors",
+                    "src": "https://img.shields.io/github/contributors/badges/shields",
+                    "alt": "Contributors"
+                },
+                {
+                    "href": "https://discord.gg/HjJCwm5",
+                    "src": "https://img.shields.io/discord/308323056592486420?logo=discord",
+                    "alt": "chat on Discord"
+                },
+                {
+                    "href": "https://twitter.com/intent/follow?screen_name=shields_io",
+                    "src": "https://img.shields.io/twitter/follow/shields_io?style=social&logo=twitter",
+                    "alt": "follow on Twitter"
+                }
+            ],
+            "repoName": "badges/shields",
+            "repoURL": "https://github.com/badges/shields",
+            "logo": "sheilds-io.svg"
+        },
+        {
+            "id": 10,
             "title": "Dev Hub",
             "description": "DevHub is a mobile and desktop app to help you manage Github Notifications and stay on top of repository activities.",
             "stars": "5.8",
             "language": "TypeScript",
-            "tags": [
-            ],
+            "tags": [],
             "repoName": "devhubapp/devhub",
             "repoURL": "https://github.com/devhubapp/devhub",
             "logo": "devhub.png"
         },
         {
-            "id": 10,
+            "id": 11,
             "title": "Peertube",
             "description": "Be part of a network of multiple small federated, interoperable video hosting providers.",
             "stars": 5.8,
             "language": "TypeScript",
             "tags": [
                 {
-                 "href": "https://david-dm.org/Chocobozzz/PeerTube?type=dev",
-                 "src": "https://david-dm.org/Chocobozzz/PeerTube/dev-status.svg",
-                 "alt": "dev dependencies up to date"
+                    "href": "https://david-dm.org/Chocobozzz/PeerTube?type=dev",
+                    "src": "https://david-dm.org/Chocobozzz/PeerTube/dev-status.svg",
+                    "alt": "dev dependencies up to date"
                 },
                 {
                     "href": "http://standardjs.com/",
