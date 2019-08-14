@@ -235,6 +235,23 @@
             "repoName": "Chocobozzz/PeerTube",
             "repoURL": "https://github.com/Chocobozzz/PeerTube",
             "logo": "peertube.png"
+        },
+        {
+            "id": 12,
+            "title": "Statusfy",
+            "description": "A Marvelous Open Source Status Page System",
+            "stars": 1.1,
+            "language": "JavaScript",
+            "tags": [
+                {
+                    "href": "https://bazzite.xyz/StatusfyOpenCollective",
+                    "src": "https://img.shields.io/badge/Support%20us-Open%20Collective-0366d6.svg",
+                    "alt": "Support us"
+                }
+            ],
+            "repoName": "bazzite/statusfy",
+            "repoURL": "https://github.com/bazzite/statusfy",
+            "logo": "statusfy.svg"
         }
     ]
 }
