@@ -31,7 +31,8 @@ const Styled = styled.div`
         text-align: center;
 
         img {
-           max-width: 100%;
+            object-fit: contain;
+            max-width: 100%;
         }
 
          @media(max-width: ${breakpoints.md}) {
