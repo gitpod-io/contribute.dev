@@ -153,7 +153,7 @@ export default () => {
                     <div id="sponsor">
                         <h2>Sponsoring</h2>
                         <p>Big shout out to our sponsors who help empower the open-source community. Thanks a lot! If you’d also like to support frictionless open-source contribution financially or by providing resources, please let us know.</p>
-                        <a href="mailto:contact@gitpod.io?subject=Become a Sponsor automatically?" className="btn">Become a sponsor</a>
+                        <a href="mailto:contact@gitpod.io?subject=Contribute.dev sponsorship" className="btn">Become a sponsor</a>
                         <a href="https://www.patreon.com/bePatron?u=22556675" target="_blank" data-patreon-widget-type="become-patron-button" className="btn btn--patreon">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
                     </div>
                     <div className="icons">
