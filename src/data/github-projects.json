@@ -29,6 +29,28 @@
         },
         {
             "id": 2,
+            "title": "The Algorithms - Python",
+            "description": "Algorithms implemented in Python for learning purposes.",
+            "stars": "53.5",
+            "language": "Python",
+            "tags": [
+                {
+                    "src": "https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square",
+                    "href": "https://github.com/TheAlgorithms/Python/blob/master/CONTRIBUTING.md",
+                    "alt": "contributions welcome"
+                },
+                {
+                    "src": "https://img.shields.io/badge/Chat-Gitter-ff69b4.svg?label=Chat&logo=gitter&style=flat-square",
+                    "href": "https://gitter.im/TheAlgorithms",
+                    "alt": "Gitter chat"
+                }
+            ],
+            "repoName": "TheAlgorithms/Python",
+            "repoURL": "https://github.com/TheAlgorithms/Python",
+            "logo": "algorithms.png"
+        },
+        {
+            "id": 3,
             "title": "Ant Design",
             "description": "An enterprise-class UI design language and React implementation.",
             "stars": "50",
@@ -50,7 +72,7 @@
             "logo": "antdesign.svg"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Gatsby",
             "description": "Build blazing fast, modern apps and websites with React.",
             "stars": "37",
@@ -72,7 +94,7 @@
             "logo": "gatsby.svg"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Algorithm Visualizer",
             "description": "Algorithm Visualizer is an interactive online platform that visualizes algorithms from code.",
             "stars": "23",
@@ -94,7 +116,7 @@
             "logo": "visualizer.png"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Carbon",
             "description": "Create and share beautiful images of your source code",
             "stars": "21",
@@ -116,7 +138,7 @@
             "logo": "carbon.svg"
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "Tesseract",
             "description": "Tesseract.js is a javascript library that gets words in almost any language out of images.",
             "stars": "17",
@@ -138,7 +160,7 @@
             "logo": "tesseract.png"
         },
         {
-            "id": 7,
+            "id": 8,
             "title": "jsPDF",
             "description": "A library to generate PDFs in Javascript.",
             "stars": "17",
@@ -160,7 +182,18 @@
             "logo": "jspdf.svg"
         },
         {
-            "id": 8,
+            "id": 9,
+            "title": "Koel",
+            "description": "a personal music streaming server that works",
+            "stars": "10.5",
+            "language": "PHP",
+            "tags": [],
+            "repoName": "phanan/koel",
+            "repoURL": "https://github.com/phanan/koel",
+            "logo": "koel.svg"
+        },
+        {
+            "id": 10,
             "title": "Dev.to",
             "description": "A platform where software developers write articles, take part in discussions and build their professional.",
             "stars": "9.8",
@@ -177,7 +210,7 @@
             "logo": "devto.jpeg"
         },
         {
-            "id": 9,
+            "id": 11,
             "title": "Shields.io",
             "description": "Concise, consistent, and legible badges in SVG and raster format",
             "stars": "8.8",
@@ -204,7 +237,7 @@
             "logo": "sheilds-io.svg"
         },
         {
-            "id": 10,
+            "id": 12,
             "title": "Dev Hub",
             "description": "DevHub is a mobile and desktop app to help you manage Github Notifications and stay on top of repository activities.",
             "stars": "5.8",
@@ -215,7 +248,7 @@
             "logo": "devhub.png"
         },
         {
-            "id": 11,
+            "id": 13,
             "title": "Peertube",
             "description": "Be part of a network of multiple small federated, interoperable video hosting providers.",
             "stars": 5.8,
@@ -237,7 +270,18 @@
             "logo": "peertube.png"
         },
         {
-            "id": 12,
+            "id": 14,
+            "title": "Fusuma",
+            "description": "Just write Markdown and create cool slides.",
+            "stars": 3.5,
+            "language": "JavaScript",
+            "tags": [],
+            "repoName": "hiroppy/fusuma",
+            "repoURL": "https://github.com/hiroppy/fusuma",
+            "logo": "fusuma.svg"
+        },
+        {
+            "id": 15,
             "title": "Statusfy",
             "description": "A Marvelous Open Source Status Page System",
             "stars": 1.1,
