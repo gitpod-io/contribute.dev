@@ -1,10 +1,8 @@
 {
     "projects": [
         {
-            "id": 1,
             "title": "FreeCodeCamp",
             "description": "Open source codebase and curriculum. Learn to code for free together with millions of people.",
-            "stars": "304",
             "language": "JavaScript",
             "tags": [
                 {
@@ -28,10 +26,8 @@
             "logo": "freecodecamp.jpg"
         },
         {
-            "id": 2,
             "title": "The Algorithms - Python",
             "description": "Algorithms implemented in Python for learning purposes.",
-            "stars": "53.5",
             "language": "Python",
             "tags": [
                 {
@@ -50,10 +46,8 @@
             "logo": "algorithms.png"
         },
         {
-            "id": 3,
             "title": "Ant Design",
             "description": "An enterprise-class UI design language and React implementation.",
-            "stars": "50",
             "language": "TypeScript",
             "tags": [
                 {
@@ -72,10 +66,8 @@
             "logo": "antdesign.svg"
         },
         {
-            "id": 4,
             "title": "Gatsby",
             "description": "Build blazing fast, modern apps and websites with React.",
-            "stars": "37",
             "language": "JavaScript",
             "tags": [
                 {
@@ -94,10 +86,8 @@
             "logo": "gatsby.svg"
         },
         {
-            "id": 5,
             "title": "Algorithm Visualizer",
             "description": "Algorithm Visualizer is an interactive online platform that visualizes algorithms from code.",
-            "stars": "23",
             "language": "JavaScript",
             "tags": [
                 {
@@ -116,10 +106,8 @@
             "logo": "visualizer.png"
         },
         {
-            "id": 6,
             "title": "Carbon",
             "description": "Create and share beautiful images of your source code",
-            "stars": "21",
             "language": "JavaScript",
             "tags": [
                 {
@@ -138,10 +126,8 @@
             "logo": "carbon.svg"
         },
         {
-            "id": 7,
             "title": "Tesseract",
             "description": "Tesseract.js is a javascript library that gets words in almost any language out of images.",
-            "stars": "17",
             "language": "JavaScript",
             "tags": [
                 {
@@ -160,10 +146,8 @@
             "logo": "tesseract.png"
         },
         {
-            "id": 8,
             "title": "jsPDF",
             "description": "A library to generate PDFs in Javascript.",
-            "stars": "17",
             "language": "Javascript",
             "tags": [
                 {
@@ -182,21 +166,16 @@
             "logo": "jspdf.svg"
         },
         {
-            "id": 9,
             "title": "Koel",
             "description": "a personal music streaming server that works",
-            "stars": "10.5",
             "language": "PHP",
-            "tags": [],
             "repoName": "phanan/koel",
             "repoURL": "https://github.com/phanan/koel",
             "logo": "koel.svg"
         },
         {
-            "id": 10,
             "title": "Dev.to",
             "description": "A platform where software developers write articles, take part in discussions and build their professional.",
-            "stars": "9.8",
             "language": "Ruby",
             "tags": [
                 {
@@ -210,10 +189,8 @@
             "logo": "devto.jpeg"
         },
         {
-            "id": 11,
-            "title": "Shields.io",
+           "title": "Shields.io",
             "description": "Concise, consistent, and legible badges in SVG and raster format",
-            "stars": "8.8",
             "language": "JavaScript",
             "tags": [
                 {
@@ -237,21 +214,16 @@
             "logo": "sheilds-io.svg"
         },
         {
-            "id": 12,
             "title": "Dev Hub",
             "description": "DevHub is a mobile and desktop app to help you manage Github Notifications and stay on top of repository activities.",
-            "stars": "5.8",
             "language": "TypeScript",
-            "tags": [],
             "repoName": "devhubapp/devhub",
             "repoURL": "https://github.com/devhubapp/devhub",
             "logo": "devhub.png"
         },
         {
-            "id": 13,
             "title": "Peertube",
             "description": "Be part of a network of multiple small federated, interoperable video hosting providers.",
-            "stars": 5.8,
             "language": "TypeScript",
             "tags": [
                 {
@@ -270,21 +242,24 @@
             "logo": "peertube.png"
         },
         {
-            "id": 14,
+            "title": "Theia IDE",
+            "description": "Eclipse Theia is an extensible platform to develop multi-language Cloud & Desktop IDEs with state-of-the-art web technologies.",
+            "language": "TypeScript",
+            "repoName": "theia-ide/theia",
+            "repoURL": "https://github.com/theia-ide/theia",
+            "logo": "theia.svg"
+        },
+        {
             "title": "Fusuma",
             "description": "Just write Markdown and create cool slides.",
-            "stars": 3.5,
             "language": "JavaScript",
-            "tags": [],
             "repoName": "hiroppy/fusuma",
             "repoURL": "https://github.com/hiroppy/fusuma",
             "logo": "fusuma.svg"
         },
         {
-            "id": 15,
             "title": "Statusfy",
             "description": "A Marvelous Open Source Status Page System",
-            "stars": 1.1,
             "language": "JavaScript",
             "tags": [
                 {

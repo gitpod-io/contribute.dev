@@ -106,8 +106,8 @@ const Header = () => (
                 &nbsp;
             </div>
             <Hero>
-                    <h1>Frictionless open-source contribution</h1>
-                    <p className="seconed">You can contribute to all repositories listed below with one click. No need to install dependencies, go through long README files or compile code for hours.</p>
+                    <h1>Frictionless Open-Source Contribution</h1>
+                    <p className="seconed">Ever got intimidated by setting up a local dev environment? - The projects below are all featuring an automated dev setup using Gitpod, the free online dev environment service. You are just one click away from contributing.</p>
             </Hero>
         </div>
     </StyledHeader>

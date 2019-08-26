@@ -184,7 +184,10 @@ const Project = (props) => {
                 <span className="tag">{props.language}</span>
                 <br />
                 {
-                    props.tags.map((tag, i) =>
+                    (props.tags || [{
+                        href: `https://github.com/${props.repoName}/graphs/contributors`,
+                        src: `https://img.shields.io/github/contributors/${props.repoName}.svg?style=flat-square`
+                    }]).map((tag, i) =>
                             <a href={tag.href} key={i}>
                                 <img
                                     className="tag__img"

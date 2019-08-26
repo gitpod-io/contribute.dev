@@ -98,7 +98,7 @@ class FindProject extends React.Component {
     state = {
         projects: projectsData.projects || [],
         searchTerm: '',
-        filteredProjects: '',
+        filteredProjects: [],
         toggle: false
     }
 
@@ -145,7 +145,7 @@ class FindProject extends React.Component {
                     <div>
                         {
                             this.state.filteredProjects.length &&
-                            this.state.filteredProjects.map(project => <Project key={project.id} {...project}/>) || this.state.toggle &&
+                            this.state.filteredProjects.map(project => <Project key={project.repoName} {...project}/>) || this.state.toggle &&
                             <div className="nothing-found">
                                 <img src={IconSmiley} alt="" aria-hidden={true}/>
                                 <h4>Sorry, we can't find any projects matching your search</h4>

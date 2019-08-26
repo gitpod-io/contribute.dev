@@ -9,7 +9,6 @@ import BlogPostPreview from '../resources/teaser-launch-min.jpg'
 import GitpodLogo from '../resources/gitpod-dark.svg'
 import GoogleIcon from '../resources/google.png'
 import NetlifyIcon from '../resources/netlify.svg'
-import NewsNowICon from '../resources/news-now.svg'
 import Patreon from '../resources/patreon.jpg'
 
 const SectionBlogPost = styled.section`
@@ -48,7 +47,7 @@ const SectionSponsoring = styled.section`
     .icons {
         display: flex;
         justify-content: center;
-        margin: 14rem auto 5rem;
+        margin: 5rem auto 5rem;
 
         @media(max-width: ${breakpoints.xs}) {
             flex-direction: column;
@@ -131,46 +130,30 @@ export default () => {
             <FileIssue />
             <Feedback />
             <div className="row" id="about">
-                <section>
-                        <h2>About</h2>
-                        <p>
-                           Open source is great! And it lives from passionate contributors who are investing their precious free time in it. Let’s not waste that time for tedious setups.
-                        </p>
-                        <p>
-                           By adding a Gitpod button to your GitHub repository, your contributors can start coding immediately: no more waiting for builds to run and code to compile, it’s just coding. If you would like to know more about Gitpod and how it works, have a look at the blog post below.
-                        </p>
-                </section>
-                <SectionBlogPost>
-                    <div className="img">&nbsp;</div>
-                    <div>
-                        <h2>Introducing Gitpod &mdash; Frictionless Coding on GitHub</h2>
-                        <p>Every day developers waste millions of hours switching contexts between projects and branches, setting up development environments, or simply waiting for builds to complete.</p>
-                        <a href="https://www.gitpod.io/blog/gitpod-launch/"
-                        target="_blank" className="btn">Blog Post</a>
-                    </div>
-                </SectionBlogPost>
                 <SectionSponsoring>
-                    <div id="sponsor">
-                        <h2>Sponsoring</h2>
-                        <p>Big shout out to our sponsors who help empower the open-source community. Thanks a lot! If you’d also like to support frictionless open-source contribution financially or by providing resources, please let us know.</p>
-                        <a href="mailto:contact@gitpod.io?subject=Contribute.dev sponsorship" className="btn">Become a sponsor</a>
-                        <a href="https://www.patreon.com/bePatron?u=22556675" target="_blank" data-patreon-widget-type="become-patron-button" className="btn btn--patreon">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
-                    </div>
+                    <h2>Supported By</h2>
                     <div className="icons">
+                        <a href="https://www.netlify.com/" target="_blank">
+                            <img src={NetlifyIcon} alt="Netlify Logo" style={{ transform: 'scale(.9)' }} />
+                        </a>
+                        <a href="https://cloud.google.com" target="_blank">
+                            <img src={GoogleIcon} alt="Google Logo" />
+                        </a>
                         <a href="https://gitpod.io" target="_blank">
                             <img src={GitpodLogo} alt="Gitpod Logo" />
                         </a>
-                        <a href="https://cloud.google.com" target="_blank">
-                            <img src={GoogleIcon} alt="Google Logo"/>
-                        </a>
-                        <a href="https://www.netlify.com/" target="_blank">
-                            <img src={NetlifyIcon} alt="Netlify Logo" style={{transform: 'scale(.9)'}} />
-                        </a>
-                        <a href="https://www.newsnow.co.uk" target="_blank">
-                            <img src={NewsNowICon} alt="News Now Logo" />
-                        </a>
                     </div>
                 </SectionSponsoring>
+                <SectionBlogPost>
+                    <div className="img">&nbsp;</div>
+                    <div>
+                        <h2>Frictionless Coding on GitHub</h2>
+                        <p>Every day developers waste millions of hours switching contexts between projects and branches, setting up development environments, or simply waiting for builds to complete.</p>
+                        <a href="https://www.gitpod.io/blog/gitpod-launch/"
+                            target="_blank" className="btn">Learn More</a>
+                    </div>
+                </SectionBlogPost>
+
             </div>
         </Layout>
     )
