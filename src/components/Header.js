@@ -106,8 +106,8 @@ const Header = () => (
                 &nbsp;
             </div>
             <Hero>
-                    <h1>Frictionless Open-Source Contribution</h1>
-                    <p className="seconed">Ever got intimidated by setting up a local dev environment? - The projects below are all featuring an automated dev setup using Gitpod, the free online dev environment service. You are just one click away from contributing.</p>
+                    <h1>Frictionless Open-Source Contributions</h1>
+                    <p className="seconed">Setting up a local dev environment can be daunting. - All the projects below have automated their dev setup with Gitpod, a free online IDE for GitHub. Now your first Open-Source contribution is just one click away.</p>
             </Hero>
         </div>
     </StyledHeader>

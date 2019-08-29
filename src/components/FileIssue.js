@@ -48,7 +48,7 @@ const Styled = styled.section`
 const FileIssue = () => (
     <Styled>
         <div>
-            <h2>Get Your Project Listed</h2>
+            <h2>Add Your Project</h2>
             <p><strong>You want to streamline the experience for your contributors?</strong> We are happy to help you setting up an automated dev environment.
             Please file an issue with a link to your repository and we will help you setting it up. Once the experience is great we're happy to add your project to the list.</p>
             <div style={{textAlign: 'center'}}>
