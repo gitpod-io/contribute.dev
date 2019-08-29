@@ -3,7 +3,10 @@ import { Global, css } from '@emotion/core'
 import Helmet from 'react-helmet'
 import useSiteMetadata from '../hooks/use-site-metadata'
 import { fontSizes, colors, grid, breakpoints } from '../utils/variables'
-import Favicon from '../resources/favicon.ico'
+import Favicon from '../resources/paper-plane.svg'
+import Favicon196 from '../resources/paper-plane-196x196.png'
+import Favicon512 from '../resources/paper-plane-512x512.png'
+import AppleTouchIcon from '../resources/apple-touch-icon.png'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Stream from '../resources/stream1.svg'
@@ -156,7 +159,10 @@ const Layout = ({ children }) => {
                 <html lang='en' />
                 <title>{title}</title>
                 <meta name='description' content={description} />
-                <link rel="shortcut icon" href={Favicon} />
+                <link rel="icon" type="image/svg+xml" href={Favicon} sizes="any"/>
+                <link rel="icon" type="image/png" href={Favicon512} sizes="512x512"/>
+                <link rel="icon" type="image/png" href={Favicon196} sizes="196x196"/>
+                <link rel="apple-touch-icon" type="image/png" href={AppleTouchIcon} sizes="180x180"/>
                 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css?family=Nunito:400,900&display=swap" rel="stylesheet" />
             </Helmet>
