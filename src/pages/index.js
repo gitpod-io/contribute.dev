@@ -133,13 +133,13 @@ export default () => {
                 <SectionSponsoring>
                     <h2>Supported By</h2>
                     <div className="icons">
-                        <a href="https://www.netlify.com/" target="_blank">
+                        <a href="https://www.netlify.com/" target="_blank" rel="noopener">
                             <img src={NetlifyIcon} alt="Netlify Logo" style={{ transform: 'scale(.9)' }} />
                         </a>
-                        <a href="https://cloud.google.com" target="_blank">
+                        <a href="https://cloud.google.com" target="_blank" rel="noopener">
                             <img src={GoogleIcon} alt="Google Logo" />
                         </a>
-                        <a href="https://gitpod.io" target="_blank">
+                        <a href="https://gitpod.io" target="_blank" rel="noopener">
                             <img src={GitpodLogo} alt="Gitpod Logo" />
                         </a>
                     </div>
@@ -150,7 +150,7 @@ export default () => {
                         <h2>Frictionless Coding on GitHub</h2>
                         <p>Every day developers waste millions of hours switching contexts between projects and branches, setting up development environments, or simply waiting for builds to complete.</p>
                         <a href="https://www.gitpod.io/blog/gitpod-launch/"
-                            target="_blank" className="btn">Learn more about Gitpod</a>
+                            target="_blank" rel="noopener" className="btn">Learn more about Gitpod</a>
                     </div>
                 </SectionBlogPost>
 
