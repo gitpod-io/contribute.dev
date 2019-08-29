@@ -186,7 +186,8 @@ const Project = (props) => {
                 {
                     (props.tags || [{
                         href: `https://github.com/${props.repoName}/graphs/contributors`,
-                        src: `https://img.shields.io/github/contributors/${props.repoName}.svg?style=flat-square`
+                        src: `https://img.shields.io/github/contributors/${props.repoName}.svg?style=flat-square`,
+                        alt: `Contributors Count`
                     }]).map((tag, i) =>
                             <a href={tag.href} key={i}  aria-label={tag.alt}>
                                 <img
