@@ -170,12 +170,12 @@ const Project = (props) => {
     return (
         <Styled>
             <div className="img-container">
-                <a href={props.repoURL} target="_blank">
+                <a href={props.repoURL} target="_blank" aria-label={`${props.title} Repo`}>
                     { props.logo ? <img src={icons[props.logo]} alt={props.title} /> : null }
                 </a>
             </div>
             <div className="text">
-                <a href={props.repoURL} target="_blank">
+                <a href={props.repoURL} target="_blank"  aria-label={`${props.title} Repo`}>
                     <h3>{props.title}&nbsp;<img src={GithubMark} alt="Github Mark" /></h3>
                 </a>
                 <p>{props.description}</p>
@@ -188,10 +188,11 @@ const Project = (props) => {
                         href: `https://github.com/${props.repoName}/graphs/contributors`,
                         src: `https://img.shields.io/github/contributors/${props.repoName}.svg?style=flat-square`
                     }]).map((tag, i) =>
-                            <a href={tag.href} key={i}>
+                            <a href={tag.href} key={i}  aria-label={tag.alt}>
                                 <img
                                     className="tag__img"
                                     src={tag.src}
+                                    alt={tag.alt}
                                 />
                             </a>
                         )
@@ -202,7 +203,7 @@ const Project = (props) => {
                     <div className="stars"><img src={`https://img.shields.io/github/stars/${props.repoName}.svg?style=social`} alt={props.title} style={{height: 20}} /></div>
                 </a>
                 <a href={`https://gitpod.io#${props.repoURL}`} target="_blank">
-                    <button className="open-in-gitpod">
+                    <button className="open-in-gitpod" aria-label="Open in Gitpod">
                         <img src={GitpodButton} alt="Open in Gitpod" />
                     </button>
                 </a>
