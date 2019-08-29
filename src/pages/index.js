@@ -150,7 +150,7 @@ export default () => {
                         <h2>Frictionless Coding on GitHub</h2>
                         <p>Every day developers waste millions of hours switching contexts between projects and branches, setting up development environments, or simply waiting for builds to complete.</p>
                         <a href="https://www.gitpod.io/blog/gitpod-launch/"
-                            target="_blank" className="btn">Learn More</a>
+                            target="_blank" className="btn">Learn more about Gitpod</a>
                     </div>
                 </SectionBlogPost>
 
