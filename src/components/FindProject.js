@@ -3,7 +3,6 @@ import styled from '@emotion/styled'
 import { colors } from '../utils/variables'
 import projectsData from '../data/github-projects.json'
 import Project from '../components/Project'
-import LoadMore from '../resources/load-more.svg'
 import IconSmiley from '../resources/icon-smiley.svg'
 
 const SectionFind = styled.section`
@@ -171,13 +170,6 @@ class FindProject extends React.Component {
                             </div>
                         }
                     </div>
-                    {/*
-                        <div>
-                            <button className="load-more">
-                                <img src={LoadMore} alt="Load more projects"/>
-                            </button>
-                        </div>
-                    */}
                 </div>
             </SectionFind>
         )
