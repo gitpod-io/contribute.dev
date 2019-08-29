@@ -158,9 +158,9 @@ const Layout = ({ children }) => {
                 <html lang='en' />
                 <title>{title}</title>
                 <meta name='description' content={description} />
-                <link rel="icon" type="image/svg+xml" href={Favicon} sizes="any"/>
-                <link rel="icon" type="image/png" href={Favicon196} sizes="196x196"/>
                 <link rel="apple-touch-icon" type="image/png" href={AppleTouchIcon} sizes="180x180"/>
+                <link rel="icon" type="image/png" href={Favicon196} sizes="196x196"/>
+                <link rel="icon" type="image/svg+xml" href={Favicon} sizes="any"/>
                 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css?family=Nunito:400,900&display=swap" rel="stylesheet" />
             </Helmet>
