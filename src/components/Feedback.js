@@ -3,7 +3,6 @@ import TweetEmbed from 'react-tweet-embed'
 import styled from '@emotion/styled'
 import { breakpoints } from '../utils/variables'
 
-
 const Tweets = styled.div`
     display: flex;
     flex-direction: column;
@@ -40,7 +39,11 @@ const Feedback = () => {
                 </div>
                 <Tweets>
                     <TweetEmbed className="tweet" id='1115274432958930946' options={twitterOptions} />
-                    <TweetEmbed className="tweet" id='1130775701714558982' options={twitterOptions} />
+                    <TweetEmbed className="tweet" id='1167463499779338243' options={twitterOptions} />
+                </Tweets>
+                <Tweets>
+                    <TweetEmbed className="tweet" id='1176866660461903872' options={twitterOptions} />
+                    <TweetEmbed classNamr="tweet" id='1130775701714558982' options={twitterOptions} />
                 </Tweets>
             </div>
         </section>
