@@ -147,7 +147,7 @@
         },
         {
             "title": "Koel",
-            "description": "a personal music streaming server that works",
+            "description": "A personal music streaming server that works.",
             "language": "PHP",
             "repoName": "phanan/koel",
             "repoURL": "https://github.com/phanan/koel",
