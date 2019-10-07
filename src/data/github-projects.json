@@ -66,26 +66,6 @@
             "logo": "antdesign.svg"
         },
         {
-            "title": "Gatsby",
-            "description": "Build blazing fast, modern apps and websites with React.",
-            "language": "JavaScript",
-            "tags": [
-                {
-                    "href": "https://gatsbyjs.org/contributing/how-to-contribute/",
-                    "src": "https://img.shields.io/badge/PRs-welcome-brightgreen.svg",
-                    "alt": "PRs Welcome"
-                },
-                {
-                    "href": "https://twitter.com/intent/follow?screen_name=gatsbyjs",
-                    "src": "https://img.shields.io/twitter/follow/gatsbyjs.svg?label=Follow%20@gatsbyjs",
-                    "alt": "Follow @gatsbyjs 31k"
-                }
-            ],
-            "repoName": "gatsbyjs/gatsby",
-            "repoURL": "https://github.com/gatsbyjs/gatsby",
-            "logo": "gatsby.svg"
-        },
-        {
             "title": "Algorithm Visualizer",
             "description": "Algorithm Visualizer is an interactive online platform that visualizes algorithms from code.",
             "language": "JavaScript",
@@ -245,9 +225,29 @@
             "title": "Theia IDE",
             "description": "Eclipse Theia is an extensible platform to develop multi-language Cloud & Desktop IDEs with state-of-the-art web technologies.",
             "language": "TypeScript",
-            "repoName": "theia-ide/theia",
-            "repoURL": "https://github.com/theia-ide/theia",
+            "repoName": "eclipse-theia/theia",
+            "repoURL": "https://github.com/eclipse-theia/theia",
             "logo": "theia.svg"
+        },
+        {
+            "title": "Nu Shell",
+            "description": "A modern shell for the GitHub era, written in Rust.",
+            "language": "Rust",
+            "tags": [
+                {
+                    "href": "https://discord.gg/NtAbbGn",
+                    "src": "https://img.shields.io/discord/601130461678272522.svg?logo=discord",
+                    "alt": "Discord"
+                },
+                {
+                    "href": "https://changelog.com/podcast/363",
+                    "src": "https://img.shields.io/badge/The%20Changelog-%23363-61c192.svg",
+                    "alt": "The Changelog #363"
+                }
+            ],
+            "repoName": "nushell/nushell",
+            "repoURL": "https://github.com/nushell/nushell",
+            "logo": "nushell.png"
         },
         {
             "title": "Fusuma",
