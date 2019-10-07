@@ -6,8 +6,9 @@ const Styled = styled.section`
     width: 70%;
     max-width: 90rem;
     margin: 10rem auto;
-    padding: 5rem 0;
+    padding: 4rem 0;
     border: 3px solid ${colors.purple};
+    font-size: 1.8rem;
 
     @media(max-width: ${breakpoints.sm}) {
         width: 90%;
