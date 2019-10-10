@@ -6,24 +6,19 @@ import { breakpoints } from '../utils/variables'
 const Tweets = styled.div`
     display: flex;
     flex-direction: column;
-    margin-top: 4rem;
+    justify-content: space-around;
 
     @media(min-width: ${breakpoints.md}) {
        flex-direction: row;
     }
 
     .tweet {
-        &:not(:last-child) {
-            margin-right: 4rem;
-        }
+        margin-top: 4rem;
+        flex-grow: 1;
 
         @media(max-width: ${breakpoints.md}) {
             display: flex;
             justify-content: center;
-
-            &:not(:last-child) {
-                margin-right: 0
-            }
         }
     }
 `
@@ -43,7 +38,7 @@ const Feedback = () => {
                 </Tweets>
                 <Tweets>
                     <TweetEmbed className="tweet" id='1176866660461903872' options={twitterOptions} />
-                    <TweetEmbed classNamr="tweet" id='1130775701714558982' options={twitterOptions} />
+                    <TweetEmbed className="tweet" id='1130775701714558982' options={twitterOptions} />
                 </Tweets>
             </div>
         </section>
