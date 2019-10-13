@@ -194,6 +194,25 @@
             "logo": "sheilds-io.svg"
         },
         {
+            "title": "A-to-Z-Resources-for-Students",
+            "description": "Curated list of resources for college students.",
+            "tags": [
+                {
+                    "href": "https://twitter.com/diipakkr",
+                    "src": "https://img.shields.io/twitter/follow/diipakkr.svg?style=social",
+                    "alt": "Twitter Follow"
+                },
+                {
+                    "href": "https://github.com/dipakkr/A-to-Z-Resources-for-Students",
+                    "src": "https://img.shields.io/github/stars/dipakkr/A-to-Z-Resources-for-Students.svg?style=social&label=Star",
+                    "alt": "GitHub stars"
+                }
+            ],
+            "repoName": "dipakkr/A-to-Z-Resources-for-Students",
+            "repoURL": "https://github.com/dipakkr/A-to-Z-Resources-for-Students",
+            "logo": "a2z.png"
+        },
+        {
             "title": "Dev Hub",
             "description": "DevHub is a mobile and desktop app to help you manage Github Notifications and stay on top of repository activities.",
             "language": "TypeScript",
