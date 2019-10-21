@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "env-cmd -f .env.development gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -13,6 +13,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.14",
     "@emotion/styled": "^10.0.14",
+    "env-cmd": "^10.0.1",
     "gatsby": "^2.13.3",
     "gatsby-plugin-emotion": "^4.1.0",
     "gatsby-plugin-react-helmet": "^3.1.0",
