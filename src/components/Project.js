@@ -181,7 +181,7 @@ const Project = (props) => {
                 <p>{props.description}</p>
             </div>
             <div className="tags">
-                <span className="tag">{props.language}</span>
+                { props.language ? <span className="tag">{props.language}</span> : null}
                 <br />
                 {
                     (props.tags || [{
