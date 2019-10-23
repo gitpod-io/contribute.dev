@@ -1,7 +1,7 @@
 {
     "projects": [
         {
-            "title": "FreeCodeCamp",
+            "title": "freeCodeCamp",
             "description": "Open source codebase and curriculum. Learn to code for free together with millions of people.",
             "language": "JavaScript",
             "tags": [
