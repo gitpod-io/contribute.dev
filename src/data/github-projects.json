@@ -290,6 +290,26 @@
             "repoName": "bazzite/statusfy",
             "repoURL": "https://github.com/bazzite/statusfy",
             "logo": "statusfy.svg"
+        },
+        {
+            "title": "Ancient Beast",
+            "description": "🐺 Turn Based Strategy Game. Master your beasts!",
+            "language": "JavaScript",
+            "tags": [
+                {
+                    "href": "https://play.AncientBeast.com",
+                    "src": "http://img.shields.io/badge/play-Ancient%20Beast-red.svg",
+                    "alt": "Play Ancient Beast"
+                },
+                                {
+                    "href": "https://www.codetriage.com/freezingmoon/ancientbeast",
+                    "src": "https://www.codetriage.com/freezingmoon/ancientbeast/badges/users.svg",
+                    "alt": "Code Triage"
+                }
+            ],
+            "repoName": "FreezingMoon/AncientBeast",
+            "repoURL": "https://github.com/FreezingMoon/AncientBeast",
+            "logo": "ancient-beast.png"
         }
     ]
 }
