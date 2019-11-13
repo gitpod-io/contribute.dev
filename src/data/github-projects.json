@@ -269,6 +269,31 @@
             "logo": "nushell.png"
         },
         {
+            "title": "inlets",
+            "description": "Expose your local endpoints to the Internet",
+            "language": "Go",
+            "tags": [
+                {
+                    "href": "https://travis-ci.org/inlets/inlets",
+                    "src": "https://travis-ci.org/inlets/inlets.svg?branch=master",
+                    "alt": "Build Status"
+                },
+                {
+                    "href": "https://opensource.org/licenses/MIT",
+                    "src": "https://img.shields.io/badge/License-MIT-yellow.svg",
+                    "alt": "License: MIT"
+                },
+                {
+                    "href": "http://godoc.org/github.com/inlets/inlets",
+                    "src": "https://godoc.org/github.com/inlets/inlets?status.svg",
+                    "alt": "Documentation"
+                }
+            ],
+            "repoName": "inlets/inlets",
+            "repoURL": "https://github.com/inlets/inlets",
+            "logo": "inlets.jpg"
+        },
+        {
             "title": "Fusuma",
             "description": "Just write Markdown and create cool slides.",
             "language": "JavaScript",
