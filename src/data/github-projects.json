@@ -335,6 +335,21 @@
             "repoName": "FreezingMoon/AncientBeast",
             "repoURL": "https://github.com/FreezingMoon/AncientBeast",
             "logo": "ancient-beast.png"
+        },
+        {
+            "title": "Advent Of Code",
+            "description": "Code and Development environment for adventofcode.com - 2019 edition ",
+            "language": "Groovy",
+            "tags": [
+                {
+                    "href": "link=https://join.slack.com/t/aoc-2019/shared_invite/enQtODUzMTE3MDQzMzM0LTUyYmZjOTg1ZTYxMzEwM2JlMmNjNjE4ZDFkOWM0ZDZhMGRhNGYyMzhiMzFjZGMxNjM4YjM2NDZlNTY3NjA1M2Y",
+                    "src": "https://img.shields.io/badge/Slack-Invitation-orange.svg?style=for-the-badge",
+                    "alt": "Slack Invitation"
+                }
+            ],
+            "repoName": "docToolchain/aoc-2019",
+            "repoURL": "https://github.com/docToolchain/aoc-2019",
+            "logo": "advent-of-code.png"
         }
     ]
 }
