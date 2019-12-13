@@ -66,6 +66,14 @@
             "logo": "antdesign.svg"
         },
         {
+            "title": "PDF.js",
+            "description": "PDF.js is a Portable Document Format (PDF) viewer that is built with HTML5.",
+            "language": "JavaScript",
+            "repoName": "mozilla/pdf.js",
+            "repoURL": "https://github.com/mozilla/pdf.js",
+            "logo": "pdf-js.png"
+        },
+        {
             "title": "Algorithm Visualizer",
             "description": "Algorithm Visualizer is an interactive online platform that visualizes algorithms from code.",
             "language": "JavaScript",
@@ -146,14 +154,6 @@
             "logo": "jspdf.svg"
         },
         {
-            "title": "Koel",
-            "description": "A personal music streaming server that works.",
-            "language": "PHP",
-            "repoName": "phanan/koel",
-            "repoURL": "https://github.com/phanan/koel",
-            "logo": "koel.svg"
-        },
-        {
             "title": "Dev.to",
             "description": "A platform where software developers write articles, take part in discussions and build their professional.",
             "language": "Ruby",
@@ -167,6 +167,14 @@
             "repoName": "thepracticaldev/dev.to",
             "repoURL": "https://github.com/thepracticaldev/dev.to",
             "logo": "devto.jpeg"
+        },
+        {
+            "title": "Koel",
+            "description": "A personal music streaming server that works.",
+            "language": "PHP",
+            "repoName": "phanan/koel",
+            "repoURL": "https://github.com/phanan/koel",
+            "logo": "koel.svg"
         },
         {
            "title": "Shields.io",
@@ -213,6 +221,14 @@
             "logo": "a2z.png"
         },
         {
+            "title": "Theia IDE",
+            "description": "Eclipse Theia is an extensible platform to develop multi-language Cloud & Desktop IDEs with state-of-the-art web technologies.",
+            "language": "TypeScript",
+            "repoName": "eclipse-theia/theia",
+            "repoURL": "https://github.com/eclipse-theia/theia",
+            "logo": "theia.svg"
+        },
+        {
             "title": "Dev Hub",
             "description": "DevHub is a mobile and desktop app to help you manage Github Notifications and stay on top of repository activities.",
             "language": "TypeScript",
@@ -239,14 +255,6 @@
             "repoName": "Chocobozzz/PeerTube",
             "repoURL": "https://github.com/Chocobozzz/PeerTube",
             "logo": "peertube.png"
-        },
-        {
-            "title": "Theia IDE",
-            "description": "Eclipse Theia is an extensible platform to develop multi-language Cloud & Desktop IDEs with state-of-the-art web technologies.",
-            "language": "TypeScript",
-            "repoName": "eclipse-theia/theia",
-            "repoURL": "https://github.com/eclipse-theia/theia",
-            "logo": "theia.svg"
         },
         {
             "title": "Nu Shell",
