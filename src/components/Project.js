@@ -26,16 +26,24 @@ const Styled = styled.div`
         margin-bottom: 4rem;
     }
 
+    img {
+        object-fit: contain;
+    }
+
     .img-container {
         flex: .4;
         text-align: center;
 
-        img {
-            object-fit: contain;
+        .img {
             max-width: 100%;
+            height: 7rem;
+            
+            @media(max-width: ${breakpoints.sm}) {
+                max-width: 20rem;
+            }
         }
 
-         @media(max-width: ${breakpoints.md}) {
+        @media(max-width: ${breakpoints.md}) {
             margin-bottom: 2rem;
         }
 
@@ -65,6 +73,7 @@ const Styled = styled.div`
     .tag {
         &__img {
             height: 20px;
+            max-width: 100%;
             margin-right: 5px;
         }
     }
@@ -83,15 +92,12 @@ const Styled = styled.div`
         flex: .8;
     }
 
-    img {
-        height: 6.5rem;
-    }
-
     h3 {
         margin-bottom: 2rem;
-       & img {
-           height: 1.8rem;
-       }
+
+        & img {
+            height: 1.8rem;
+        }
     }
 
     p {
@@ -119,8 +125,15 @@ const Styled = styled.div`
             margin-top: 4rem;
         }
 
-        @media(max-width: ${breakpoints.sm}) {
+        @media(max-width: ${breakpoints.xs}) {
+            flex-direction: column;
             margin-top: 1rem;
+
+            & > * {
+                &:not(:last-child) {
+                    margin-bottom: 3rem;
+                }
+            }
         }
     }
 
@@ -141,6 +154,7 @@ const Styled = styled.div`
         margin: 0;
         text-align: right;
         transition: all .2s;
+
         img {
             display: block;
             height: 32px;
@@ -171,7 +185,7 @@ const Project = (props) => {
         <Styled>
             <div className="img-container">
                 <a href={props.repoURL} target="_blank" rel="noopener" aria-label={`${props.title} repository`}>
-                    { props.logo ? <img src={icons[props.logo]} alt={props.title} /> : null }
+                    { props.logo ? <img src={icons[props.logo]} alt={props.title} className="img" /> : null }
                 </a>
             </div>
             <div className="text">
@@ -205,7 +219,7 @@ const Project = (props) => {
                 </a>
                 <a href={`https://gitpod.io/#${props.repoURL}`} target="_blank" rel="noopener">
                     <button className="open-in-gitpod" aria-label="Open in Gitpod">
-                        <img src={GitpodButton} alt="Open in Gitpod" />
+                        <img src={GitpodButton} alt="Open in Gitpod"/>
                     </button>
                 </a>
             </div>
