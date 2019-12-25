@@ -142,6 +142,16 @@ const Layout = ({ children }) => {
                     border-radius: 3px;
                     transition: all .2s ease-in;
 
+                    @media(max-width: ${breakpoints.sm}) {
+                        padding: 1rem 1.5rem;
+                        font-size: 1.3rem;
+                    }
+
+                    @media(max-width: 280px) {
+                        padding: 1rem 1.2rem;
+                        font-size: 1.2rem;
+                    }
+
                     &:hover,
                     &:focus {
                         transform: translateY(-.3rem);
