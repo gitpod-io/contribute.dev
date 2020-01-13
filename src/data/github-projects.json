@@ -74,6 +74,26 @@
             "logo": "pdf-js.png"
         },
         {
+            "title": "Docusaurus",
+            "description": "Docusaurus is a project for easily building, deploying, and maintaining open source project websites.",
+            "language": "JavaScript",
+            "tags": [
+                {
+                    "href": "https://github.com/facebook/docusaurus/blob/master/CONTRIBUTING.md#pull-requests",
+                    "src": "https://img.shields.io/badge/PRs-welcome-brightgreen.svg",
+                    "alt": "PRs Welcome"
+                },
+                {
+                    "href": "https://discord.gg/docusaurus",
+                    "src": "https://img.shields.io/badge/chat-on%20discord-7289da.svg",
+                    "alt": "Chat"
+                }
+            ],
+            "repoName": "facebook/docusaurus",
+            "repoURL": "https://github.com/facebook/docusaurus",
+            "logo": "docusaurus.svg"
+        },
+        {
             "title": "Algorithm Visualizer",
             "description": "Algorithm Visualizer is an interactive online platform that visualizes algorithms from code.",
             "language": "JavaScript",
