@@ -2,10 +2,12 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { breakpoints } from '../utils/variables'
 import Layout from '../components/Layout'
+import Header from '../components/Header'
 import FindProject from '../components/FindProject'
 import Feedback from '../components/Feedback'
 import FileIssue from '../components/FileIssue'
 import BlogPostPreview from '../resources/teaser-launch-min.jpg'
+import Stream from '../resources/stream1.svg'
 
 const SectionBlogPost = styled.section`
     display: flex;
@@ -42,6 +44,8 @@ const SectionBlogPost = styled.section`
 export default () => {
     return (
         <Layout>
+            <img src={Stream} aria-hidden={true} className="stream-left"/>
+            <Header />
             <FindProject />
             <FileIssue />
             <Feedback />

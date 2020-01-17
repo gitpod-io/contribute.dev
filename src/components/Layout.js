@@ -6,9 +6,7 @@ import { fontSizes, colors, grid, breakpoints } from '../utils/variables'
 import Favicon from '../resources/paper-plane.svg'
 import Favicon196 from '../resources/paper-plane-196x196.png'
 import AppleTouchIcon from '../resources/apple-touch-icon.png'
-import Header from '../components/Header'
 import Footer from '../components/Footer'
-import Stream from '../resources/stream1.svg'
 
 const Layout = ({ children }) => {
     const { title, description } = useSiteMetadata()
@@ -174,8 +172,6 @@ const Layout = ({ children }) => {
                 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css?family=Nunito:400,900&display=swap" rel="stylesheet" />
             </Helmet>
-            <img src={Stream} aria-hidden={true} className="stream-left"/>
-            <Header />
             <main role="main">
                 {children}
             </main>
