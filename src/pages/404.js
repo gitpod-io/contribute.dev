@@ -26,8 +26,8 @@ const StyledNotFoundPage = styled.div`
 
     img {
         position: absolute;
-        height: 100rem;
-        bottom: -18rem;
+        height: 105rem;
+        bottom: -18.5rem;
         left: -24rem;
 
         @media(max-width: 1080px) {
@@ -51,7 +51,7 @@ const NotFoundPage = () => (
                     <img src={Error404} aria-hidden="true"/>
                     <h1>Oops</h1>
                     <p>Error 404: We can't find the page you're looking for.</p>
-                    <Link to="/">Go Back &nbsp;&rarr;</Link>
+                    <Link to="/" className="btn">Back to Home &nbsp;&rarr;</Link>
                 </div>
             </div>
         </StyledNotFoundPage>
