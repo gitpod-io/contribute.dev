@@ -14,7 +14,7 @@ const SectionBlogPost = styled.section`
     margin: 5rem 0;
 
     @media(max-width: ${breakpoints.sm}) {
-            flex-direction: column;
+        flex-direction: column;
     }
 
     & > div {
@@ -43,7 +43,7 @@ const SectionBlogPost = styled.section`
 
 export default () => {
     return (
-        <Layout>
+        <Layout canonical='/'>
             <img src={Stream} aria-hidden={true} className="stream-left"/>
             <Header />
             <FindProject />
