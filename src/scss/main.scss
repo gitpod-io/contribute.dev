@@ -9,3 +9,33 @@
     padding: 0;
     box-sizing: inherit;
 }
+
+:root {
+    --default-font-size: 1.8rem;
+    --dark-background-1: #151515;
+    --light-background-1: #202022;
+    --white-text-1: #fff;
+    --grey-text: #68897f;
+}
+
+html {
+    font-size: 62.5%; // 16/10*100 = 62.5%
+}
+
+body {
+    font-size: var(--default-font-size);
+    font-family: 'Roboto', sans-serif;
+    color: var(--grey-text);
+    background: var(--dark-background-1);
+    line-height: 1.7;
+}
+
+h1,
+h2,
+h2 {
+    color: var(--white-text-1);
+    font-family: 'Anonymous Pro',
+        sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
