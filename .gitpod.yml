@@ -1,9 +1,0 @@
-ports:
-  - port: 8000
-tasks:
-  - init: npm install && npm run build
-    command: npm run start --host 0.0.0.0
-vscode:
-  extensions:
-    - jpoissonnier.vscode-styled-components@0.0.28:Qde/ISuGvFTPjoaMf1FmnQ==
-    - paulmolluzzo.convert-css-in-js@1.1.3:YnjK47pXScU3DMFfQzkkOw==
