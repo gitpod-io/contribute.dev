@@ -1,0 +1,19 @@
+{
+  "name": "contribute.dev",
+  "version": "2.0.0",
+  "description": "Frictionless OSS Contributions",
+  "main": "index.js",
+  "repository": "https://github.com/gitpod-io/contribute.dev",
+  "author": "nisarhassan12 <syednisarhassan12@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "dependencies": {
+    "parcel": "^1.12.4"
+  },
+  "devDependencies": {
+    "sass": "^1.25.0"
+  }
+}
