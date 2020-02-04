@@ -3,25 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono:500,700&display=swap"
-      rel="stylesheet"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css?family=Anonymous+Pro:700&display=swap"
-      rel="stylesheet"
-    />
-
     <title>Contribute.dev</title>
-    <script src="./js/index.js"></script>
+    <script src="./js/index.js" defer></script>
   </head>
   <body>
-    <h1>Frictionless Open-Source Contributions</h1>
-    <p>
-      Setting up a local dev environment can be daunting. - All the projects
-      below have automated their dev setup with Gitpod.io, a free online IDE for
-      GitHub. Now your first Open-Source contribution is just one click away.
-    </p>
+    <section class="projects">
+      <div class="filter">
+        <label for="search">Seacrh</label>
+        <input
+          type="text"
+          placeholder="Search..."
+          id="search"
+          class="filter__search"
+        />
+      </div>
+
+      <div class="project__list"></div>
+    </section>
   </body>
 </html>
