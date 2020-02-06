@@ -55,6 +55,10 @@ img {
     padding: 0 3rem;
 }
 
+section {
+    transform: translateY(-15rem);
+}
+
 /* ------------------------------------------------ */
 /* ----- Utils ----- */
 /* ------------------------------------------------ */
@@ -163,9 +167,6 @@ a {
 /* ----- Projects ----- */
 /* ------------------------------------------------ */
 
-.projects {
-    transform: translateY(-15rem);
-}
 
 .filters {
     margin-bottom: 3rem;
@@ -300,11 +301,24 @@ a {
 
 .add-project {
     padding: 10rem 0;
-    transform: translateY(-15rem);
 
     &__text {
         max-width: 70ch;
         margin-bottom: 2rem;
     }
 
+}
+
+/* ------------------------------------------------ */
+/* ----- Community Feedback ----- */
+/* ------------------------------------------------ */
+
+
+.feedback {
+    &__tweets {
+        margin-top: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }
