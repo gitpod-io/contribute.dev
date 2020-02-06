@@ -7,18 +7,43 @@
     <script src="./js/index.js" defer></script>
   </head>
   <body>
-    <section class="projects">
-      <div class="filter">
-        <label for="search">Seacrh</label>
-        <input
-          type="text"
-          placeholder="Search..."
-          id="search"
-          class="filter__search"
-        />
-      </div>
+    <!-- ***** Header ***** -->
 
-      <div class="project__list"></div>
-    </section>
+    <header class="header" role="banner">
+      <div class="row">
+        <h1>Frictionless Open-Source Contributions</h1>
+        <p>
+          Setting up a local dev environment can be daunting. - All the projects
+          below have automated their dev setup with
+          <a href="https://www.gitpod.io" rel="noopener" target="_blank">
+            Gitpod.io
+          </a>
+          , a free online IDE for GitHub.
+          <strong
+            >Now your first Open-Source contribution is just one click away.
+          </strong>
+        </p>
+      </div>
+    </header>
+
+    <!-- ***** Main ***** -->
+
+    <main role="main">
+      <!-- ***** Projects ***** -->
+
+      <section class="projects row">
+        <div class="filters">
+          <label for="search">Seacrh</label>
+          <input
+            type="text"
+            placeholder="Search..."
+            id="search"
+            class="filters__search"
+          />
+        </div>
+
+        <div class="project__list"></div>
+      </section>
+    </main>
   </body>
 </html>
