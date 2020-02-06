@@ -18,6 +18,7 @@
     --sliver-text: #c6d8d7;
     --off-white: #e8e5de;
     --white-text: #ffffff;
+    --blue: rgb(0, 132, 255);
     --blue-primary: #6772e5;
 
     --grid-max-width: 114rem;
@@ -33,6 +34,7 @@ body {
     line-height: 1.6;
     color: var(--dark-grey-background);
     background: var(--off-white);
+    font-weight: 400;
 
     @media(min-width: 980px) {
         font-size: var(--default-font-size-desktop);
@@ -60,18 +62,14 @@ section {
 }
 
 /* ------------------------------------------------ */
-/* ----- Utils ----- */
-/* ------------------------------------------------ */
-
-/* ------------------------------------------------ */
 /* ----- Headlines & Paragraphs ----- */
 /* ------------------------------------------------ */
 
 h1,
 h2,
 h2 {
-    font-weight: 700;
     line-height: 1.2;
+    font-weight: 600;
 }
 
 h1,
@@ -81,7 +79,6 @@ h2 {
 
 h1 {
     font-size: 3rem;
-    font-weight: 100;
 
     @media(min-width: 980px) {
         font-size: 4.5rem;
@@ -111,7 +108,7 @@ h3 {
 /* ------------------------------------------------ */
 
 a {
-    color: rgb(0, 132, 255);
+    color: var(--blue);
 }
 
 .btn {
@@ -119,12 +116,12 @@ a {
     display: inline-block;
     padding: 1rem 3rem;
     text-decoration: none;
+    font-weight: 600;
     border: 1px solid;
     border-radius: 10rem;
     color: var(--white-text);
     border: 1px solid var(--blue-primary);
     background: var(--blue-primary);
-    font-weight: bold;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
 
     &--gitpod {
@@ -269,7 +266,7 @@ a {
         padding: 3px 1rem;
         margin-bottom: 1.5rem;
         font-size: 80%;
-        font-weight: bold;
+        font-weight: 600;
         border-radius: 4px;
         transform: translateY(-4px);
     }
@@ -292,6 +289,34 @@ a {
             justify-content: space-between;
             border-left: 1px solid #dfdfdf;
         }
+    }
+}
+
+/* ------------------------------------------------- */
+/* ----- Not Found ----- */
+/* ------------------------------------------------- */
+
+.not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 40vh;
+    padding: 10rem 0;
+    background: var(--white-text);
+    text-align: center;
+
+    &__button {
+        border: none;
+        background: none;
+        font: inherit;
+        text-decoration: underline;
+        color: var(--blue);
+        cursor: pointer;
+    }
+
+    &__img {
+        display: block;
+        margin-bottom: 3rem;
     }
 }
 
@@ -350,8 +375,6 @@ a {
         }
     }
 
-
-
     &__text-box {
         margin-top: 2rem;
 
@@ -360,4 +383,13 @@ a {
         }
     }
 
+}
+
+/* ------------------------------------------------ */
+/* ----- Footer ----- */
+/* ------------------------------------------------ */
+
+.footer {
+    transform: translateY(-5rem);
+    text-align: center;
 }
