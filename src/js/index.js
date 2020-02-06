@@ -4,37 +4,23 @@
 
 import '../scss/main.scss'
 import projects from './data'
-import { renderProjectsList } from './utils'
+import { renderProjectsList, renderNotFoundState, filterProjects } from './utils'
 
 /* ------------------------------------------------- */
 /* ----- Selectors ----- */
 /* ------------------------------------------------- */
 
 const projectList = document.querySelector(".project__list");
-const searchInput = document.querySelector('.filters__search');
+let searchInput = document.querySelector('.filters__search');
 
 let filteredProjects = []
 
 searchInput.addEventListener('input', e => {
-    const searchTerm = e.target.value.toLowerCase()
-
-    filteredProjects = projects.filter(project => {
-        const isSearchTextAMatch = Object.values(project).some((value) => {
-            if (Array.isArray(value)) {
-                return value.some(val => {
-                    return val["alt"].toLowerCase().includes(searchTerm)
-                })
-            } else {
-                return value.toLowerCase().includes(searchTerm)
-            }
-        })
-
-        return isSearchTextAMatch
-    })
-
+    const searchTerm = e.target.value
+    filteredProjects = filterProjects(projects, searchTerm)
     projectList.innerHTML = ''
 
-    renderProjectsList(filteredProjects, projectList)
+    filteredProjects.length ? renderProjectsList(filteredProjects, projectList) : renderNotFoundState(projectList, searchInput, projects)
 })
 
 renderProjectsList(projects, projectList)
