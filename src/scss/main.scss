@@ -70,18 +70,36 @@ h2 {
     line-height: 1.2;
 }
 
+h1,
+h2 {
+    margin-bottom: 2rem;
+}
+
 h1 {
     font-size: 3rem;
-    margin-bottom: 2rem;
+    font-weight: 100;
 
     @media(min-width: 960px) {
         font-size: 4.5rem;
     }
 }
 
+
+h2 {
+    font-size: 2.8rem;
+
+    @media(min-width: 960px) {
+        font-size: 4rem;
+    }
+}
+
 h3 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin-bottom: 1rem;
+
+    @media(min-width: 960px) {
+        font-size: 2.4rem;
+    }
 }
 
 /* ------------------------------------------------ */
@@ -95,18 +113,20 @@ a {
 .btn {
     position: relative;
     display: inline-block;
+    padding: 1rem 3rem;
     text-decoration: none;
     border: 1px solid;
-    padding: .8rem 2.2rem .8rem 4.5rem;
     border-radius: 10rem;
     color: var(--white-text);
     border: 1px solid var(--blue-primary);
     background: var(--blue-primary);
-    font-size: 85%;
     font-weight: bold;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
 
     &--gitpod {
+        font-size: 85%;
+        padding: .8rem 2.2rem .8rem 4.5rem;
+
         &::before {
             content: url('../resources/logo.svg');
             position: absolute;
@@ -121,7 +141,10 @@ a {
 
 .header {
     padding: 5rem 0 20rem;
-    background: var(--white-text);
+    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('../resources/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    color: var(--white-text);
 
     @media(min-width: 960px) {
         padding-top: 15rem;
@@ -129,6 +152,10 @@ a {
 
     p {
         max-width: 75ch;
+    }
+
+    .row {
+        opacity: .9;
     }
 }
 
@@ -154,8 +181,14 @@ a {
 
     &__search {
         font-family: inherit;
-        border: 2px solid #bbb;
+        border: 1px solid var(--white-text);
+        background: transparent;
         padding: .5rem;
+        color: var(--off-white);
+
+        &::placeholder {
+            color: var(--white-text);
+        }
     }
 }
 
@@ -164,7 +197,7 @@ a {
     flex-direction: column;
     padding: 3rem;
     background: var(--white-text);
-    border: 1px solid #ddd;
+    border: 1px solid #eee;
 
     @media(min-width: 960px) {
         flex-direction: row;
@@ -259,4 +292,19 @@ a {
             border-left: 1px solid #dfdfdf;
         }
     }
+}
+
+/* ------------------------------------------------ */
+/* ----- Adding Your Project ----- */
+/* ------------------------------------------------ */
+
+.add-project {
+    padding: 10rem 0;
+    transform: translateY(-15rem);
+
+    &__text {
+        max-width: 70ch;
+        margin-bottom: 2rem;
+    }
+
 }
