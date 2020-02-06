@@ -11,7 +11,7 @@ import { renderProjectsList } from './utils'
 /* ------------------------------------------------- */
 
 const projectList = document.querySelector(".project__list");
-const searchInput = document.querySelector('.filter__search');
+const searchInput = document.querySelector('.filters__search');
 
 let filteredProjects = []
 

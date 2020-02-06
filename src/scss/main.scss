@@ -11,7 +11,16 @@
 }
 
 :root {
-    --default-font-size: 1.8rem;
+    --default-font-size: 1.6rem;
+    --default-font-size-desktop: 1.8rem;
+
+    --dark-grey-background: #345;
+    --sliver-text: #c6d8d7;
+    --off-white: #e8e5de;
+    --white-text: #ffffff;
+    --blue-primary: #6772e5;
+
+    --grid-max-width: 114rem;
 }
 
 html {
@@ -20,13 +29,234 @@ html {
 
 body {
     font-size: var(--default-font-size);
-    font-family: 'Cera Pro', sans-serif;
-    line-height: 1.7;
+    font-family: 'HK Grotesk', sans-serif;
+    line-height: 1.6;
+    color: var(--dark-grey-background);
+    background: var(--off-white);
+
+    @media(min-width: 960px) {
+        font-size: var(--default-font-size-desktop);
+    }
+
 }
+
+img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* ------------------------------------------------ */
+/* ----- Reusable Components ----- */
+/* ------------------------------------------------ */
+
+.row {
+    max-width: var(--grid-max-width);
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+/* ------------------------------------------------ */
+/* ----- Utils ----- */
+/* ------------------------------------------------ */
+
+/* ------------------------------------------------ */
+/* ----- Headlines & Paragraphs ----- */
+/* ------------------------------------------------ */
 
 h1,
 h2,
 h2 {
     font-weight: 700;
     line-height: 1.2;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+
+    @media(min-width: 960px) {
+        font-size: 4.5rem;
+    }
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* ------------------------------------------------ */
+/* ----- Links & Buttons ----- */
+/* ------------------------------------------------ */
+
+a {
+    color: rgb(0, 132, 255);
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid;
+    padding: .8rem 2.2rem .8rem 4.5rem;
+    border-radius: 10rem;
+    color: var(--white-text);
+    border: 1px solid var(--blue-primary);
+    background: var(--blue-primary);
+    font-size: 85%;
+    font-weight: bold;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+
+    &--gitpod {
+        &::before {
+            content: url('../resources/logo.svg');
+            position: absolute;
+            left: 1.5rem;
+        }
+    }
+}
+
+/* ------------------------------------------------ */
+/* ----- Header ----- */
+/* ------------------------------------------------ */
+
+.header {
+    padding: 5rem 0 20rem;
+    background: var(--white-text);
+
+    @media(min-width: 960px) {
+        padding-top: 15rem;
+    }
+
+    p {
+        max-width: 75ch;
+    }
+}
+
+/* ------------------------------------------------ */
+/* ----- Projects ----- */
+/* ------------------------------------------------ */
+
+.projects {
+    transform: translateY(-15rem);
+}
+
+.filters {
+    margin-bottom: 3rem;
+
+    label {
+        position: absolute;
+        left: -100000rem;
+        top: auto;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    }
+
+    &__search {
+        font-family: inherit;
+        border: 2px solid #bbb;
+        padding: .5rem;
+    }
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    background: var(--white-text);
+    border: 1px solid #ddd;
+
+    @media(min-width: 960px) {
+        flex-direction: row;
+        padding: 5rem 3rem;
+    }
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+
+    &>* {
+        @media(max-width: 960px) {
+            margin-bottom: 2rem;
+        }
+
+        @media(min-width: 960px) {
+            flex: 1;
+        }
+    }
+
+    &__img {
+        max-width: 100%;
+        width: 10rem;
+
+        &-container {
+            width: 100%;
+            text-align: left;
+
+            @media(min-width: 960px) {
+                display: flex;
+                flex: 0 0 12%;
+
+                a {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+    }
+
+    &__text {
+        @media(min-width: 960px) {
+            flex: 0 0 45%;
+
+            p {
+                max-width: 40ch;
+            }
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+    }
+
+    &__tags {
+        a {
+            display: inline-block;
+        }
+
+        @media(min-width: 960px) {
+            flex: 0 0 20%;
+        }
+    }
+
+    &__tag {
+        display: inline-block;
+        padding: 3px 1rem;
+        margin-bottom: 1.5rem;
+        font-size: 80%;
+        font-weight: bold;
+        border-radius: 4px;
+        transform: translateY(-4px);
+    }
+
+    &__cta {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        @media(max-width: 960px) {
+            .btn {
+                margin-top: 2rem;
+            }
+        }
+
+        @media(min-width: 960px) {
+            flex: 0 0 22%;
+            margin-left: auto;
+            align-items: flex-end;
+            justify-content: space-between;
+            border-left: 1px solid #dfdfdf;
+        }
+    }
 }
