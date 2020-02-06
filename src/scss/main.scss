@@ -34,7 +34,7 @@ body {
     color: var(--dark-grey-background);
     background: var(--off-white);
 
-    @media(min-width: 960px) {
+    @media(min-width: 980px) {
         font-size: var(--default-font-size-desktop);
     }
 
@@ -83,7 +83,7 @@ h1 {
     font-size: 3rem;
     font-weight: 100;
 
-    @media(min-width: 960px) {
+    @media(min-width: 980px) {
         font-size: 4.5rem;
     }
 }
@@ -92,7 +92,7 @@ h1 {
 h2 {
     font-size: 2.8rem;
 
-    @media(min-width: 960px) {
+    @media(min-width: 980px) {
         font-size: 4rem;
     }
 }
@@ -101,7 +101,7 @@ h3 {
     font-size: 2.2rem;
     margin-bottom: 1rem;
 
-    @media(min-width: 960px) {
+    @media(min-width: 980px) {
         font-size: 2.4rem;
     }
 }
@@ -150,7 +150,7 @@ a {
     background-position: bottom;
     color: var(--white-text);
 
-    @media(min-width: 960px) {
+    @media(min-width: 980px) {
         padding-top: 15rem;
     }
 
@@ -200,7 +200,7 @@ a {
     background: var(--white-text);
     border: 1px solid #eee;
 
-    @media(min-width: 960px) {
+    @media(min-width: 980px) {
         flex-direction: row;
         padding: 5rem 3rem;
     }
@@ -210,11 +210,11 @@ a {
     }
 
     &>* {
-        @media(max-width: 960px) {
+        @media(max-width: 980px) {
             margin-bottom: 2rem;
         }
 
-        @media(min-width: 960px) {
+        @media(min-width: 980px) {
             flex: 1;
         }
     }
@@ -227,7 +227,7 @@ a {
             width: 100%;
             text-align: left;
 
-            @media(min-width: 960px) {
+            @media(min-width: 980px) {
                 display: flex;
                 flex: 0 0 12%;
 
@@ -240,7 +240,7 @@ a {
     }
 
     &__text {
-        @media(min-width: 960px) {
+        @media(min-width: 980px) {
             flex: 0 0 45%;
 
             p {
@@ -259,7 +259,7 @@ a {
             display: inline-block;
         }
 
-        @media(min-width: 960px) {
+        @media(min-width: 980px) {
             flex: 0 0 20%;
         }
     }
@@ -279,13 +279,13 @@ a {
         flex-direction: column;
         align-items: flex-start;
 
-        @media(max-width: 960px) {
+        @media(max-width: 980px) {
             .btn {
                 margin-top: 2rem;
             }
         }
 
-        @media(min-width: 960px) {
+        @media(min-width: 980px) {
             flex: 0 0 22%;
             margin-left: auto;
             align-items: flex-end;
@@ -321,4 +321,43 @@ a {
         flex-wrap: wrap;
         justify-content: space-between;
     }
+}
+
+/* ------------------------------------------------ */
+/* ----- Frictionless Coding on Github ----- */
+/* ------------------------------------------------ */
+
+.frictionless {
+    padding: 10rem 0;
+    display: flex;
+    flex-direction: column;
+
+    @media(max-width: 980px) {
+        max-width: 60ch;
+    }
+
+    @media(min-width: 980px) {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        &__img {
+            flex: 0 0 50%;
+        }
+
+        &__text-box {
+            flex: 0 0 45%;
+        }
+    }
+
+
+
+    &__text-box {
+        margin-top: 2rem;
+
+        .btn {
+            margin-top: 2rem;
+        }
+    }
+
 }
