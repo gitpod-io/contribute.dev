@@ -1,110 +1,381 @@
 export default [
-    {
-        title: "freeCodeCamp",
-        description:
-            "Open source codebase and curriculum. Learn to code for free together with millions of people.",
-        language: "JavaScript",
-        tags: [
-            {
-                src:
-                    "https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat",
-                href: "http://makeapullrequest.com",
-                alt: "PRs Welcome"
-            },
-            {
-                src:
-                    "https://img.shields.io/badge/first--timers--only-friendly-blue.svg",
-                href: "http://www.firsttimersonly.com/",
-                alt: "First timers only friendly"
-            },
-            {
-                src:
-                    "https://www.codetriage.com/freecodecamp/freecodecamp/badges/users.svg",
-                href: "https://www.codetriage.com/freecodecamp/freecodecamp",
-                alt: "Code helpers 784"
-            }
-        ],
-        repoName: "freeCodeCamp/freeCodeCamp",
-        repoURL: "https://github.com/freeCodeCamp/freeCodeCamp",
-        logo: "freecodecamp.jpg"
-    },
-    {
-        title: "The Algorithms - Python",
-        description:
-            "Algorithms implemented in Python for learning purposes.",
-        language: "Python",
-        tags: [
-            {
-                src:
-                    "https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square",
-                href:
-                    "https://github.com/TheAlgorithms/Python/blob/master/CONTRIBUTING.md",
-                alt: "contributions welcome"
-            },
-            {
-                src:
-                    "https://img.shields.io/badge/Chat-Gitter-ff69b4.svg?label=Chat&logo=gitter&style=flat-square",
-                href: "https://gitter.im/TheAlgorithms",
-                alt: "Gitter chat"
-            }
-        ],
-        repoName: "TheAlgorithms/Python",
-        repoURL: "https://github.com/TheAlgorithms/Python",
-        logo: "algorithms.png"
-    },
-    {
-        title: "Ant Design",
-        description:
-            "An enterprise-class UI design language and React implementation.",
-        language: "TypeScript",
-        tags: [
-            {
-                href:
-                    "https://github.com/ant-design/ant-design/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22",
-                src:
-                    "https://flat.badgen.net/github/label-issues/ant-design/ant-design/help%20wanted/open",
-                alt: "Help wanted 40"
-            },
-            {
-                href: "https://twitter.com/AntDesignUI",
-                src:
-                    "https://img.shields.io/twitter/follow/AntDesignUI.svg?label=Ant%20Design&style=social",
-                alt: "Ant Design 1.5k"
-            }
-        ],
-        repoName: "ant-design/ant-design",
-        repoURL: "https://github.com/ant-design/ant-design/",
-        logo: "antdesign.svg"
-    },
-    {
-        title: "PDF.js",
-        description:
-            "PDF.js is a Portable Document Format (PDF) viewer that is built with HTML5.",
-        language: "JavaScript",
-        repoName: "mozilla/pdf.js",
-        repoURL: "https://github.com/mozilla/pdf.js",
-        logo: "pdf-js.png"
-    },
-    {
-        title: "Docusaurus",
-        description:
-            "Docusaurus is a project for easily building, deploying, and maintaining open source project websites.",
-        language: "JavaScript",
-        tags: [
-            {
-                href:
-                    "https://github.com/facebook/docusaurus/blob/master/CONTRIBUTING.md#pull-requests",
-                src: "https://img.shields.io/badge/PRs-welcome-brightgreen.svg",
-                alt: "PRs Welcome"
-            },
-            {
-                href: "https://discord.gg/docusaurus",
-                src: "https://img.shields.io/badge/chat-on%20discord-7289da.svg",
-                alt: "Chat"
-            }
-        ],
-        repoName: "facebook/docusaurus",
-        repoURL: "https://github.com/facebook/docusaurus",
-        logo: "docusaurus.svg"
-    },
-];
+        {
+            "title": "freeCodeCamp",
+            "description": "Open source codebase and curriculum. Learn to code for free together with millions of people.",
+            "language": "JavaScript",
+            "tags": [
+                {
+                    "src": "https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat",
+                    "href": "http://makeapullrequest.com",
+                    "alt": "PRs Welcome"
+                },
+                {
+                    "src": "https://img.shields.io/badge/first--timers--only-friendly-blue.svg",
+                    "href": "http://www.firsttimersonly.com/",
+                    "alt": "First timers only friendly"
+                },
+                {
+                    "src": "https://www.codetriage.com/freecodecamp/freecodecamp/badges/users.svg",
+                    "href": "https://www.codetriage.com/freecodecamp/freecodecamp",
+                    "alt": "Code helpers 784"
+                }
+            ],
+            "repoName": "freeCodeCamp/freeCodeCamp",
+            "repoURL": "https://github.com/freeCodeCamp/freeCodeCamp",
+            "logo": "freecodecamp.jpg"
+        },
+        {
+            "title": "The Algorithms - Python",
+            "description": "Algorithms implemented in Python for learning purposes.",
+            "language": "Python",
+            "tags": [
+                {
+                    "src": "https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square",
+                    "href": "https://github.com/TheAlgorithms/Python/blob/master/CONTRIBUTING.md",
+                    "alt": "contributions welcome"
+                },
+                {
+                    "src": "https://img.shields.io/badge/Chat-Gitter-ff69b4.svg?label=Chat&logo=gitter&style=flat-square",
+                    "href": "https://gitter.im/TheAlgorithms",
+                    "alt": "Gitter chat"
+                }
+            ],
+            "repoName": "TheAlgorithms/Python",
+            "repoURL": "https://github.com/TheAlgorithms/Python",
+            "logo": "algorithms.png"
+        },
+        {
+            "title": "Ant Design",
+            "description": "An enterprise-class UI design language and React implementation.",
+            "language": "TypeScript",
+            "tags": [
+                {
+                    "href": "https://github.com/ant-design/ant-design/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22",
+                    "src": "https://flat.badgen.net/github/label-issues/ant-design/ant-design/help%20wanted/open",
+                    "alt": "Help wanted 40"
+                },
+                {
+                    "href": "https://twitter.com/AntDesignUI",
+                    "src": "https://img.shields.io/twitter/follow/AntDesignUI.svg?label=Ant%20Design&style=social",
+                    "alt": "Ant Design 1.5k"
+                }
+            ],
+            "repoName": "ant-design/ant-design",
+            "repoURL": "https://github.com/ant-design/ant-design/",
+            "logo": "antdesign.svg"
+        },
+        {
+            "title": "PDF.js",
+            "description": "PDF.js is a Portable Document Format (PDF) viewer that is built with HTML5.",
+            "language": "JavaScript",
+            "repoName": "mozilla/pdf.js",
+            "repoURL": "https://github.com/mozilla/pdf.js",
+            "logo": "pdf-js.png"
+        },
+        {
+            "title": "Docusaurus",
+            "description": "Docusaurus is a project for easily building, deploying, and maintaining open source project websites.",
+            "language": "JavaScript",
+            "tags": [
+                {
+                    "href": "https://github.com/facebook/docusaurus/blob/master/CONTRIBUTING.md#pull-requests",
+                    "src": "https://img.shields.io/badge/PRs-welcome-brightgreen.svg",
+                    "alt": "PRs Welcome"
+                },
+                {
+                    "href": "https://discord.gg/docusaurus",
+                    "src": "https://img.shields.io/badge/chat-on%20discord-7289da.svg",
+                    "alt": "Chat"
+                }
+            ],
+            "repoName": "facebook/docusaurus",
+            "repoURL": "https://github.com/facebook/docusaurus",
+            "logo": "docusaurus.svg"
+        },
+        {
+            "title": "Algorithm Visualizer",
+            "description": "Algorithm Visualizer is an interactive online platform that visualizes algorithms from code.",
+            "language": "JavaScript",
+            "tags": [
+                {
+                    "href": "https://github.com/algorithm-visualizer/algorithm-visualizer/graphs/contributors",
+                    "src": "https://img.shields.io/github/contributors/algorithm-visualizer/algorithm-visualizer.svg?style=flat-square",
+                    "alt": "GitHub contributors"
+                },
+                {
+                    "href": "https://github.com/algorithm-visualizer/algorithm-visualizer/blob/master/LICENSE",
+                    "src": "https://img.shields.io/github/license/algorithm-visualizer/algorithm-visualizer.svg?style=flat-square",
+                    "alt": "GitHub license"
+                }
+            ],
+            "repoName": "algorithm-visualizer/algorithm-visualizer",
+            "repoURL": "https://github.com/algorithm-visualizer/algorithm-visualizer",
+            "logo": "visualizer.png"
+        },
+        {
+            "title": "Carbon",
+            "description": "Create and share beautiful images of your source code",
+            "language": "JavaScript",
+            "tags": [
+                {
+                    "href": "https://github.com/carbon-app/carbon/blob/master/README.md#contributors",
+                    "src": "https://img.shields.io/badge/all_contributors-53-orange.svg?style=flat-square",
+                    "alt": "Contributors"
+                },
+                {
+                    "href": "https://spectrum.chat/carbon-now",
+                    "src": "https://withspectrum.github.io/badge/badge.svg",
+                    "alt": "Join the community on Spectrum"
+                }
+            ],
+            "repoName": "carbon-app/carbon",
+            "repoURL": "https://github.com/carbon-app/carbon",
+            "logo": "carbon.svg"
+        },
+        {
+            "title": "Tesseract",
+            "description": "Tesseract.js is a javascript library that gets words in almost any language out of images.",
+            "language": "JavaScript",
+            "tags": [
+                {
+                    "href": "https://github.com/naptha/tesseract.js/graphs/commit-activity",
+                    "src": "https://img.shields.io/badge/Maintained%3F-yes-green.svg",
+                    "alt": "Maintenance"
+                },
+                {
+                    "href": "https://github.com/airbnb/javascript",
+                    "src": "https://badgen.net/badge/code%20style/airbnb/ff5a5f?icon=airbnb",
+                    "alt": "Code Style"
+                }
+            ],
+            "repoName": "naptha/tesseract.js",
+            "repoURL": "https://github.com/naptha/tesseract.js",
+            "logo": "tesseract.png"
+        },
+        {
+            "title": "jsPDF",
+            "description": "A library to generate PDFs in Javascript.",
+            "language": "Javascript",
+            "tags": [
+                {
+                    "href": "https://greenkeeper.io/",
+                    "src": "https://badges.greenkeeper.io/MrRio/jsPDF.svg",
+                    "alt": "Greenkeeper enabled"
+                },
+                {
+                    "href": "https://lgtm.com/projects/g/MrRio/jsPDF/context:javascript",
+                    "src": "https://img.shields.io/lgtm/grade/javascript/g/MrRio/jsPDF.svg?logo=lgtm&logoWidth=18",
+                    "alt": "code quality: js/ts A"
+                }
+            ],
+            "repoName": "MrRio/jsPDF",
+            "repoURL": "https://github.com/MrRio/jsPDF",
+            "logo": "jspdf.svg"
+        },
+        {
+            "title": "Dev.to",
+            "description": "A platform where software developers write articles, take part in discussions and build their professional.",
+            "language": "Ruby",
+            "tags": [
+                {
+                    "href": "https://www.codetriage.com/thepracticaldev/dev.to",
+                    "src": "https://www.codetriage.com/thepracticaldev/dev.to/badges/users.svg",
+                    "alt": "Code helpers 31"
+                }
+            ],
+            "repoName": "thepracticaldev/dev.to",
+            "repoURL": "https://github.com/thepracticaldev/dev.to",
+            "logo": "devto.jpeg"
+        },
+        {
+            "title": "Koel",
+            "description": "A personal music streaming server that works.",
+            "language": "PHP",
+            "repoName": "phanan/koel",
+            "repoURL": "https://github.com/phanan/koel",
+            "logo": "koel.svg"
+        },
+        {
+           "title": "Shields.io",
+            "description": "Concise, consistent, and legible badges in SVG and raster format",
+            "language": "JavaScript",
+            "tags": [
+                {
+                    "href": "https://github.com/badges/shields/graphs/contributors",
+                    "src": "https://img.shields.io/github/contributors/badges/shields",
+                    "alt": "Contributors"
+                },
+                {
+                    "href": "https://discord.gg/HjJCwm5",
+                    "src": "https://img.shields.io/discord/308323056592486420?logo=discord",
+                    "alt": "chat on Discord"
+                },
+                {
+                    "href": "https://twitter.com/intent/follow?screen_name=shields_io",
+                    "src": "https://img.shields.io/twitter/follow/shields_io?style=social&logo=twitter",
+                    "alt": "follow on Twitter"
+                }
+            ],
+            "repoName": "badges/shields",
+            "repoURL": "https://github.com/badges/shields",
+            "logo": "sheilds-io.svg"
+        },
+        {
+            "title": "A-to-Z-Resources-for-Students",
+            "description": "Curated list of resources for college students.",
+            "language": "Markdown",
+            "tags": [
+                {
+                    "href": "https://twitter.com/diipakkr",
+                    "src": "https://img.shields.io/twitter/follow/diipakkr.svg?style=social",
+                    "alt": "Twitter Follow"
+                },
+                {
+                    "src": "https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg",
+                    "alt": "Awesome"
+                }
+            ],
+            "repoName": "dipakkr/A-to-Z-Resources-for-Students",
+            "repoURL": "https://github.com/dipakkr/A-to-Z-Resources-for-Students",
+            "logo": "a2z.png"
+        },
+        {
+            "title": "Theia IDE",
+            "description": "Eclipse Theia is an extensible platform to develop multi-language Cloud & Desktop IDEs with state-of-the-art web technologies.",
+            "language": "TypeScript",
+            "repoName": "eclipse-theia/theia",
+            "repoURL": "https://github.com/eclipse-theia/theia",
+            "logo": "theia.svg"
+        },
+        {
+            "title": "Dev Hub",
+            "description": "DevHub is a mobile and desktop app to help you manage Github Notifications and stay on top of repository activities.",
+            "language": "TypeScript",
+            "repoName": "devhubapp/devhub",
+            "repoURL": "https://github.com/devhubapp/devhub",
+            "logo": "devhub.png"
+        },
+        {
+            "title": "Peertube",
+            "description": "Be part of a network of multiple small federated, interoperable video hosting providers.",
+            "language": "TypeScript",
+            "tags": [
+                {
+                    "href": "https://david-dm.org/Chocobozzz/PeerTube?type=dev",
+                    "src": "https://david-dm.org/Chocobozzz/PeerTube/dev-status.svg",
+                    "alt": "dev dependencies up to date"
+                },
+                {
+                    "href": "http://standardjs.com/",
+                    "src": "https://img.shields.io/badge/code%20style-standard-brightgreen.svg",
+                    "alt": "code style standard"
+                }
+            ],
+            "repoName": "Chocobozzz/PeerTube",
+            "repoURL": "https://github.com/Chocobozzz/PeerTube",
+            "logo": "peertube.png"
+        },
+        {
+            "title": "Nu Shell",
+            "description": "A modern shell for the GitHub era, written in Rust.",
+            "language": "Rust",
+            "tags": [
+                {
+                    "href": "https://discord.gg/NtAbbGn",
+                    "src": "https://img.shields.io/discord/601130461678272522.svg?logo=discord",
+                    "alt": "Discord"
+                },
+                {
+                    "href": "https://changelog.com/podcast/363",
+                    "src": "https://img.shields.io/badge/The%20Changelog-%23363-61c192.svg",
+                    "alt": "The Changelog #363"
+                }
+            ],
+            "repoName": "nushell/nushell",
+            "repoURL": "https://github.com/nushell/nushell",
+            "logo": "nushell.png"
+        },
+        {
+            "title": "inlets",
+            "description": "Expose your local endpoints to the Internet",
+            "language": "Go",
+            "tags": [
+                {
+                    "href": "https://travis-ci.org/inlets/inlets",
+                    "src": "https://travis-ci.org/inlets/inlets.svg?branch=master",
+                    "alt": "Build Status"
+                },
+                {
+                    "href": "https://opensource.org/licenses/MIT",
+                    "src": "https://img.shields.io/badge/License-MIT-yellow.svg",
+                    "alt": "License: MIT"
+                },
+                {
+                    "href": "http://godoc.org/github.com/inlets/inlets",
+                    "src": "https://godoc.org/github.com/inlets/inlets?status.svg",
+                    "alt": "Documentation"
+                }
+            ],
+            "repoName": "inlets/inlets",
+            "repoURL": "https://github.com/inlets/inlets",
+            "logo": "inlets.jpg"
+        },
+        {
+            "title": "Fusuma",
+            "description": "Just write Markdown and create cool slides.",
+            "language": "JavaScript",
+            "repoName": "hiroppy/fusuma",
+            "repoURL": "https://github.com/hiroppy/fusuma",
+            "logo": "fusuma.svg"
+        },
+        {
+            "title": "Statusfy",
+            "description": "A Marvelous Open Source Status Page System",
+            "language": "JavaScript",
+            "tags": [
+                {
+                    "href": "https://bazzite.xyz/StatusfyOpenCollective",
+                    "src": "https://img.shields.io/badge/Support%20us-Open%20Collective-0366d6.svg",
+                    "alt": "Support us"
+                }
+            ],
+            "repoName": "bazzite/statusfy",
+            "repoURL": "https://github.com/bazzite/statusfy",
+            "logo": "statusfy.svg"
+        },
+        {
+            "title": "Ancient Beast",
+            "description": "🐺 Turn Based Strategy Game. Master your beasts!",
+            "language": "JavaScript",
+            "tags": [
+                {
+                    "href": "https://play.AncientBeast.com",
+                    "src": "http://img.shields.io/badge/play-Ancient%20Beast-red.svg",
+                    "alt": "Play Ancient Beast"
+                },
+                                {
+                    "href": "https://www.codetriage.com/freezingmoon/ancientbeast",
+                    "src": "https://www.codetriage.com/freezingmoon/ancientbeast/badges/users.svg",
+                    "alt": "Code Triage"
+                }
+            ],
+            "repoName": "FreezingMoon/AncientBeast",
+            "repoURL": "https://github.com/FreezingMoon/AncientBeast",
+            "logo": "ancient-beast.png"
+        },
+        {
+            "title": "Advent Of Code",
+            "description": "Code and Development environment for adventofcode.com - 2019 edition ",
+            "language": "Groovy",
+            "tags": [
+                {
+                    "href": "link=https://join.slack.com/t/aoc-2019/shared_invite/enQtODUzMTE3MDQzMzM0LTUyYmZjOTg1ZTYxMzEwM2JlMmNjNjE4ZDFkOWM0ZDZhMGRhNGYyMzhiMzFjZGMxNjM4YjM2NDZlNTY3NjA1M2Y",
+                    "src": "https://img.shields.io/badge/Slack-Invitation-orange.svg?style=for-the-badge",
+                    "alt": "Slack Invitation"
+                }
+            ],
+            "repoName": "docToolchain/aoc-2019",
+            "repoURL": "https://github.com/docToolchain/aoc-2019",
+            "logo": "advent-of-code.png"
+        }
+    ]
