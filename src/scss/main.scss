@@ -124,8 +124,14 @@ a {
     font-weight: 400;
     border: 1px solid;
     border-radius: 10rem;
-
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    transition: all .2s;
+
+    &:hover,
+    &:focus {
+        transform: translateY(-2px);
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    }
 
     &--gitpod {
         padding: .8rem 2.2rem .8rem 4.5rem;
