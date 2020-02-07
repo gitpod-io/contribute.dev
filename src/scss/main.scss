@@ -316,6 +316,7 @@ a {
     }
 
     &__text {
+
         @media(min-width: 980px) {
             flex: 0 0 42%;
 
@@ -328,6 +329,13 @@ a {
             color: inherit;
             text-decoration: none;
         }
+    }
+
+    &__github-icon {
+        display: inline-block;
+        margin-left: .5rem;
+        opacity: .7;
+        height: 1.8rem;
     }
 
     &__tags {

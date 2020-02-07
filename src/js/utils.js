@@ -3,6 +3,7 @@ import PNGs from '../resources/projects/*.png'
 import JPGs from '../resources/projects/*.jpg'
 import JPEGs from '../resources/projects/*.jpeg'
 import SadFace from '../resources/icon-smiley.svg'
+import GithubMark from '../resources/githubmark.png'
 
 const images = { ...SVGs, ...PNGs, ...JPGs, ...JPEGs }
 
@@ -56,7 +57,14 @@ export const renderProjectsList = (projects, projectList) => {
             </div>
             <div class="project__text">
                 <a href="${repoURL}" target="_blank">
-                    <h3>${title}</h3>
+                    <h3>
+                        ${title}
+                        <img
+                            src="${GithubMark}" 
+                            alt="Github Mark"
+                            class="project__github-icon"
+                        >
+                    </h3>
                 </a>
                 <p>${description}</p>
             </div>
@@ -143,7 +151,7 @@ const generateColorForTheTags = (lang) => {
             return { background: '#027dc6', color: '#fff' }
         case 'python':
             return { background: '#4480b1', color: '#fff' }
-        case 'ruby' || 'rust':
+        case 'ruby':
             return { background: '#e45443', color: '#fff' }
         default:
             return { background: '#eee', color: '#333' }
