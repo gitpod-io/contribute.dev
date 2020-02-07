@@ -119,6 +119,26 @@ h3 {
 /* ----- Links & Buttons ----- */
 /* ------------------------------------------------ */
 
+::-moz-focus-inner {
+    border: 0;
+}
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus,
+a:focus {
+    outline: 2px solid #2c8fe0bb;
+}
+
+body:not(.user-is-tabbing) button:focus,
+body:not(.user-is-tabbing) input:focus,
+body:not(.user-is-tabbing) select:focus,
+body:not(.user-is-tabbing) textarea:focus,
+body:not(.user-is-tabbing) a:focus {
+    outline: none;
+}
+
 a {
     color: var(--blue);
 }
