@@ -29,6 +29,10 @@
 
 html {
     font-size: 62.5%; // 16/10*100 = 62.5%
+
+    @media(max-width: 340px) {
+        font-size: 55%;
+    }
 }
 
 body {
@@ -59,6 +63,10 @@ img {
     max-width: var(--grid-max-width);
     margin: 0 auto;
     padding: 0 3rem;
+
+    @media(max-width: 340px) {
+        padding: 1rem;
+    }
 }
 
 section {
@@ -428,6 +436,10 @@ a {
         text-align: center;
         background: var(--white-text);
         border: 3px solid var(--purple);
+
+        @media(max-width: 400px) {
+            padding: 3rem;
+        }
     }
 
     &__text {
