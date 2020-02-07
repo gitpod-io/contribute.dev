@@ -11,15 +11,18 @@
 }
 
 :root {
-    --default-font-size: 1.6rem;
-    --default-font-size-desktop: 1.8rem;
+    --default-font-size: 1.5rem;
+    --default-font-size-desktop: 1.6rem;
 
     --dark-grey-background: #345;
     --sliver-text: #c6d8d7;
-    --off-white: #e8e5de;
+    --off-white: #f7f7f7;
     --white-text: #ffffff;
     --blue: rgb(0, 132, 255);
-    --blue-primary: #6772e5;
+    --blue-primary: #400cde;
+    --purple: #9a88d5;
+
+    --shadow-1: 0 .5rem .8rem rgba(0, 0, 0, .35);
 
     --grid-max-width: 114rem;
 }
@@ -30,11 +33,12 @@ html {
 
 body {
     font-size: var(--default-font-size);
-    font-family: 'HK Grotesk', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     color: var(--dark-grey-background);
-    background: var(--off-white);
+    background: var(--text-white);
     font-weight: 400;
+    overflow-x: hidden;
 
     @media(min-width: 980px) {
         font-size: var(--default-font-size-desktop);
@@ -58,7 +62,7 @@ img {
 }
 
 section {
-    transform: translateY(-15rem);
+    transform: translateY(-20rem);
 }
 
 /* ------------------------------------------------ */
@@ -67,9 +71,9 @@ section {
 
 h1,
 h2,
-h2 {
+h3 {
     line-height: 1.2;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 h1,
@@ -81,7 +85,7 @@ h1 {
     font-size: 3rem;
 
     @media(min-width: 980px) {
-        font-size: 4.5rem;
+        font-size: 3.8rem;
     }
 }
 
@@ -90,16 +94,16 @@ h2 {
     font-size: 2.8rem;
 
     @media(min-width: 980px) {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 }
 
 h3 {
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 
     @media(min-width: 980px) {
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
 }
 
@@ -115,18 +119,21 @@ a {
     position: relative;
     display: inline-block;
     padding: 1rem 3rem;
+    color: var(--dark-grey-background);
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 400;
     border: 1px solid;
     border-radius: 10rem;
-    color: var(--white-text);
-    border: 1px solid var(--blue-primary);
-    background: var(--blue-primary);
+
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
 
     &--gitpod {
-        font-size: 85%;
         padding: .8rem 2.2rem .8rem 4.5rem;
+        font-size: 85%;
+        font-weight: 600;
+        color: var(--white-text);
+        border: 1px solid var(--blue-primary);
+        background: var(--blue-primary);
 
         &::before {
             content: url('../resources/logo.svg');
@@ -140,23 +147,68 @@ a {
 /* ----- Header ----- */
 /* ------------------------------------------------ */
 
+.side-stream {
+    position: absolute;
+    left: -22%;
+    top: 20vh;
+    height: 70vh;
+    min-height: 40rem;
+
+    @media(max-width: 1250px) {
+        display: none;
+    }
+}
+
 .header {
-    padding: 5rem 0 20rem;
-    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('../resources/bg.jpg');
-    background-size: cover;
-    background-position: bottom;
-    color: var(--white-text);
+    padding: 10rem 0 20rem;
+    background-color: var(--off-white);
 
     @media(min-width: 980px) {
-        padding-top: 15rem;
+        padding: 24rem 0 22rem;
     }
 
     p {
-        max-width: 75ch;
+        max-width: 60ch;
+    }
+}
+
+.graphic {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-width: 114rem;
+
+    &__stream {
+        position: absolute;
+        right: 30rem;
+        height: 20rem;
+
+        @media(max-width: 980px) {
+            height: 10rem;
+            left: 5rem;
+        }
+
+        @media(max-width: 400px) {
+            left: -5rem;
+        }
     }
 
-    .row {
-        opacity: .9;
+    &__plane {
+        position: absolute;
+        top: 9rem;
+        right: 26rem;
+        height: 5rem;
+
+        @media(max-width: 980px) {
+            height: 3rem;
+            top: 3.3rem;
+            left: 25rem;
+        }
+
+        @media(max-width: 400px) {
+            left: 14rem;
+        }
+
     }
 }
 
@@ -164,9 +216,22 @@ a {
 /* ----- Projects ----- */
 /* ------------------------------------------------ */
 
+.projects {
+    padding-bottom: 10rem;
+}
 
 .filters {
-    margin-bottom: 3rem;
+    position: relative;
+    width: 16.5rem;
+    margin: 4rem 0;
+
+    &>span {
+        position: absolute;
+        top: 0;
+        right: -12%;
+        font-size: 2rem;
+        transition: all .2s;
+    }
 
     label {
         position: absolute;
@@ -178,14 +243,27 @@ a {
     }
 
     &__search {
+        display: inline-block;
         font-family: inherit;
-        border: 1px solid var(--white-text);
-        background: transparent;
-        padding: .5rem;
-        color: var(--off-white);
+        width: 100%;
+        border: 2px solid rgba(0, 0, 0, .4);
+        padding: 0.5rem 1.5rem;
+        transition: all .2s;
+
+        &:focus,
+        &:hover {
+            border: 2px solid var(--purple);
+            transform: translateY(-.3rem);
+            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+
+            &+span {
+                transform: translateY(-.3rem);
+                color: var(--purple);
+            }
+        }
 
         &::placeholder {
-            color: var(--white-text);
+            color: inherit;
         }
     }
 }
@@ -195,15 +273,16 @@ a {
     flex-direction: column;
     padding: 3rem;
     background: var(--white-text);
-    border: 1px solid #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 
     @media(min-width: 980px) {
         flex-direction: row;
-        padding: 5rem 3rem;
+        padding: 4rem 3rem;
     }
 
     &:not(:last-child) {
-        margin-bottom: 3rem;
+        margin-bottom: 4rem;
     }
 
     &>* {
@@ -226,7 +305,7 @@ a {
 
             @media(min-width: 980px) {
                 display: flex;
-                flex: 0 0 12%;
+                flex: 0 0 15%;
 
                 a {
                     display: flex;
@@ -238,7 +317,7 @@ a {
 
     &__text {
         @media(min-width: 980px) {
-            flex: 0 0 45%;
+            flex: 0 0 42%;
 
             p {
                 max-width: 40ch;
@@ -257,7 +336,8 @@ a {
         }
 
         @media(min-width: 980px) {
-            flex: 0 0 20%;
+            flex: 0 0 16%;
+            min-height: 12rem;
         }
     }
 
@@ -283,11 +363,10 @@ a {
         }
 
         @media(min-width: 980px) {
-            flex: 0 0 22%;
+            flex: 0 0 24%;
             margin-left: auto;
             align-items: flex-end;
             justify-content: space-between;
-            border-left: 1px solid #dfdfdf;
         }
     }
 }
@@ -326,10 +405,21 @@ a {
 
 .add-project {
     padding: 10rem 0;
+    background: var(--off-white);
+
+    &__contents {
+        max-width: 75ch;
+        margin: 0 auto;
+        padding: 5rem;
+        text-align: center;
+        background: var(--white-text);
+        border: 3px solid var(--purple);
+    }
 
     &__text {
-        max-width: 70ch;
-        margin-bottom: 2rem;
+        margin: 3rem auto;
+        text-align: left;
+        max-width: 65ch;
     }
 
 }
@@ -340,6 +430,8 @@ a {
 
 
 .feedback {
+    padding: 10rem 0;
+
     &__tweets {
         margin-top: 3rem;
         display: flex;
@@ -353,19 +445,25 @@ a {
 /* ------------------------------------------------ */
 
 .frictionless {
-    padding: 10rem 0;
-    display: flex;
-    flex-direction: column;
+    background: var(--off-white);
 
-    @media(max-width: 980px) {
-        max-width: 60ch;
+    &__contents {
+        padding: 10rem 0;
+        display: flex;
+        flex-direction: column;
+
+        @media(max-width: 980px) {
+            max-width: 60ch;
+        }
+
+        @media(min-width: 980px) {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
     }
 
     @media(min-width: 980px) {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-
         &__img {
             flex: 0 0 50%;
         }

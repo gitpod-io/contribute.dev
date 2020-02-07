@@ -138,7 +138,7 @@ const generateHTMLForTags = (tags) => tags.map(tag => `
 const generateColorForTheTags = (lang) => {
     switch (lang.toLowerCase()) {
         case 'javascript':
-            return { backgroundl: '#fdf058', color: '#567' }
+            return { background: '#fdf058', color: '#567' }
         case 'typescript':
             return { background: '#027dc6', color: '#fff' }
         case 'python':

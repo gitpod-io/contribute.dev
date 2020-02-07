@@ -9,20 +9,42 @@
   <body>
     <!-- ***** Header ***** -->
 
+    <img
+      src="./resources/stream1.svg"
+      class="side-stream"
+      alt="Stream"
+      aria-hidden="true"
+    />
+
     <header class="header" role="banner">
       <div class="row">
-        <h1>Frictionless Open-Source Contributions</h1>
-        <p>
-          Setting up a local dev environment can be daunting. - All the projects
-          below have automated their dev setup with
-          <a href="https://www.gitpod.io" rel="noopener" target="_blank">
-            Gitpod.io
-          </a>
-          , a free online IDE for GitHub.
-          <strong
-            >Now your first Open-Source contribution is just one click away.
-          </strong>
-        </p>
+        <div class="graphic" aria-hidden="{true}">
+          <img
+            src="./resources/stream.svg"
+            class="graphic__stream"
+            alt="Plance Stream"
+          />
+          <img
+            src="./resources/plane.svg"
+            class="graphic__plane"
+            alt="Paper Plane"
+          />
+          &nbsp;
+        </div>
+        <div>
+          <h1>Frictionless Open-Source Contributions</h1>
+          <p>
+            Setting up a local dev environment can be daunting. - All the
+            projects below have automated their dev setup with
+            <a href="https://www.gitpod.io" rel="noopener" target="_blank">
+              Gitpod.io
+            </a>
+            , a free online IDE for GitHub.
+            <strong
+              >Now your first Open-Source contribution is just one click away.
+            </strong>
+          </p>
+        </div>
       </div>
     </header>
 
@@ -40,35 +62,40 @@
             id="search"
             class="filters__search"
           />
+          <span>&rarr;</span>
         </div>
 
         <div class="project__list"></div>
       </section>
 
-      <div class="row">
-        <!-- ***** Adding Your Project ***** -->
+      <!-- ***** Adding Your Project ***** -->
 
-        <section class="add-project">
-          <h2>Adding Your Project</h2>
-          <p class="add-project__text">
-            You want to streamline the experience for your contributors? We're
-            happy to help automate your project's dev environment. Please file
-            an issue with a link to your repository and we'll help you set it
-            up. Once the experience is great we're happy to add your project to
-            the list.
-          </p>
-          <a
-            href="https://github.com/gitpod-io/contribute.dev/issues/new?labels=&template=add-project.md&title=Please+add+%3CRepo+URL+here%3E"
-            class="btn"
-            target="_blank"
-          >
-            Add my project <span aria-hidden="true">&nbsp;🚀</span>
-          </a>
-        </section>
+      <section class="add-project">
+        <div class="row">
+          <div class="add-project__contents">
+            <h2>Adding Your Project</h2>
+            <p class="add-project__text">
+              You want to streamline the experience for your contributors? We're
+              happy to help automate your project's dev environment. Please file
+              an issue with a link to your repository and we'll help you set it
+              up. Once the experience is great we're happy to add your project
+              to the list.
+            </p>
+            <a
+              href="https://github.com/gitpod-io/contribute.dev/issues/new?labels=&template=add-project.md&title=Please+add+%3CRepo+URL+here%3E"
+              class="btn"
+              target="_blank"
+            >
+              Add my project <span aria-hidden="true">&nbsp;🚀</span>
+            </a>
+          </div>
+        </div>
+      </section>
 
-        <!-- ***** Community Feedback ***** -->
+      <!-- ***** Community Feedback ***** -->
 
-        <section class="feedback">
+      <section class="feedback">
+        <div class="row">
           <h2>Community Feedback</h2>
           <p>
             This is how contributors, maintainers and community leaders
@@ -112,29 +139,33 @@
               >
             </blockquote>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <!-- *****  Frictionless Coding on Github ***** -->
+      <!-- *****  Frictionless Coding on Github ***** -->
 
-        <section class="frictionless">
-          <img
-            class="frictionless__img"
-            src="./resources/teaser-launch-min.jpg"
-            alt=""
-          />
-          <div class="frictionless__text-box">
-            <h2>Frictionless Coding on GitHub</h2>
-            <p>
-              Every day developers waste millions of hours switching contexts
-              between projects and branches, setting up development
-              environments, or simply waiting for builds to complete.
-            </p>
-            <a href="https://www.gitpod.io/blog/gitpod-launch/" class="btn"
-              >Learn more about Gitpod</a
-            >
+      <section class="frictionless">
+        <div class="row">
+          <div class="frictionless__contents">
+            <img
+              class="frictionless__img"
+              src="./resources/teaser-launch-min.jpg"
+              alt=""
+            />
+            <div class="frictionless__text-box">
+              <h2>Frictionless Coding on GitHub</h2>
+              <p>
+                Every day developers waste millions of hours switching contexts
+                between projects and branches, setting up development
+                environments, or simply waiting for builds to complete.
+              </p>
+              <a href="https://www.gitpod.io/blog/gitpod-launch/" class="btn"
+                >Learn more about Gitpod</a
+              >
+            </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
 
     <!-- ***** Footer ***** -->
