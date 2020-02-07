@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contribute.dev</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        font-size: 62.5%;
+      }
+
+      body {
+        font-family: "Montserrat", sans-serif;
+        color: #345;
+        line-height: 1.7;
+        font-size: 1.6rem;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        padding: 3rem;
+      }
+
+      img {
+        position: absolute;
+        top: -90vh;
+        height: 140vh;
+        left: -22rem;
+        z-index: -1;
+      }
+
+      h1 {
+        position: relative;
+        font-size: 6rem;
+      }
+
+      p {
+        margin: 0 0 2rem;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+        border: 1px solid;
+        padding: 1rem 3rem;
+        border-radius: 10rem;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div className="row">
+      <div className="text">
+        <h1>
+          Oops
+          <img src="resources/error404.svg" aria-hidden="true" />
+        </h1>
+        <p>Error 404: We can't find the page you're looking for.</p>
+        <a href="/index.html" className="btn">Back to Home</a>
+      </div>
+    </div>
+  </body>
+</html>

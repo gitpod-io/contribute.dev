@@ -7,7 +7,7 @@
   "author": "nisarhassan12 <syednisarhassan12@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel ./src/index.html",
+    "start": "parcel ./src/*.html",
     "build": "parcel build ./src/index.html"
   },
   "dependencies": {
