@@ -512,6 +512,7 @@ a {
     @media(min-width: 980px) {
         &__img {
             flex: 0 0 50%;
+            max-width: 565px;
         }
 
         &__text-box {
