@@ -97,7 +97,6 @@ h1 {
     }
 }
 
-
 h2 {
     font-size: 2.8rem;
 
@@ -183,9 +182,10 @@ a {
 
 .side-stream {
     position: absolute;
-    left: -22%;
+    left: -21%;
     top: 20vh;
     height: 70vh;
+    max-height: 580px;
     min-height: 40rem;
 
     @media(max-width: 1250px) {
@@ -229,9 +229,9 @@ a {
 
     &__plane {
         position: absolute;
-        top: 9rem;
-        right: 26rem;
-        height: 5rem;
+        top: 8rem;
+        right: 25rem;
+        height: 6rem;
 
         @media(max-width: 980px) {
             height: 3rem;
