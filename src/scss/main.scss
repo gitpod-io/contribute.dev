@@ -156,7 +156,9 @@ a {
 
     &:hover,
     &:focus {
-        transform: translateY(-2px);
+        color: var(--white-text);
+        background: var(--purple);
+        border: 1px solid var(--purple);
         box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
     }
 
