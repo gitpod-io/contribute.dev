@@ -182,19 +182,6 @@ a {
 /* ----- Header ----- */
 /* ------------------------------------------------ */
 
-.side-stream {
-    position: absolute;
-    left: -21%;
-    top: 20vh;
-    height: 70vh;
-    max-height: 580px;
-    min-height: 40rem;
-
-    @media(max-width: 1250px) {
-        display: none;
-    }
-}
-
 .header {
     padding: 10rem 0 20rem;
     background-color: var(--off-white);
