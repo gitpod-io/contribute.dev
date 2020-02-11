@@ -3,7 +3,8 @@ import PNGs from '../resources/projects/*.png'
 import JPGs from '../resources/projects/*.jpg'
 import JPEGs from '../resources/projects/*.jpeg'
 import SadFace from '../resources/icon-smiley.svg'
-import GithubMark from '../resources/githubmark.png'
+import GithubMark from '../resources/githubmark.svg'
+import OpenInGitpod from '../resources/open-in-gitpod.svg'
 
 const images = { ...SVGs, ...PNGs, ...JPGs, ...JPEGs }
 
@@ -80,8 +81,12 @@ export const renderProjectsList = (projects, projectList) => {
                         alt="${title}"
                     >
                 </a>
-                <a href="https://gitpod.io#${repoURL}" class="btn btn--gitpod">
-                    Open in Gitpod
+                <a href="https://gitpod.io#${repoURL}">
+                    <img
+                        src="${OpenInGitpod}"
+                        alt="Open in Gitpod"
+                        title="Open in Gitpod"
+                    >
                 </a>
             </div>
         `

@@ -399,7 +399,7 @@ a {
         align-items: flex-start;
 
         @media(max-width: 980px) {
-            .btn {
+            img {
                 margin-top: 2rem;
             }
         }
@@ -537,4 +537,8 @@ a {
 .footer {
     transform: translateY(-5rem);
     text-align: center;
+
+    img {
+        height: 4rem;
+    }
 }
