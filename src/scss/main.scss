@@ -24,11 +24,11 @@
 
     --shadow-1: 0 .5rem .8rem rgba(0, 0, 0, .35);
 
-    --grid-max-width: 114rem;
+    --grid-max-width: 1140px;
 }
 
 html {
-    font-size: 62.5%; // 16/10*100 = 62.5%
+    font-size: 61%; // 16/10*100 = 62.5%
 
     @media(max-width: 340px) {
         font-size: 55%;
