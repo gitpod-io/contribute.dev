@@ -47,6 +47,23 @@ const handleMouseDownOnce = () => {
 
 window.addEventListener('keydown', handleFirstTab)
 
+/* ------------------------------------------------- */
+/* ----- Scroll To Top ----- */
+/* ------------------------------------------------- */
+
+const scrollToTop = document.querySelector('.scroll-to-top')
+
+window.addEventListener('scroll', () => {
+    if(window.scrollY > 800) {
+        scrollToTop.style.opacity = '1'
+        scrollToTop.style.transform = 'scale(1)'
+    } else {
+        scrollToTop.style.opacity = '0'
+        scrollToTop.style.transform = 'scale(0)'
+    }
+})
+ 
+
 
 /* ------------------------------------------------- */
 /* ----- Fallbacks ----- */
