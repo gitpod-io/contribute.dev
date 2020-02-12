@@ -73,7 +73,11 @@ img {
 }
 
 section {
-    transform: translateY(-20rem);
+    transform: translateY(-21rem);
+
+    @media(max-width: 980px) {
+        transform: translateY(-40rem);
+    }
 }
 
 /* ------------------------------------------------ */
@@ -176,11 +180,11 @@ a {
 /* ------------------------------------------------ */
 
 .header {
-    padding: 15rem 0 20rem;
+    padding: 15rem 0 40rem;
     background-color: var(--off-white);
 
     @media(min-width: 980px) {
-        padding: 26rem 0 22rem;
+        padding: 26rem 0 24rem;
     }
 
     p {
