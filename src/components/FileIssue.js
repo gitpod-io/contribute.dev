@@ -53,7 +53,7 @@ const FileIssue = () => (
             <p><strong>You want to streamline the experience for your contributors?</strong> We're happy to help automate your project's dev environment.
             Please file an issue with a link to your repository and we'll help you set it up. Once the experience is great we're happy to add your project to the list.</p>
             <div style={{textAlign: 'center'}}>
-                <a href="https://github.com/gitpod-io/contribute.dev/issues/new?labels=&template=add-project.md&title=Please+add+%3CRepo+URL+here%3E" target="_blank" rel="noopener" className="btn">Add my project 🚀</a>
+                <a href="https://github.com/gitpod-open-source/contribute.dev/issues/new?labels=&template=add-project.md&title=Please+add+%3CRepo+URL+here%3E" target="_blank" rel="noopener" className="btn">Add my project 🚀</a>
             </div>
         </div>
     </Styled>
