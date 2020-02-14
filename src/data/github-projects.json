@@ -3,7 +3,7 @@
         {
             "title": "freeCodeCamp",
             "description": "Open source codebase and curriculum. Learn to code for free together with millions of people.",
-            "language": "JavaScript",
+            "language": "JS",
             "tags": [
                 {
                     "src": "https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat",
