@@ -9,4 +9,4 @@ This repository contains the website hosted on https://contribute.dev
 
 Contributing is as easy as starting a new workspace   
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-open-source/contribute.dev)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-oss-program/contribute.dev)
