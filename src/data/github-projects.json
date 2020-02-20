@@ -338,6 +338,26 @@
             "logo": "fusuma.svg"
         },
         {
+            "title": "Fiber",
+            "description": "Fiber is an Express inspired web framework written in Go.",
+            "language": "Go",
+            "tags": [
+                {
+                    "href": "https://github.com/gofiber/fiber/releases",
+                    "src": "https://img.shields.io/github/release/gofiber/fiber?style=flat-square",
+                    "alt": "Releases"
+                },
+                {
+                    "href": "https://fiber.wiki",
+                    "src": "https://img.shields.io/badge/api-documentation-blue?style=flat-square",
+                    "alt": "API Documentation"
+                }
+            ],
+            "repoName": "gofiber/fiber",
+            "repoURL": "https://github.com/gofiber/fiber",
+            "logo": "fiber-go.png"
+        },
+        {
             "title": "Statusfy",
             "description": "A Marvelous Open Source Status Page System",
             "language": "JavaScript",
