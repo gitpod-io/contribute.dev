@@ -173,6 +173,26 @@
             "repoURL": "https://github.com/MrRio/jsPDF",
             "logo": "jspdf.svg"
         },
+         {
+            "title": "Postwoman",
+            "description": "A free, fast & beautiful API request builder (web alternative to Postman).",
+            "language": "Javascript",
+            "tags": [
+                {
+                    "href": "https://github.com/liyasthomas/postwoman/blob/master/CONTRIBUTING.md",
+                    "src": "https://img.shields.io/badge/contributions-welcome-brightgreen",
+                    "alt": "Contributions welcome"
+                },
+                {
+                    "href": "https://discord.gg/GAMWxmR",
+                    "src": "https://img.shields.io/badge/chat-Discord-violet?logo=discord",
+                    "alt": "Chat on Discord"
+                }
+            ],
+            "repoName": "liyasthomas/postwoman",
+            "repoURL": "https://github.com/liyasthomas/postwoman",
+            "logo": "post-woman.png"
+        },
         {
             "title": "Dev.to",
             "description": "A platform where software developers write articles, take part in discussions and build their professional.",
