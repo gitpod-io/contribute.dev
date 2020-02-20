@@ -241,6 +241,14 @@
             "logo": "a2z.png"
         },
         {
+            "title": "Nano ID",
+            "description": "A tiny (119 bytes), secure, URL-friendly, unique string ID generator for JavaScript",
+            "language": "JavaScript",
+            "repoName": "ai/nanoid",
+            "repoURL": "https://github.com/ai/nanoid",
+            "logo": "nano-id.svg"
+        },
+        {
             "title": "Theia IDE",
             "description": "Eclipse Theia is an extensible platform to develop multi-language Cloud & Desktop IDEs with state-of-the-art web technologies.",
             "language": "TypeScript",
