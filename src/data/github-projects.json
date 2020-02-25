@@ -413,6 +413,21 @@
             "logo": "ancient-beast.png"
         },
         {
+            "title": "Uppload",
+            "description": "Uppload is a better JavaScript image uploader with 30+ plugins",
+            "language": "TypeScript",
+            "tags": [
+                {
+                    "href": "https://github.com/elninotech/uppload/graphs/contributors",
+                    "src": "https://img.shields.io/github/contributors/elninotech/uppload.svg",
+                    "alt": "Contributors"
+                }
+            ],
+            "repoName": "elninotech/uppload",
+            "repoURL": "https://github.com/elninotech/uppload",
+            "logo": "uppload.svg"
+        },
+        {
             "title": "Advent Of Code",
             "description": "Code and Development environment for adventofcode.com - 2019 edition ",
             "language": "Groovy",
