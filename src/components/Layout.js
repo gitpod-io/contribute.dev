@@ -36,6 +36,8 @@ const Layout = ({ children, canonical }) => {
                     @media(max-width: ${breakpoints.sm}) {
                         font-size: 59.5%;
                     }
+                    // Compatibility for blank pages with black background - https://github.com/gitpod-io/contribute.dev/issues
+                    background-color: #fff
                 }
 
                 body {
