@@ -66,6 +66,32 @@
             "logo": "antdesign.svg"
         },
         {
+            "title": "Gatsby",
+            "description": "Build blazing fast, modern apps and websites with React",
+            "language": "JavaScript",
+            "tags": [
+
+                {
+                    "href": "https://www.npmjs.org/package/gatsby",
+                    "src": "https://img.shields.io/npm/v/gatsby.svg",
+                    "alt": "Current npm package version."
+                },
+                {
+                    "href": "https://npmcharts.com/compare/gatsby?minimal=true",
+                    "src": "https://img.shields.io/npm/dt/gatsby.svg",
+                    "alt": "Total downloads on npm."
+                },
+                {
+                    "href": "https://gatsbyjs.org/contributing/how-to-contribute/",
+                    "src": "https://img.shields.io/badge/PRs-welcome-brightgreen.svg",
+                    "alt": "PRs welcome!"
+                }
+            ],
+            "repoName": "gatsbyjs/gatsby",
+            "repoURL": "https://github.com/gatsbyjs/gatsby",
+            "logo": "gatsby.svg"
+        },
+        {
             "title": "PDF.js",
             "description": "PDF.js is a Portable Document Format (PDF) viewer that is built with HTML5.",
             "language": "JavaScript",
