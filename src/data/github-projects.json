@@ -114,6 +114,31 @@
             "logo": "visualizer.png"
         },
         {
+            "title": "Nuxt.js",
+            "description": "The Vue.js Framework",
+            "tags": [
+                {
+                    "href": "https://discord.nuxtjs.org/",
+                    "src": "https://badgen.net/badge/Discord/join-us/7289DA",
+                    "alt": "Discord"
+                },
+                {
+                    "href": "https://www.npmjs.com/package/nuxt",
+                    "src": "https://badgen.net/npm/v/nuxt",
+                    "alt": "Version"
+                },
+                {
+                    "href": "https://www.npmjs.com/package/nuxt",
+                    "src": "https://badgen.net/npm/dm/nuxt",
+                    "alt": "Downloads"
+                }
+            ],
+            "language": "JavaScript",
+            "repoName": "nuxt/nuxt.js",
+            "repoURL": "https://github.com/nuxt/nuxt.js",
+            "logo": "nuxtjs.png"
+        },
+        {
             "title": "Carbon",
             "description": "Create and share beautiful images of your source code",
             "language": "JavaScript",
