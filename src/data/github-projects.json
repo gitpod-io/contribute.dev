@@ -429,6 +429,31 @@
             "logo": "fiber-go.png"
         },
         {
+            "title": "Clasp",
+            "description": "🔗 Command Line Apps Script Projects",
+            "language": "TypeScript",
+            "tags": [
+                {
+                    "href": "https://npmcharts.com/compare/@google/clasp?minimal=true",
+                    "src": "https://img.shields.io/npm/dw/@google/clasp.svg",
+                    "alt": "npm Downloads"
+                },
+                {
+                    "href": "http://packagequality.com/#?package=%40google%2Fclasp",
+                    "src": "http://npm.packagequality.com/shield/%40google%2Fclasp.svg",
+                    "alt": "Package Quality"
+                },
+                {
+                    "href": "https://travis-ci.org/google/clasp",
+                    "src": "https://travis-ci.org/google/clasp.svg?branch=master",
+                    "alt": "Build Status"
+                }
+            ],
+            "repoName": "google/clasp",
+            "repoURL": "https://github.com/google/clasp",
+            "logo": "clasp.png"
+        },
+        {
             "title": "Statusfy",
             "description": "A Marvelous Open Source Status Page System",
             "language": "JavaScript",
