@@ -194,6 +194,21 @@
             "logo": "post-woman.png"
         },
         {
+            "title": "Docsify",
+            "description": "A magical documentation site generator.",
+            "language": "Javascript",
+            "tags": [
+                {
+                    "href": "https://gitter.im/docsifyjs/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link",
+                    "src": "https://img.shields.io/gitter/room/docsifyjs/docsify.svg?style=flat-square",
+                    "alt": "Chat on Gitter"
+                }
+            ],
+            "repoName": "docsifyjs/docsify",
+            "repoURL": "https://github.com/docsifyjs/docsify",
+            "logo": "docsify.svg"
+        },
+        {
             "title": "Dev.to",
             "description": "A platform where software developers write articles, take part in discussions and build their professional.",
             "language": "Ruby",
