@@ -1,8 +1,9 @@
 ports:
   - port: 8000
+    onOpen: open-preview
 tasks:
-  - init: npm install && npm run build
-    command: npm run start --host 0.0.0.0
+  - init: yarn install && yarn build
+    command: yarn start
 vscode:
   extensions:
     - jpoissonnier.vscode-styled-components@0.0.28:Qde/ISuGvFTPjoaMf1FmnQ==
