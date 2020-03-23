@@ -22,7 +22,6 @@
                 }
             ],
             "repoName": "freeCodeCamp/freeCodeCamp",
-            "repoURL": "https://github.com/freeCodeCamp/freeCodeCamp",
             "logo": "freecodecamp.jpg"
         },
         {
@@ -42,7 +41,6 @@
                 }
             ],
             "repoName": "TheAlgorithms/Python",
-            "repoURL": "https://github.com/TheAlgorithms/Python",
             "logo": "algorithms.png"
         },
         {
@@ -62,7 +60,6 @@
                 }
             ],
             "repoName": "ant-design/ant-design",
-            "repoURL": "https://github.com/ant-design/ant-design/",
             "logo": "antdesign.svg"
         },
         {
@@ -88,7 +85,6 @@
                 }
             ],
             "repoName": "gatsbyjs/gatsby",
-            "repoURL": "https://github.com/gatsbyjs/gatsby",
             "logo": "gatsby.svg"
         },
         {
@@ -96,7 +92,6 @@
             "description": "PDF.js is a Portable Document Format (PDF) viewer that is built with HTML5.",
             "language": "JavaScript",
             "repoName": "mozilla/pdf.js",
-            "repoURL": "https://github.com/mozilla/pdf.js",
             "logo": "pdf-js.png"
         },
         {
@@ -116,7 +111,6 @@
                 }
             ],
             "repoName": "facebook/docusaurus",
-            "repoURL": "https://github.com/facebook/docusaurus",
             "logo": "docusaurus.svg"
         },
         {
@@ -136,7 +130,6 @@
                 }
             ],
             "repoName": "algorithm-visualizer/algorithm-visualizer",
-            "repoURL": "https://github.com/algorithm-visualizer/algorithm-visualizer",
             "logo": "visualizer.png"
         },
         {
@@ -161,7 +154,6 @@
             ],
             "language": "JavaScript",
             "repoName": "nuxt/nuxt.js",
-            "repoURL": "https://github.com/nuxt/nuxt.js",
             "logo": "nuxtjs.png"
         },
         {
@@ -181,7 +173,6 @@
                 }
             ],
             "repoName": "carbon-app/carbon",
-            "repoURL": "https://github.com/carbon-app/carbon",
             "logo": "carbon.svg"
         },
         {
@@ -216,7 +207,6 @@
                 }
             ],
             "repoName": "naptha/tesseract.js",
-            "repoURL": "https://github.com/naptha/tesseract.js",
             "logo": "tesseract.png"
         },
         {
@@ -236,7 +226,6 @@
                 }
             ],
             "repoName": "MrRio/jsPDF",
-            "repoURL": "https://github.com/MrRio/jsPDF",
             "logo": "jspdf.svg"
         },
          {
@@ -256,7 +245,6 @@
                 }
             ],
             "repoName": "liyasthomas/postwoman",
-            "repoURL": "https://github.com/liyasthomas/postwoman",
             "logo": "post-woman.png"
         },
         {
@@ -271,7 +259,6 @@
                 }
             ],
             "repoName": "docsifyjs/docsify",
-            "repoURL": "https://github.com/docsifyjs/docsify",
             "logo": "docsify.svg"
         },
         {
@@ -286,7 +273,6 @@
                 }
             ],
             "repoName": "thepracticaldev/dev.to",
-            "repoURL": "https://github.com/thepracticaldev/dev.to",
             "logo": "devto.jpeg"
         },
         {
@@ -294,7 +280,6 @@
             "description": "A personal music streaming server that works.",
             "language": "PHP",
             "repoName": "phanan/koel",
-            "repoURL": "https://github.com/phanan/koel",
             "logo": "koel.svg"
         },
         {
@@ -319,7 +304,6 @@
                 }
             ],
             "repoName": "badges/shields",
-            "repoURL": "https://github.com/badges/shields",
             "logo": "sheilds-io.svg"
         },
         {
@@ -338,7 +322,6 @@
                 }
             ],
             "repoName": "dipakkr/A-to-Z-Resources-for-Students",
-            "repoURL": "https://github.com/dipakkr/A-to-Z-Resources-for-Students",
             "logo": "a2z.png"
         },
         {
@@ -346,7 +329,6 @@
             "description": "A tiny (119 bytes), secure, URL-friendly, unique string ID generator for JavaScript",
             "language": "JavaScript",
             "repoName": "ai/nanoid",
-            "repoURL": "https://github.com/ai/nanoid",
             "logo": "nano-id.svg"
         },
         {
@@ -354,7 +336,6 @@
             "description": "Eclipse Theia is an extensible platform to develop multi-language Cloud & Desktop IDEs with state-of-the-art web technologies.",
             "language": "TypeScript",
             "repoName": "eclipse-theia/theia",
-            "repoURL": "https://github.com/eclipse-theia/theia",
             "logo": "theia.svg"
         },
         {
@@ -362,7 +343,6 @@
             "description": "DevHub is a mobile and desktop app to help you manage Github Notifications and stay on top of repository activities.",
             "language": "TypeScript",
             "repoName": "devhubapp/devhub",
-            "repoURL": "https://github.com/devhubapp/devhub",
             "logo": "devhub.png"
         },
         {
@@ -382,7 +362,6 @@
                 }
             ],
             "repoName": "Chocobozzz/PeerTube",
-            "repoURL": "https://github.com/Chocobozzz/PeerTube",
             "logo": "peertube.png"
         },
         {
@@ -402,7 +381,6 @@
                 }
             ],
             "repoName": "nushell/nushell",
-            "repoURL": "https://github.com/nushell/nushell",
             "logo": "nushell.png"
         },
         {
@@ -427,7 +405,6 @@
                 }
             ],
             "repoName": "inlets/inlets",
-            "repoURL": "https://github.com/inlets/inlets",
             "logo": "inlets.jpg"
         },
         {
@@ -435,7 +412,6 @@
             "description": "Just write Markdown and create cool slides.",
             "language": "JavaScript",
             "repoName": "hiroppy/fusuma",
-            "repoURL": "https://github.com/hiroppy/fusuma",
             "logo": "fusuma.svg"
         },
         {
@@ -455,7 +431,6 @@
                 }
             ],
             "repoName": "gofiber/fiber",
-            "repoURL": "https://github.com/gofiber/fiber",
             "logo": "fiber-go.png"
         },
         {
@@ -480,7 +455,6 @@
                 }
             ],
             "repoName": "google/clasp",
-            "repoURL": "https://github.com/google/clasp",
             "logo": "clasp.png"
         },
         {
@@ -495,7 +469,6 @@
                 }
             ],
             "repoName": "bazzite/statusfy",
-            "repoURL": "https://github.com/bazzite/statusfy",
             "logo": "statusfy.svg"
         },
         {
@@ -515,7 +488,6 @@
                 }
             ],
             "repoName": "FreezingMoon/AncientBeast",
-            "repoURL": "https://github.com/FreezingMoon/AncientBeast",
             "logo": "ancient-beast.png"
         },
         {
@@ -530,7 +502,6 @@
                 }
             ],
             "repoName": "elninotech/uppload",
-            "repoURL": "https://github.com/elninotech/uppload",
             "logo": "uppload.svg"
         },
         {
@@ -545,7 +516,6 @@
                 }
             ],
             "repoName": "ryanpcmcquen/basque",
-            "repoURL": "https://github.com/ryanpcmcquen/basque/",
             "logo": "basque.png"
         },
         {
@@ -560,7 +530,6 @@
                 }
             ],
             "repoName": "docToolchain/aoc-2019",
-            "repoURL": "https://github.com/docToolchain/aoc-2019",
             "logo": "advent-of-code.png"
         }
     ]
