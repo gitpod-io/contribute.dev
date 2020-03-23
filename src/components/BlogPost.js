@@ -37,7 +37,7 @@ const SectionBlogPost = styled.section`
 `
 
 const BlogPost = () => (
-    <div className="row" id="about">
+    <div className="row">
         <SectionBlogPost>
             <div className="img">&nbsp;</div>
             <div>

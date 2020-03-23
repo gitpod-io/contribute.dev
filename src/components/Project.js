@@ -186,7 +186,7 @@ const Project = (props) => {
         <Styled>
             <div className="img-container">
                 <a href={url} target="_blank" rel="noopener" aria-label={`${props.title} repository`}>
-                    { props.logo ? <img src={icons[props.logo]} alt={props.title} className="img" /> : null }
+                    {props.logo ? <img src={icons[props.logo]} alt={props.title} className="img" /> : null}
                 </a>
             </div>
             <div className="text">
@@ -196,7 +196,7 @@ const Project = (props) => {
                 <p>{props.description}</p>
             </div>
             <div className="tags">
-                { props.language ? <span className="tag">{props.language}</span> : null}
+                {props.language ? <span className="tag">{props.language}</span> : null}
                 <br />
                 {
                     (props.tags || [{
@@ -204,23 +204,23 @@ const Project = (props) => {
                         src: `https://img.shields.io/github/contributors/${props.repoName}.svg?style=flat-square`,
                         alt: `Contributors Count`
                     }]).map((tag, i) =>
-                            <a href={tag.href} key={i}  aria-label={tag.alt}>
-                                <img
-                                    className="tag__img"
-                                    src={tag.src}
-                                    alt={tag.alt}
-                                />
-                            </a>
-                        )
+                        <a href={tag.href} key={i} aria-label={tag.alt}>
+                            <img
+                                className="tag__img"
+                                src={tag.src}
+                                alt={tag.alt}
+                            />
+                        </a>
+                    )
                 }
             </div>
             <div className="call-to-action">
                 <a href={url} target="_blank" rel="noopener">
-                    <div className="stars"><img src={`https://img.shields.io/github/stars/${props.repoName}.svg?style=social`} alt={props.title} style={{height: 20}} /></div>
+                    <div className="stars"><img src={`https://img.shields.io/github/stars/${props.repoName}.svg?style=social`} alt={props.title} style={{ height: 20 }} /></div>
                 </a>
                 <a href={`https://gitpod.io/#${url}`} target="_blank" rel="noopener">
                     <button className="open-in-gitpod" aria-label="Open in Gitpod">
-                        <img src={GitpodButton} alt="Open in Gitpod"/>
+                        <img src={GitpodButton} alt="Open in Gitpod" />
                     </button>
                 </a>
             </div>
