@@ -107,22 +107,22 @@ class FindProject extends React.Component {
 
     handleSearch = (term = '') => {
         const searchTerm = term.toLowerCase()
-        this.setState(() => ({searchTerm}))
+        this.setState(() => ({ searchTerm }))
         const filteredProjects = this.state.projects.filter((project) => {
             const isSearchTextMatch = Object.values(project).some((value) => {
                 if (Array.isArray(value)) {
                     return value.some(val => {
-                         return val["alt"].toLowerCase().includes(searchTerm)
+                        return val["alt"].toLowerCase().includes(searchTerm)
                     })
                 } else {
-                    if(!(typeof value === "number")) {
+                    if (!(typeof value === "number")) {
                         return value.toLowerCase().includes(searchTerm)
                     }
                 }
             })
             return isSearchTextMatch
         })
-        this.setState({filteredProjects})
+        this.setState({ filteredProjects })
     }
 
     render() {
@@ -136,7 +136,7 @@ class FindProject extends React.Component {
                             value={this.state.searchTerm}
                             onChange={(e) => {
                                 this.handleSearch(e.target.value)
-                                this.setState({toggle: true})
+                                this.setState({ toggle: true })
                             }}
                         />
                         <span>&rarr;</span>
@@ -144,9 +144,9 @@ class FindProject extends React.Component {
                     <div>
                         {
                             this.state.filteredProjects.length &&
-                            this.state.filteredProjects.map(project => <Project key={project.repoName} {...project}/>) || this.state.toggle &&
+                            this.state.filteredProjects.map(project => <Project key={project.repoName} {...project} />) || this.state.toggle &&
                             <div className="nothing-found">
-                                <img src={IconSmiley} alt="" aria-hidden={true}/>
+                                <img src={IconSmiley} alt="" aria-hidden={true} />
                                 <h4>Sorry, we can't find any projects matching your search</h4>
                                 <p>Try&nbsp;
                                     <button
@@ -156,13 +156,13 @@ class FindProject extends React.Component {
                                     </button>
                                     ,&nbsp;
                                     <button
-                                         onClick={() => this.handleSearch('Prs welcome')}
+                                        onClick={() => this.handleSearch('Prs welcome')}
                                     >
                                         PRs welcome
                                     </button>
                                     , &nbsp;
                                     <button
-                                         onClick={() => this.handleSearch('first timers only')}
+                                        onClick={() => this.handleSearch('first timers only')}
                                     >
                                         first-timers-only
                                     </button>
