@@ -185,6 +185,21 @@
             "logo": "carbon.svg"
         },
         {
+            "title": "MobX",
+            "description": "Simple, scalable state management.",
+            "language": "JavaScript",
+            "tags": [
+                {
+                    "href": "https://spectrum.chat/mobx",
+                    "src": "https://withspectrum.github.io/badge/badge.svg",
+                    "alt": "Join the community on Spectrum"
+                }
+            ],
+            "repoName": "mobxjs/mobx",
+            "repoURL": "https://github.com/mobxjs/mobx",
+            "logo": "mobx.png"
+        },
+        {
             "title": "Tesseract",
             "description": "Tesseract.js is a javascript library that gets words in almost any language out of images.",
             "language": "JavaScript",
