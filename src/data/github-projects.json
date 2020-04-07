@@ -518,7 +518,7 @@
             "logo": "basque.png"
         },
         {
-            "title": "openvsx",
+            "title": "Open VSX",
             "description": "An open-source registry for VS Code extensions",
             "language": "Java",
             "tags": [
