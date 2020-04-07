@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
+    "add-project": "node scripts/add-project",
     "build": "gatsby build",
     "develop": "env-cmd -f .env.development gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
