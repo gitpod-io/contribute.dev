@@ -95,25 +95,6 @@
             "logo": "pdf-js.png"
         },
         {
-            "title": "Docusaurus",
-            "description": "Docusaurus is a project for easily building, deploying, and maintaining open source project websites.",
-            "language": "JavaScript",
-            "tags": [
-                {
-                    "href": "https://github.com/facebook/docusaurus/blob/master/CONTRIBUTING.md#pull-requests",
-                    "src": "https://img.shields.io/badge/PRs-welcome-brightgreen.svg",
-                    "alt": "PRs Welcome"
-                },
-                {
-                    "href": "https://discord.gg/docusaurus",
-                    "src": "https://img.shields.io/badge/chat-on%20discord-7289da.svg",
-                    "alt": "Chat"
-                }
-            ],
-            "repoName": "facebook/docusaurus",
-            "logo": "docusaurus.svg"
-        },
-        {
             "title": "Algorithm Visualizer",
             "description": "Algorithm Visualizer is an interactive online platform that visualizes algorithms from code.",
             "language": "JavaScript",
@@ -248,6 +229,25 @@
             "logo": "post-woman.png"
         },
         {
+            "title": "Docusaurus",
+            "description": "Docusaurus is a project for easily building, deploying, and maintaining open source project websites.",
+            "language": "JavaScript",
+            "tags": [
+                {
+                    "href": "https://github.com/facebook/docusaurus/blob/master/CONTRIBUTING.md#pull-requests",
+                    "src": "https://img.shields.io/badge/PRs-welcome-brightgreen.svg",
+                    "alt": "PRs Welcome"
+                },
+                {
+                    "href": "https://discord.gg/docusaurus",
+                    "src": "https://img.shields.io/badge/chat-on%20discord-7289da.svg",
+                    "alt": "Chat"
+                }
+            ],
+            "repoName": "facebook/docusaurus",
+            "logo": "docusaurus.svg"
+        },
+        {
             "title": "Docsify",
             "description": "A magical documentation site generator.",
             "language": "Javascript",
@@ -325,13 +325,6 @@
             "logo": "a2z.png"
         },
         {
-            "title": "Nano ID",
-            "description": "A tiny (119 bytes), secure, URL-friendly, unique string ID generator for JavaScript",
-            "language": "JavaScript",
-            "repoName": "ai/nanoid",
-            "logo": "nano-id.svg"
-        },
-        {
             "title": "Theia IDE",
             "description": "Eclipse Theia is an extensible platform to develop multi-language Cloud & Desktop IDEs with state-of-the-art web technologies.",
             "language": "TypeScript",
@@ -339,11 +332,11 @@
             "logo": "theia.svg"
         },
         {
-            "title": "Dev Hub",
-            "description": "DevHub is a mobile and desktop app to help you manage Github Notifications and stay on top of repository activities.",
-            "language": "TypeScript",
-            "repoName": "devhubapp/devhub",
-            "logo": "devhub.png"
+            "title": "Nano ID",
+            "description": "A tiny (119 bytes), secure, URL-friendly, unique string ID generator for JavaScript",
+            "language": "JavaScript",
+            "repoName": "ai/nanoid",
+            "logo": "nano-id.svg"
         },
         {
             "title": "Peertube",
@@ -384,6 +377,13 @@
             "logo": "nushell.png"
         },
         {
+            "title": "Dev Hub",
+            "description": "DevHub is a mobile and desktop app to help you manage Github Notifications and stay on top of repository activities.",
+            "language": "TypeScript",
+            "repoName": "devhubapp/devhub",
+            "logo": "devhub.png"
+        },
+        {
             "title": "inlets",
             "description": "Expose your local endpoints to the Internet",
             "language": "Go",
@@ -408,13 +408,6 @@
             "logo": "inlets.jpg"
         },
         {
-            "title": "Fusuma",
-            "description": "Just write Markdown and create cool slides.",
-            "language": "JavaScript",
-            "repoName": "hiroppy/fusuma",
-            "logo": "fusuma.svg"
-        },
-        {
             "title": "Fiber",
             "description": "Fiber is an Express inspired web framework written in Go.",
             "language": "Go",
@@ -432,6 +425,13 @@
             ],
             "repoName": "gofiber/fiber",
             "logo": "fiber-go.png"
+        },
+        {
+            "title": "Fusuma",
+            "description": "Just write Markdown and create cool slides.",
+            "language": "JavaScript",
+            "repoName": "hiroppy/fusuma",
+            "logo": "fusuma.svg"
         },
         {
             "title": "Clasp",
@@ -472,6 +472,20 @@
             "logo": "statusfy.svg"
         },
         {
+            "title": "Uppload",
+            "description": "Uppload is a better JavaScript image uploader with 30+ plugins",
+            "language": "TypeScript",
+            "tags": [
+                {
+                    "href": "https://github.com/elninotech/uppload/graphs/contributors",
+                    "src": "https://img.shields.io/github/contributors/elninotech/uppload.svg",
+                    "alt": "Contributors"
+                }
+            ],
+            "repoName": "elninotech/uppload",
+            "logo": "uppload.svg"
+        },
+        {
             "title": "Ancient Beast",
             "description": "🐺 Turn Based Strategy Game. Master your beasts!",
             "language": "JavaScript",
@@ -489,20 +503,6 @@
             ],
             "repoName": "FreezingMoon/AncientBeast",
             "logo": "ancient-beast.png"
-        },
-        {
-            "title": "Uppload",
-            "description": "Uppload is a better JavaScript image uploader with 30+ plugins",
-            "language": "TypeScript",
-            "tags": [
-                {
-                    "href": "https://github.com/elninotech/uppload/graphs/contributors",
-                    "src": "https://img.shields.io/github/contributors/elninotech/uppload.svg",
-                    "alt": "Contributors"
-                }
-            ],
-            "repoName": "elninotech/uppload",
-            "logo": "uppload.svg"
         },
         {
             "title": "basque",
