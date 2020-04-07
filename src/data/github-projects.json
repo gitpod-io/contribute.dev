@@ -542,6 +542,13 @@
             "logo": "basque.png"
         },
         {
+            "title": "DestinationSol",
+            "description": "Official continuation of Destination Sol, the great fun little arcade space shooter",
+            "language": "Java",
+            "repoName": "MovingBlocks/DestinationSol",
+            "logo": "destination-sol.png"
+        },
+        {
             "title": "Open VSX",
             "description": "An open-source registry for VS Code extensions",
             "language": "Java",
