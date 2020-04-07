@@ -38,6 +38,7 @@ const GITHUB_PROJECTS_JSON_PATH = path.join(__dirname, '..', GITHUB_PROJECTS_JSO
       title: githubData.name,
       description: githubData.description,
       language: githubData.language,
+      // TODO: fetch data.tags_url, and automatically import tags using a whitelist?
       repoName,
       logo: 'TODO'
     };
@@ -52,7 +53,6 @@ const GITHUB_PROJECTS_JSON_PATH = path.join(__dirname, '..', GITHUB_PROJECTS_JSO
       }
       githubStars[data.full_name.toLowerCase()] = data.stargazers_count;
     }
-    console.log(githubStars);
     projects.sort((a, b) => {
       const a_stars = githubStars[a.repoName.toLowerCase()];
       const b_stars = githubStars[b.repoName.toLowerCase()];
