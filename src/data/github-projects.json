@@ -443,11 +443,6 @@
                     "alt": "Downloads"
                 },
                 {
-                    "href": "https://www.bountysource.com/teams/MovingBlocks",
-                    "src": "https://img.shields.io/bountysource/team/MovingBlocks/activity.svg",
-                    "alt": "Bounties"
-                },
-                {
                     "href": "http://discord.gg/Terasology",
                     "src": "https://img.shields.io/discord/270264625419911192.svg?label=discord",
                     "alt": "Discord"
