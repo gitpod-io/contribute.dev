@@ -67,7 +67,6 @@
             "description": "Build blazing fast, modern apps and websites with React",
             "language": "JavaScript",
             "tags": [
-
                 {
                     "href": "https://www.npmjs.org/package/gatsby",
                     "src": "https://img.shields.io/npm/v/gatsby.svg",
@@ -209,7 +208,7 @@
             "repoName": "MrRio/jsPDF",
             "logo": "jspdf.svg"
         },
-         {
+        {
             "title": "Postwoman",
             "description": "A free, fast & beautiful API request builder (web alternative to Postman).",
             "language": "Javascript",
@@ -283,7 +282,7 @@
             "logo": "koel.svg"
         },
         {
-           "title": "Shields.io",
+            "title": "Shields.io",
             "description": "Concise, consistent, and legible badges in SVG and raster format",
             "language": "JavaScript",
             "tags": [
@@ -495,7 +494,7 @@
                     "src": "http://img.shields.io/badge/play-Ancient%20Beast-red.svg",
                     "alt": "Play Ancient Beast"
                 },
-                                {
+                {
                     "href": "https://www.codetriage.com/freezingmoon/ancientbeast",
                     "src": "https://www.codetriage.com/freezingmoon/ancientbeast/badges/users.svg",
                     "alt": "Code Triage"
@@ -517,6 +516,20 @@
             ],
             "repoName": "ryanpcmcquen/basque",
             "logo": "basque.png"
+        },
+        {
+            "title": "openvsx",
+            "description": "An open-source registry for VS Code extensions",
+            "language": "Java",
+            "tags": [
+                {
+                    "href": "https://gitter.im/eclipse/openvsx",
+                    "src": "https://badges.gitter.im/eclipse/openvsx.svg",
+                    "alt": "Join the chat at https://gitter.im/eclipse/openvsx"
+                }
+            ],
+            "repoName": "eclipse/openvsx",
+            "logo": "open-vsx.svg"
         },
         {
             "title": "Advent Of Code",
