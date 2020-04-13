@@ -544,6 +544,31 @@
             ],
             "repoName": "docToolchain/aoc-2019",
             "logo": "advent-of-code.png"
+        },
+        {
+            "title": "gosh",
+            "description": "Do everything from the terminal from math to sending emails",
+            "language": "Go",
+            "tags": [
+                {
+                    "href": "https://www.codacy.com/manual/gosh-terminal/gosh_2?utm_source=github.com&utm_medium=referral&utm_content=gosh-terminal/gosh&utm_campaign=Badge_Grade",
+                    "src": "https://api.codacy.com/project/badge/Grade/51f0c37b6e3c4e559389f2e6fec985f2",
+                    "alt": "Codacy Badge"
+                },
+                {
+                    "href": "http://makeapullrequest.com",
+                    "src": "https://img.shields.io/badge/PRs-welcome-brightgreen.svg",
+                    "alt": "Pull Requests Welcome"
+                },
+                {
+                    "href": "https://github.com/gosh-terminal/gosh",
+                    "src": "https://img.shields.io/github/languages/count/gosh-terminal/gosh",
+                    "alt": "GitHub language count"
+                }
+            ],
+            "repoName": "gosh-terminal/gosh",
+            "repoURL": "https://github.com/gosh-terminal/gosh",
+            "logo": "gosh.png"
         }
     ]
 }
