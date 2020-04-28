@@ -113,6 +113,25 @@
             "logo": "visualizer.png"
         },
         {
+            "title": "Phaser",
+            "description": "Phaser is a fun, free and fast 2D game framework for making HTML5 games.",
+            "tags": [
+                {
+                    "href": "https://discord.gg/phaser",
+                    "src": "https://img.shields.io/discord/244245946873937922?style=for-the-badge",
+                    "alt": "Discord Chat"
+                },
+                {
+                    "href": "https://twitter.com/phaser_",
+                    "src": "https://img.shields.io/twitter/follow/phaser_?style=for-the-badge",
+                    "alt": "Twitter Follow"
+                }
+            ],
+            "language": "JavaScript",
+            "repoName": "photonstorm/phaser/",
+            "logo": "phaser.jpg"
+        },
+        {
             "title": "Nuxt.js",
             "description": "The Vue.js Framework",
             "tags": [
