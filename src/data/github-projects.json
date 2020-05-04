@@ -128,7 +128,7 @@
                 }
             ],
             "language": "JavaScript",
-            "repoName": "photonstorm/phaser/",
+            "repoName": "photonstorm/phaser",
             "logo": "phaser.jpg"
         },
         {
@@ -297,7 +297,7 @@
             "title": "Koel",
             "description": "A personal music streaming server that works.",
             "language": "PHP",
-            "repoName": "phanan/koel",
+            "repoName": "koel/koel",
             "logo": "koel.svg"
         },
         {
@@ -325,6 +325,13 @@
             "logo": "sheilds-io.svg"
         },
         {
+            "title": "Theia IDE",
+            "description": "Eclipse Theia is an extensible platform to develop multi-language Cloud & Desktop IDEs with state-of-the-art web technologies.",
+            "language": "TypeScript",
+            "repoName": "eclipse-theia/theia",
+            "logo": "theia.svg"
+        },
+        {
             "title": "A-to-Z-Resources-for-Students",
             "description": "Curated list of resources for college students.",
             "language": "Markdown",
@@ -341,13 +348,6 @@
             ],
             "repoName": "dipakkr/A-to-Z-Resources-for-Students",
             "logo": "a2z.png"
-        },
-        {
-            "title": "Theia IDE",
-            "description": "Eclipse Theia is an extensible platform to develop multi-language Cloud & Desktop IDEs with state-of-the-art web technologies.",
-            "language": "TypeScript",
-            "repoName": "eclipse-theia/theia",
-            "logo": "theia.svg"
         },
         {
             "title": "Nano ID",
@@ -505,7 +505,7 @@
                     "alt": "Support us"
                 }
             ],
-            "repoName": "bazzite/statusfy",
+            "repoName": "aceforth/statusfy",
             "logo": "statusfy.svg"
         },
         {
