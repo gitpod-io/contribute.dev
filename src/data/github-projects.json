@@ -364,6 +364,13 @@
             "logo": "nano-id.svg"
         },
         {
+            "title": "milligram",
+            "description": "A minimalist CSS framework.",
+            "language": "HTML",
+            "repoName": "milligram/milligram",
+            "logo": "milligram.svg"
+        },
+        {
             "title": "Peertube",
             "description": "Be part of a network of multiple small federated, interoperable video hosting providers.",
             "language": "TypeScript",
