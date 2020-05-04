@@ -266,6 +266,13 @@
             "logo": "docusaurus.svg"
         },
         {
+            "title": "fabric.js",
+            "description": "Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser",
+            "language": "JavaScript",
+            "repoName": "fabricjs/fabric.js",
+            "logo": "fabricjs.png"
+        },
+        {
             "title": "Docsify",
             "description": "A magical documentation site generator.",
             "language": "Javascript",
