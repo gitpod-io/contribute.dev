@@ -577,6 +577,13 @@
             "logo": "destination-sol.png"
         },
         {
+            "title": "dvc.org",
+            "description": "🔗 DVC website and documentation",
+            "language": "TypeScript",
+            "repoName": "iterative/dvc.org",
+            "logo": "dvc-org.svg"
+        },
+        {
             "title": "Open VSX",
             "description": "An open-source registry for VS Code extensions",
             "language": "Java",
