@@ -459,6 +459,13 @@
             "logo": "fiber-go.png"
         },
         {
+            "title": "vue-class-component",
+            "description": "ES / TypeScript decorator for class-style Vue components.",
+            "language": "TypeScript",
+            "repoName": "vuejs/vue-class-component",
+            "logo": "vue.png"
+        },
+        {
             "title": "Fusuma",
             "description": "Just write Markdown and create cool slides.",
             "language": "JavaScript",
