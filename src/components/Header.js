@@ -87,7 +87,7 @@ const Hero = styled.div`
 `
 
 const Header = () => (
-    <StyledHeader role='banner'>
+    <StyledHeader role='banner' id="top">
         <div className='row'>
             <div className="svg" aria-hidden={true}>
                 <div className="container">

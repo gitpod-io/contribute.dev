@@ -7,6 +7,7 @@ import Feedback from '../components/Feedback'
 import FileIssue from '../components/FileIssue'
 import Stream from '../resources/stream1.svg'
 import BlogPost from '../components/BlogPost'
+import BackToTop from '../components/BackToTop'
 
 export default () => {
     return (
@@ -17,6 +18,7 @@ export default () => {
             <FileIssue />
             <Feedback />
             <BlogPost />
+            <BackToTop />
         </Layout>
     )
 }
