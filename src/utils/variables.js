@@ -1,6 +1,7 @@
 export const colors = {
     textPrimary: '#404040',
     purple: '#9A88D5',
+    offWhite: '#f4f4f4'
 }
 
 export const fontSizes = {
