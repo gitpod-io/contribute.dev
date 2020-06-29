@@ -7,6 +7,7 @@ import Favicon from '../resources/paper-plane.svg'
 import Favicon196 from '../resources/paper-plane-196x196.png'
 import AppleTouchIcon from '../resources/apple-touch-icon.png'
 import Footer from '../components/Footer'
+import Nav from './Nav'
 
 const Layout = ({ children, canonical }) => {
     const { title, description } = useSiteMetadata()
@@ -44,7 +45,7 @@ const Layout = ({ children, canonical }) => {
                     position: relative;
                     font-size: ${fontSizes.default};
                     color: ${colors.textPrimary};
-                    font-family: 'Nunito', sans-serif;
+                    font-family: 'Montserrat', sans-serif;
                     line-height: 1.4;
                     overflow-x: hidden;
                     box-sizing: border-box;
@@ -90,13 +91,13 @@ const Layout = ({ children, canonical }) => {
                 h2,
                 h3,
                 h4 {
-                    font-family: 'Playfair Display', serif;
                     line-height: 1.1;
                 }
 
                 h1 {
                     font-size: 3.6rem;
-                    margin-bottom: 2.5rem;
+                    margin-bottom: 3rem;
+                    font-weight: 400;
 
                     @media(max-width: ${breakpoints.xs}) {
                         font-size: 2.8rem;
@@ -174,9 +175,11 @@ const Layout = ({ children, canonical }) => {
                 <link rel="apple-touch-icon" type="image/png" href={AppleTouchIcon} sizes="180x180" />
                 <link rel="icon" type="image/png" href={Favicon196} sizes="196x196" />
                 <link rel="icon" type="image/svg+xml" href={Favicon} sizes="any" />
-                <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css?family=Nunito:400,900&display=swap" rel="stylesheet" />
+                {/* <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css?family=Nunito:400,900&display=swap" rel="stylesheet" /> */}
+                <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet"/> 
             </Helmet>
+            <Nav />
             <main role="main">
                 {children}
             </main>
