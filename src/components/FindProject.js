@@ -4,38 +4,32 @@ import { colors } from '../utils/variables'
 import projectsData from '../data/github-projects.json'
 import Project from '../components/Project'
 import IconSmiley from '../resources/icon-smiley.svg'
+import SearchIcon from '../resources/search.svg'
 
 const SectionFind = styled.section`
+    padding: 4rem 0;
+
     .filters {
-        position: relative;
-        width: 18.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin: 4rem 0;
 
         input {
-            width: 100%;
-            border: 2px solid rgba(0,0,0, .4);
-            padding: 0.5rem 1.5rem;
+            padding: 0.7rem 1.6rem;
+            background: ${colors.offWhite};
+            border: none;
+            border-radius: 10rem;
             transition: all .2s;
 
             &:focus,
             &:hover {
-                border: 2px solid ${colors.purple};
-                transform: translateY(-.3rem);
-                box-shadow: 0 .5rem 1rem rgba(0,0,0, .2);
-
-                & + span {
-                    transform: translateY(-.3rem);
-                    color: ${colors.purple};
-                }
             }
         }
 
-        & > span {
-            position: absolute;
-            top: .3rem;
-            right: 8%;
-            font-size: 2rem;
-            transition: all .2s;
+        img {
+            height: 1.5rem;
+            transform: translateX(-2.5rem);
         }
     }
 
@@ -139,7 +133,7 @@ class FindProject extends React.Component {
                                 this.setState({ toggle: true })
                             }}
                         />
-                        <span>&rarr;</span>
+                        <img src={SearchIcon} alt="Search" />
                     </div>
                     <div>
                         {
