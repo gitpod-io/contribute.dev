@@ -110,7 +110,7 @@ const Layout = ({ children, canonical }) => {
                 }
 
                 h3 {
-                    font-size: 2.3rem;
+                    font-size: 2.1rem;
                 }
 
                 p {

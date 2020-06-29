@@ -8,10 +8,9 @@ import { breakpoints, colors } from '../utils/variables.js'
 const Styled = styled.div`
     position: relative;
     display: flex;
-    justify-contents: space-between;
     font-size: 1.6rem;
-    padding: 3rem 2rem 1rem;
-    box-shadow: 0 .2rem .4rem rgba(0,0,0, .65);
+    padding: 4rem 2rem 2rem;
+    border: 2px solid ${colors.offWhite2};
     border-radius: 3px;
 
     @media(max-width: ${breakpoints.md}) {
