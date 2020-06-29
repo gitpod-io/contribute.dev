@@ -11,6 +11,7 @@ const StyledNav = styled.div`
    nav {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         padding: 6rem 0;
    }
 
