@@ -7,7 +7,7 @@ import IconSmiley from '../resources/icon-smiley.svg'
 import SearchIcon from '../resources/search.svg'
 
 const SectionFind = styled.section`
-    padding: 4rem 0;
+    padding: 4rem 0 12rem;
 
     .filters {
         display: flex;

@@ -161,7 +161,6 @@ const Styled = styled.div`
 
         &:hover,
         &:focus {
-            transform: translateY(-.3rem);
             box-shadow: 0 .5rem 1rem rgba(0,0,0, .25);
         }
 
