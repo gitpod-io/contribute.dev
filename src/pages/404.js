@@ -4,13 +4,13 @@ import Layout from '../components/Layout'
 import styled from '@emotion/styled'
 import { Link } from 'gatsby'
 import Error404 from '../resources/error404.svg'
-import { breakpoints } from '../utils/variables'
+import { breakpoints, colors } from '../utils/variables'
 
 const StyledNotFoundPage = styled.div`
     height: 110vh;
     display: flex;
-    justify-contents: center;
     align-items: center;
+    background: ${colors.offWhite};
 
     @media(max-width: 1080px) {
         height: 70vh;

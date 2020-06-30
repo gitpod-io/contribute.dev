@@ -31,14 +31,19 @@ const Layout = ({ children, canonical }) => {
                     font-size: 62.5%;
 
                     @media(max-width: ${breakpoints.md}) {
-                        font-size: 60.5%;
+                        font-size: 59.5%;
                     }
 
                     @media(max-width: ${breakpoints.sm}) {
-                        font-size: 59.5%;
+                        font-size: 54.5%;
                     }
-                    // Compatibility for blank pages with black background - https://github.com/gitpod-io/contribute.dev/issues
-                    background-color: #fff
+
+                    @media(max-width: 310px) {
+                        font-size: 50%;
+                    }
+
+                    // Compatibility for blank pages with black background
+                    background-color: ${colors.white};
                 }
 
                 body {
@@ -63,10 +68,10 @@ const Layout = ({ children, canonical }) => {
                 }
 
                 section {
-                    padding: 6rem 0;
+                    padding: 8rem 0;
 
                     @media(max-width: ${breakpoints.md}) {
-                        padding: 4rem 0;
+                        padding: 6rem 0;
                     }
                 }
 
@@ -107,6 +112,17 @@ const Layout = ({ children, canonical }) => {
                 h2 {
                     font-size: ${fontSizes.large};
                     margin-bottom: 1.2rem;
+                    text-align: center;
+
+                    &::after {
+                        content: "";
+                        display: block;
+                        height: 5px;
+                        width: 10rem;
+                        margin: 2.5rem auto 4rem;
+                        border-radius: 5px;
+                        background: ${colors.offWhite2};
+                    }
                 }
 
                 h3 {
@@ -127,6 +143,10 @@ const Layout = ({ children, canonical }) => {
                     margin: 0 auto;
                     width: 90%;
                     max-width: ${grid.maxWidth};
+
+                    @media(max-width: 310px) {
+                        width: 96%;
+                    }
                 }
 
                 /* --------------------------------------------- */
@@ -136,12 +156,12 @@ const Layout = ({ children, canonical }) => {
                 .btn {
                     position: relative;
                     display: inline-block;
-                    padding: 1.2rem 3.2rem;
-                    border: 1px solid;
+                    padding: 1rem 3.2rem;
                     text-decoration: none;
-                    color: ${colors.textPrimary};
-                    border-radius: 3px;
+                    color: ${colors.white};
+                    border-radius: 10rem;
                     transition: all .2s ease-in;
+                    background: ${colors.purple};
 
                     @media(max-width: ${breakpoints.sm}) {
                         padding: 1rem 1.5rem;
@@ -155,13 +175,11 @@ const Layout = ({ children, canonical }) => {
 
                     &:hover,
                     &:focus {
-                        transform: translateY(-.3rem);
                         box-shadow: 0 .5rem 1rem rgba(0,0,0, .25);
                     }
 
                     &:active {
-                        transform: translateY(-.1rem);
-                        box-shadow: 0 .25rem 5rem rgba(0,0,0, .25);
+                        box-shadow: 0 .3rem .7rem rgba(0,0,0, .25);
                     }
                 }
             `} />

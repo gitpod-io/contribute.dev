@@ -14,7 +14,7 @@ const StyledBackToTop = styled(Link)`
     align-items: center;
     height: 5.5rem;
     width: 5.5rem;
-    background: ${colors.purple};
+    background: ${colors.offWhite3};
     border-radius: 50%;
     box-shadow: 0 .5rem 1rem rgba(0,0,0, .2);
     transition: transform .4s, opacity .4s, box-shadow .2s;

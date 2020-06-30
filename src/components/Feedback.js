@@ -1,26 +1,36 @@
 import React from 'react'
 import TweetEmbed from 'react-tweet-embed'
 import styled from '@emotion/styled'
-import { breakpoints } from '../utils/variables'
+import { breakpoints, grid } from '../utils/variables'
 
 const Tweets = styled.div`
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    overflow-x: scroll;
+    padding: 3rem 0;
 
-    @media(min-width: ${breakpoints.md}) {
-       flex-direction: row;
+    @media(min-width: calc(${breakpoints.md} + 1px)) {
+        padding-left: calc((100% - ${grid.maxWidth})/2);
+    }
+    
+    & > div {
+        &:first-of-type {
+            @media(max-width: ${breakpoints.md}) {
+                padding-left: 4rem;
+            }
+            @media(max-width: ${breakpoints.sm}) {
+                padding-left: 1rem;
+            }
+        }
     }
 
     .tweet {
-        margin-top: 4rem;
-        flex-grow: 1;
+        max-width: 90%;
 
-        @media(max-width: ${breakpoints.md}) {
-            display: flex;
-            justify-content: center;
+        &:not(:last-child) {
+            margin-right: 3rem;
         }
-    }
+    } 
 `
 
 const Feedback = () => {
@@ -28,19 +38,18 @@ const Feedback = () => {
     return (
         <section>
             <div className="row">
-                <div className='outline-left'>
+                <div>
                     <h2>Community Feedback</h2>
-                    <p>This is how contributors, maintainers and community leaders perceived the one-click experience with Gitpod.</p>
+                    <p style={{ textAlign: "center" }}>This is how contributors, maintainers and community leaders perceived the one-click experience with Gitpod.</p>
                 </div>
-                <Tweets>
-                    <TweetEmbed className="tweet" id='1115274432958930946' options={twitterOptions} />
-                    <TweetEmbed className="tweet" id='1167463499779338243' options={twitterOptions} />
-                </Tweets>
-                <Tweets>
-                    <TweetEmbed className="tweet" id='1176866660461903872' options={twitterOptions} />
-                    <TweetEmbed className="tweet" id='1130775701714558982' options={twitterOptions} />
-                </Tweets>
             </div>
+            <Tweets>
+                <TweetEmbed className="tweet" id='1115274432958930946' options={twitterOptions} />
+                <TweetEmbed className="tweet" id='1167463499779338243' options={twitterOptions} />
+                <TweetEmbed className="tweet" id='1130775701714558982' options={twitterOptions} />
+                <TweetEmbed className="tweet" id='1167463499779338243' options={twitterOptions} />
+                <TweetEmbed className="tweet" id='1130775701714558982' options={twitterOptions} />
+            </Tweets>
         </section>
     )
 }
