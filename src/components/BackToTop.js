@@ -17,10 +17,11 @@ const StyledBackToTop = styled(Link)`
     background: ${colors.offWhite3};
     border-radius: 50%;
     box-shadow: 0 .5rem 1rem rgba(0,0,0, .2);
-    transition: transform .4s, opacity .4s, box-shadow .2s;
+    transition: transform .4s, opacity .4s, box-shadow .2s, color .2s;
 
     &:hover {    
         box-shadow: 0 .3rem .6rem rgba(0,0,0, .3);
+        background: ${colors.purple};
     }
 
     img {
