@@ -50,7 +50,7 @@ const Layout = ({ children, canonical }) => {
                     position: relative;
                     font-size: ${fontSizes.default};
                     color: ${colors.textPrimary};
-                    font-family: 'Montserrat', sans-serif;
+                    font-family: 'Lato', sans-serif;
                     line-height: 1.4;
                     overflow-x: hidden;
                     box-sizing: border-box;
@@ -193,9 +193,7 @@ const Layout = ({ children, canonical }) => {
                 <link rel="apple-touch-icon" type="image/png" href={AppleTouchIcon} sizes="180x180" />
                 <link rel="icon" type="image/png" href={Favicon196} sizes="196x196" />
                 <link rel="icon" type="image/svg+xml" href={Favicon} sizes="any" />
-                {/* <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css?family=Nunito:400,900&display=swap" rel="stylesheet" /> */}
-                <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet"/> 
+                <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" /> 
             </Helmet>
             <Nav />
             <main role="main">

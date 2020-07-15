@@ -8,10 +8,10 @@ export const colors = {
 }
 
 export const fontSizes = {
-    default: '1.6rem',
-    small: '2rem',
-    medium: '2.5rem',
-    large: '3rem',
+    default: '1.7rem',
+    small: '2.1rem',
+    medium: '2.6rem',
+    large: '3.1rem',
 }
 
 export const grid = {
