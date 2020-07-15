@@ -8,7 +8,7 @@ const Styled = styled.section`
     .card {
         width: 95%;
         max-width: 62rem;
-        margin: 10rem auto;
+        margin: 0 auto;
         padding: 4rem;
         background: ${colors.white};
         border: 2px solid ${colors.offWhite2};
