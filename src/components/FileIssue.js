@@ -52,7 +52,7 @@ const Styled = styled.section`
 const FileIssue = () => (
     <Styled>
         <div className="card">
-            <h2>Adding My Project</h2>
+            <h2>Add My Project</h2>
             <p><strong>Do you want to streamline the experience for your contributors? </strong>
             </p>
             <p>
