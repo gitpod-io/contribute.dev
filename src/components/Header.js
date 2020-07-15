@@ -10,6 +10,8 @@ const StyledHeader = styled.header`
 
 const Hero = styled.div`
     p {
+        max-width: 70rem;
+        margin: 0 auto;
         font-size: 1.8rem;
         @media(max-width: ${breakpoints.xs}) {
             font-size: 1.6rem;
@@ -22,7 +24,7 @@ const Header = () => (
         <div className='row'>
             <Hero>
                 <h1><strong>Frictionless</strong> Open-Source Contributions</h1>
-                <p>All projects below have automated their dev setup with <a href="https://www.gitpod.io" target="_blank">Gitpod</a>.</p>
+                <p>Setting up a local dev environment can be daunting. All projects below describe their dev environment as code with <a href="https://www.gitpod.io" target="_blank">Gitpod</a>. Now you can start contributing with a single click.</p>
             </Hero>
         </div>
     </StyledHeader>
