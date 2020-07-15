@@ -7,13 +7,15 @@ import { colors } from '../utils/variables'
 
 const StyledNav = styled.div`
     background: ${colors.offWhite};
+    position: relative;
+    z-index: 1000;
 
-   nav {
+    nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 6rem 0;
-   }
+    }
 
     a {
         text-decoration: none;
