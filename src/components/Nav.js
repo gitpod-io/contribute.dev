@@ -17,14 +17,11 @@ const StyledNav = styled.div`
         padding: 6rem 0;
     }
 
-    a {
-        text-decoration: none;
-        color: inherit;
-    }
-
     .logo {
         display: flex;
         align-items: center;
+        text-decoration: none;
+        color: inherit;
     }
 
     img {
@@ -42,7 +39,13 @@ const Nav = () => (
                     to='/'
                     className="logo"
                 ><img src={Plane} alt="Plance" /> contribute.dev</Link>
-                <a href="https://github.com/gitpod-io/contribute.dev/issues/new?labels=&template=add-project.md&title=Please+add+%3CRepo+URL+here%3E" target="_blank">Add My Project</a>
+                <a 
+                    href="https://github.com/gitpod-io/contribute.dev/issues/new?labels=&template=add-project.md&title=Please+add+%3CRepo+URL+here%3E" 
+                    target="_blank"
+                    className="btn"
+                >
+                    Add My Project
+                </a>
             </nav>
         </div>
     </StyledNav>
