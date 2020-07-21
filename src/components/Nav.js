@@ -40,8 +40,7 @@ const Nav = () => (
                     className="logo"
                 ><img src={Plane} alt="Plance" /> contribute.dev</Link>
                 <a 
-                    href="https://github.com/gitpod-io/contribute.dev/issues/new?labels=&template=add-project.md&title=Please+add+%3CRepo+URL+here%3E" 
-                    target="_blank"
+                    href="#add-my-project" 
                     className="btn"
                 >
                     Add My Project
