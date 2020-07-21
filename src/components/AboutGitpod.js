@@ -57,7 +57,7 @@ const AboutGitpod = () => (
                         rel="noopener"
                         className="btn"
                     >
-                        Learn more about Gitpod
+                        More about Gitpod
                 </a>
                 </div>
             </div>
