@@ -624,6 +624,20 @@
       ],
       "repoName": "docToolchain/aoc-2019",
       "logo": "advent-of-code.png"
+    },
+    {
+      "title": "iCub Gazebo Grasping Sandbox",
+      "description": "A public sandbox for simulating grasping in Gazebo with the iCub humanoid",
+      "language": "C++",
+      "tags": [
+        {
+          "href": "https://spectrum.chat/icub",
+          "src": "https://withspectrum.github.io/badge/badge.svg",
+          "alt": "Join the community on Spectrum"
+        }
+      ],
+      "repoName": "robotology/icub-gazebo-grasping-sandbox",
+      "logo": "icub-gazebo-grasping-sandbox.png"
     }
   ]
 }
