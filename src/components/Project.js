@@ -216,7 +216,7 @@ const Project = (props) => {
                 <a href={url} target="_blank" rel="noopener">
                     <div className="stars"><img src={`https://img.shields.io/github/stars/${props.repoName}.svg?style=social`} alt={props.title} style={{ height: 20 }} /></div>
                 </a>
-                <a href={`https://gitpod.io/#${url}`} target="_blank" rel="noopener">
+                <a href={`https://gitpod.io/#${props.link ? props.link : url}`} target="_blank" rel="noopener">
                     <button className="open-in-gitpod" aria-label="Open in Gitpod">
                         <img src={GitpodButton} alt="Open in Gitpod" />
                     </button>

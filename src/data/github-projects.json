@@ -1,6 +1,26 @@
 {
   "projects": [
     {
+      "title": "GitLab",
+      "description": "GitLab is a complete open-source DevOps platform, delivered as a single application, fundamentally changing the way Development, Security, and Ops teams collaborate and build software.",
+      "language": "Javascript",
+      "tags": [
+        {
+          "src": "https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square",
+          "href": "https://about.gitlab.com/community/contribute/",
+          "alt": "Contributions welcome"
+        },
+        {
+          "src": "https://img.shields.io/badge/Chat-Gitter-ff69b4.svg?label=Chat&logo=gitter&style=flat-square",
+          "href": "https://gitter.im/gitlab/contributors",
+          "alt": "Gitter chat"
+        }
+      ],
+      "repoName": "gitlabhq/gitlabhq",
+      "link": "https://gitlab.com/gitlab-org/gitlab",
+      "logo": "gitlab.png"
+    },
+    {
       "title": "freeCodeCamp",
       "description": "Open source codebase and curriculum. Learn to code for free together with millions of people.",
       "language": "JavaScript",
