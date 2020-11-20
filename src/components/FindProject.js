@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import { colors } from '../utils/variables'
-import projectsData from '../data/github-projects.json'
+import projectsData from '../data/projects.json'
 import Project from '../components/Project'
 import IconSmiley from '../resources/icon-smiley.svg'
 import SearchIcon from '../resources/search.svg'

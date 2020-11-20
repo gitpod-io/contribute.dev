@@ -16,7 +16,7 @@
           "alt": "Gitter chat"
         }
       ],
-      "repoName": "gitlabhq/gitlabhq",
+      "repo": "https://github.com/gitlabhq/gitlabhq",
       "link": "https://gitlab.com/gitlab-org/gitlab",
       "logo": "gitlab.png"
     },
@@ -41,7 +41,7 @@
           "alt": "Code helpers 784"
         }
       ],
-      "repoName": "freeCodeCamp/freeCodeCamp",
+      "repo": "https://github.com/freeCodeCamp/freeCodeCamp",
       "logo": "freecodecamp.jpg"
     },
     {
@@ -60,7 +60,7 @@
           "alt": "Gitter chat"
         }
       ],
-      "repoName": "TheAlgorithms/Python",
+      "repo": "https://github.com/TheAlgorithms/Python",
       "logo": "algorithms.png"
     },
     {
@@ -79,7 +79,7 @@
           "alt": "Ant Design 1.5k"
         }
       ],
-      "repoName": "ant-design/ant-design",
+      "repo": "https://github.com/ant-design/ant-design",
       "logo": "antdesign.svg"
     },
     {
@@ -103,14 +103,14 @@
           "alt": "PRs welcome!"
         }
       ],
-      "repoName": "gatsbyjs/gatsby",
+      "repo": "https://github.com/gatsbyjs/gatsby",
       "logo": "gatsby.svg"
     },
     {
       "title": "PDF.js",
       "description": "PDF.js is a Portable Document Format (PDF) viewer that is built with HTML5.",
       "language": "JavaScript",
-      "repoName": "mozilla/pdf.js",
+      "repo": "https://github.com/mozilla/pdf.js",
       "logo": "pdf-js.png"
     },
     {
@@ -129,7 +129,7 @@
           "alt": "GitHub license"
         }
       ],
-      "repoName": "algorithm-visualizer/algorithm-visualizer",
+      "repo": "https://github.com/algorithm-visualizer/algorithm-visualizer",
       "logo": "visualizer.png"
     },
     {
@@ -148,7 +148,7 @@
         }
       ],
       "language": "JavaScript",
-      "repoName": "photonstorm/phaser",
+      "repo": "https://github.com/photonstorm/phaser",
       "logo": "phaser.jpg"
     },
     {
@@ -172,7 +172,7 @@
         }
       ],
       "language": "JavaScript",
-      "repoName": "nuxt/nuxt.js",
+      "repo": "https://github.com/nuxt/nuxt.js",
       "logo": "nuxtjs.png"
     },
     {
@@ -191,7 +191,7 @@
           "alt": "Join the community on Spectrum"
         }
       ],
-      "repoName": "carbon-app/carbon",
+      "repo": "https://github.com/carbon-app/carbon",
       "logo": "carbon.svg"
     },
     {
@@ -205,7 +205,7 @@
           "alt": "Join the community on Spectrum"
         }
       ],
-      "repoName": "mobxjs/mobx",
+      "repo": "https://github.com/mobxjs/mobx",
       "repoURL": "https://github.com/mobxjs/mobx",
       "logo": "mobx.png"
     },
@@ -225,7 +225,7 @@
           "alt": "Code Style"
         }
       ],
-      "repoName": "naptha/tesseract.js",
+      "repo": "https://github.com/naptha/tesseract.js",
       "logo": "tesseract.png"
     },
     {
@@ -244,7 +244,7 @@
           "alt": "code quality: js/ts A"
         }
       ],
-      "repoName": "MrRio/jsPDF",
+      "repo": "https://github.com/MrRio/jsPDF",
       "logo": "jspdf.svg"
     },
     {
@@ -263,7 +263,7 @@
           "alt": "Chat on Discord"
         }
       ],
-      "repoName": "liyasthomas/postwoman",
+      "repo": "https://github.com/liyasthomas/postwoman",
       "logo": "post-woman.png"
     },
     {
@@ -282,14 +282,14 @@
           "alt": "Chat"
         }
       ],
-      "repoName": "facebook/docusaurus",
+      "repo": "https://github.com/facebook/docusaurus",
       "logo": "docusaurus.svg"
     },
     {
       "title": "fabric.js",
       "description": "Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser",
       "language": "JavaScript",
-      "repoName": "fabricjs/fabric.js",
+      "repo": "https://github.com/fabricjs/fabric.js",
       "logo": "fabricjs.png"
     },
     {
@@ -303,7 +303,7 @@
           "alt": "Chat on Gitter"
         }
       ],
-      "repoName": "docsifyjs/docsify",
+      "repo": "https://github.com/docsifyjs/docsify",
       "logo": "docsify.svg"
     },
     {
@@ -317,14 +317,14 @@
           "alt": "Code helpers 31"
         }
       ],
-      "repoName": "thepracticaldev/dev.to",
+      "repo": "https://github.com/thepracticaldev/dev.to",
       "logo": "devto.jpeg"
     },
     {
       "title": "Koel",
       "description": "A personal music streaming server that works.",
       "language": "PHP",
-      "repoName": "koel/koel",
+      "repo": "https://github.com/koel/koel",
       "logo": "koel.svg"
     },
     {
@@ -348,14 +348,14 @@
           "alt": "follow on Twitter"
         }
       ],
-      "repoName": "badges/shields",
+      "repo": "https://github.com/badges/shields",
       "logo": "sheilds-io.svg"
     },
     {
       "title": "Theia IDE",
       "description": "Eclipse Theia is an extensible platform to develop multi-language Cloud & Desktop IDEs with state-of-the-art web technologies.",
       "language": "TypeScript",
-      "repoName": "eclipse-theia/theia",
+      "repo": "https://github.com/eclipse-theia/theia",
       "logo": "theia.svg"
     },
     {
@@ -373,21 +373,21 @@
           "alt": "Awesome"
         }
       ],
-      "repoName": "dipakkr/A-to-Z-Resources-for-Students",
+      "repo": "https://github.com/dipakkr/A-to-Z-Resources-for-Students",
       "logo": "a2z.png"
     },
     {
       "title": "Nano ID",
       "description": "A tiny (119 bytes), secure, URL-friendly, unique string ID generator for JavaScript",
       "language": "JavaScript",
-      "repoName": "ai/nanoid",
+      "repo": "https://github.com/ai/nanoid",
       "logo": "nano-id.svg"
     },
     {
       "title": "milligram",
       "description": "A minimalist CSS framework.",
       "language": "HTML",
-      "repoName": "milligram/milligram",
+      "repo": "https://github.com/milligram/milligram",
       "logo": "milligram.svg"
     },
     {
@@ -406,7 +406,7 @@
           "alt": "code style standard"
         }
       ],
-      "repoName": "Chocobozzz/PeerTube",
+      "repo": "https://github.com/Chocobozzz/PeerTube",
       "logo": "peertube.png"
     },
     {
@@ -425,14 +425,14 @@
           "alt": "The Changelog #363"
         }
       ],
-      "repoName": "nushell/nushell",
+      "repo": "https://github.com/nushell/nushell",
       "logo": "nushell.png"
     },
     {
       "title": "Dev Hub",
       "description": "DevHub is a mobile and desktop app to help you manage Github Notifications and stay on top of repository activities.",
       "language": "TypeScript",
-      "repoName": "devhubapp/devhub",
+      "repo": "https://github.com/devhubapp/devhub",
       "logo": "devhub.png"
     },
     {
@@ -456,7 +456,7 @@
           "alt": "Documentation"
         }
       ],
-      "repoName": "inlets/inlets",
+      "repo": "https://github.com/inlets/inlets",
       "logo": "inlets.jpg"
     },
     {
@@ -475,21 +475,21 @@
           "alt": "API Documentation"
         }
       ],
-      "repoName": "gofiber/fiber",
+      "repo": "https://github.com/gofiber/fiber",
       "logo": "fiber-go.png"
     },
     {
       "title": "vue-class-component",
       "description": "ES / TypeScript decorator for class-style Vue components.",
       "language": "TypeScript",
-      "repoName": "vuejs/vue-class-component",
+      "repo": "https://github.com/vuejs/vue-class-component",
       "logo": "vue.png"
     },
     {
       "title": "Fusuma",
       "description": "Just write Markdown and create cool slides.",
       "language": "JavaScript",
-      "repoName": "hiroppy/fusuma",
+      "repo": "https://github.com/hiroppy/fusuma",
       "logo": "fusuma.svg"
     },
     {
@@ -508,7 +508,7 @@
           "alt": "Discord"
         }
       ],
-      "repoName": "MovingBlocks/Terasology",
+      "repo": "https://github.com/MovingBlocks/Terasology",
       "logo": "terasology.jpg"
     },
     {
@@ -532,14 +532,14 @@
           "alt": "Build Status"
         }
       ],
-      "repoName": "google/clasp",
+      "repo": "https://github.com/google/clasp",
       "logo": "clasp.png"
     },
     {
       "title": "Canvas",
       "description": "A Laravel publishing platform.",
       "language": "PHP",
-      "repoName": "cnvs/canvas",
+      "repo": "https://github.com/cnvs/canvas",
       "logo": "canvas.svg"
     },
     {
@@ -553,7 +553,7 @@
           "alt": "Support us"
         }
       ],
-      "repoName": "aceforth/statusfy",
+      "repo": "https://github.com/aceforth/statusfy",
       "logo": "statusfy.svg"
     },
     {
@@ -567,7 +567,7 @@
           "alt": "Contributors"
         }
       ],
-      "repoName": "elninotech/uppload",
+      "repo": "https://github.com/elninotech/uppload",
       "logo": "uppload.svg"
     },
     {
@@ -586,7 +586,7 @@
           "alt": "Code Triage"
         }
       ],
-      "repoName": "FreezingMoon/AncientBeast",
+      "repo": "https://github.com/FreezingMoon/AncientBeast",
       "logo": "ancient-beast.png"
     },
     {
@@ -600,21 +600,21 @@
           "alt": "Compiling ..."
         }
       ],
-      "repoName": "ryanpcmcquen/basque",
+      "repo": "https://github.com/ryanpcmcquen/basque",
       "logo": "basque.png"
     },
     {
       "title": "DestinationSol",
       "description": "Official continuation of Destination Sol, the great fun little arcade space shooter",
       "language": "Java",
-      "repoName": "MovingBlocks/DestinationSol",
+      "repo": "https://github.com/MovingBlocks/DestinationSol",
       "logo": "destination-sol.png"
     },
     {
       "title": "dvc.org",
       "description": "🔗 DVC website and documentation",
       "language": "TypeScript",
-      "repoName": "iterative/dvc.org",
+      "repo": "https://github.com/iterative/dvc.org",
       "logo": "dvc-org.svg"
     },
     {
@@ -628,7 +628,7 @@
           "alt": "Join the chat at https://gitter.im/eclipse/openvsx"
         }
       ],
-      "repoName": "eclipse/openvsx",
+      "repo": "https://github.com/eclipse/openvsx",
       "logo": "open-vsx.svg"
     },
     {
@@ -642,8 +642,23 @@
           "alt": "Slack Invitation"
         }
       ],
-      "repoName": "docToolchain/aoc-2019",
+      "repo": "https://github.com/docToolchain/aoc-2019",
       "logo": "advent-of-code.png"
+    },
+    {
+      "title": "Taskord",
+      "description": "Get things done in public with awesome community of makers.",
+      "language": "PHP",
+      "tags": [
+        {
+          "href": "https://taskord.com",
+          "src": "https://img.shields.io/static/v1?label=Link%20to&message=website&color=%3CCOLOR%3E",
+          "alt": "taskord.com"
+        }
+      ],
+      "gitLabId": "20359920",
+      "repo": "https://gitlab.com/taskord/taskord",
+      "logo": "taskord.svg"
     },
     {
       "title": "iCub Gazebo Grasping Sandbox",
@@ -656,7 +671,7 @@
           "alt": "Join the community on Spectrum"
         }
       ],
-      "repoName": "robotology/icub-gazebo-grasping-sandbox",
+      "repo": "https://github.com/robotology/icub-gazebo-grasping-sandbox",
       "logo": "icub-gazebo-grasping-sandbox.png"
     }
   ]

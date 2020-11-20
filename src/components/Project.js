@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import GithubMark from '../resources/githubmark.png'
+import GitHubMark from '../resources/githubmark.png'
+import GitLabMark from '../resources/gitlabmark.svg'
 import GitpodLogo from '../resources/gitpod.png'
 import GitpodButton from '../resources/open-in-gitpod.svg'
 import { breakpoints, colors } from '../utils/variables.js'
@@ -179,7 +180,18 @@ const importAll = (r) => {
 const icons = importAll(require.context('../resources/projects/', false, /\.(png|jpe?g|svg)$/))
 
 const Project = (props) => {
-    const url = `https://github.com/${props.repoName}`
+    const url = props.repo
+    const platform = url.includes('github') ? 'github' : url.includes('gitlab') ? 'gitlab' : null
+    const repoName = url.split('/').slice(-2).join('/')
+
+    let platformIcon
+
+    if (platform === 'github') {
+        platformIcon = <img src={GitHubMark} alt="GitHub Mark" />      
+    } else if (platform === 'gitlab') { 
+        platformIcon = <img src={GitLabMark} alt="GitLab Mark" />
+    }
+
     return (
         <Styled>
             <div className="img-container">
@@ -189,7 +201,8 @@ const Project = (props) => {
             </div>
             <div className="text">
                 <a href={url} target="_blank" rel="noopener" aria-label={`${props.title} repository`}>
-                    <h3>{props.title}&nbsp;<img src={GithubMark} alt="Github Mark" /></h3>
+                    <h3>{props.title}&nbsp;{platformIcon}
+                    </h3>
                 </a>
                 <p>{props.description}</p>
             </div>
@@ -197,11 +210,11 @@ const Project = (props) => {
                 {props.language ? <span className="tag">{props.language}</span> : null}
                 <br />
                 {
-                    (props.tags || [{
-                        href: `https://github.com/${props.repoName}/graphs/contributors`,
-                        src: `https://img.shields.io/github/contributors/${props.repoName}.svg?style=flat-square`,
+                    (props.tags || (platform === 'github' && [{
+                        href: `${url}/graphs/contributors`,
+                        src: `https://img.shields.io/github/contributors/${repoName}.svg?style=flat-square`,
                         alt: `Contributors Count`
-                    }]).map((tag, i) =>
+                    }] || [])).map((tag, i) =>
                         <a href={tag.href} key={i} aria-label={tag.alt}>
                             <img
                                 className="tag__img"
@@ -214,7 +227,13 @@ const Project = (props) => {
             </div>
             <div className="call-to-action">
                 <a href={url} target="_blank" rel="noopener">
-                    <div className="stars"><img src={`https://img.shields.io/github/stars/${props.repoName}.svg?style=social`} alt={props.title} style={{ height: 20 }} /></div>
+                    <div className="stars">
+                        <img 
+                            src={platform === 'github' && `https://img.shields.io/github/stars/${repoName}.svg?style=social` || platform === "gitlab" && `https://img.shields.io/badge/dynamic/json?color=green&label=gitlab%20stars&query=star_count&url=https://gitlab.com/api/v4/projects/${props.gitLabId}` } 
+                            alt={props.title} 
+                            style={{ height: 20 }} 
+                        />
+                    </div>
                 </a>
                 <a href={`https://gitpod.io/#${props.link ? props.link : url}`} target="_blank" rel="noopener">
                     <button className="open-in-gitpod" aria-label="Open in Gitpod">
