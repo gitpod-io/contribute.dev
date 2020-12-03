@@ -106,6 +106,13 @@
       "repo": "https://github.com/gatsbyjs/gatsby",
       "logo": "gatsby.svg"
     },
+     {
+      "title": "Prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "repo": "https://github.com/prometheus/prometheus",
+      "logo": "prometheus.svg"
+    },
     {
       "title": "PDF.js",
       "description": "PDF.js is a Portable Document Format (PDF) viewer that is built with HTML5.",
