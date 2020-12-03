@@ -486,6 +486,20 @@
       "logo": "fiber-go.png"
     },
     {
+      "title": "Thanos",
+      "description": "Highly available Prometheus setup with long term storage capabilities. A CNCF Incubating project.",
+      "language": "Go",
+      "tags": [
+        {
+          "href": "https://slack.cncf.io/",
+          "src": "https://img.shields.io/badge/join%20slack-%23thanos-brightgreen.svg",
+          "alt": "Slack"
+        }
+      ],
+      "repo": "https://github.com/thanos-io/thanos",
+      "logo": "thanos.svg"
+    },
+    {
       "title": "vue-class-component",
       "description": "ES / TypeScript decorator for class-style Vue components.",
       "language": "TypeScript",
