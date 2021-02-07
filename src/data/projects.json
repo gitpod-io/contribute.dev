@@ -27,12 +27,12 @@
       "tags": [
         {
           "src": "https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat",
-          "href": "http://makeapullrequest.com",
+          "href": "https://makeapullrequest.com",
           "alt": "PRs Welcome"
         },
         {
           "src": "https://img.shields.io/badge/first--timers--only-friendly-blue.svg",
-          "href": "http://www.firsttimersonly.com/",
+          "href": "https://www.firsttimersonly.com/",
           "alt": "First timers only friendly"
         },
         {
@@ -408,7 +408,7 @@
           "alt": "dev dependencies up to date"
         },
         {
-          "href": "http://standardjs.com/",
+          "href": "https://standardjs.com/",
           "src": "https://img.shields.io/badge/code%20style-standard-brightgreen.svg",
           "alt": "code style standard"
         }
@@ -458,7 +458,7 @@
           "alt": "License: MIT"
         },
         {
-          "href": "http://godoc.org/github.com/inlets/inlets",
+          "href": "https://godoc.org/github.com/inlets/inlets",
           "src": "https://godoc.org/github.com/inlets/inlets?status.svg",
           "alt": "Documentation"
         }
@@ -524,7 +524,7 @@
           "alt": "Downloads"
         },
         {
-          "href": "http://discord.gg/Terasology",
+          "href": "https://discord.gg/Terasology",
           "src": "https://img.shields.io/discord/270264625419911192.svg?label=discord",
           "alt": "Discord"
         }
@@ -543,8 +543,8 @@
           "alt": "npm Downloads"
         },
         {
-          "href": "http://packagequality.com/#?package=%40google%2Fclasp",
-          "src": "http://npm.packagequality.com/shield/%40google%2Fclasp.svg",
+          "href": "https://packagequality.com/#?package=%40google%2Fclasp",
+          "src": "https://npm.packagequality.com/shield/%40google%2Fclasp.svg",
           "alt": "Package Quality"
         },
         {
@@ -598,7 +598,7 @@
       "tags": [
         {
           "href": "https://play.AncientBeast.com",
-          "src": "http://img.shields.io/badge/play-Ancient%20Beast-red.svg",
+          "src": "https://img.shields.io/badge/play-Ancient%20Beast-red.svg",
           "alt": "Play Ancient Beast"
         },
         {
