@@ -592,6 +592,13 @@
       "logo": "uppload.svg"
     },
     {
+      "title": "pygsheets",
+      "description": "Google Sheets Python API v4 | A simple, intuitive library for google sheets which gets your work done.",
+      "language": "Python",
+      "repo": "https://github.com/nithinmurali/pygsheets",
+      "logo": "pyg.png"
+    },
+    {
       "title": "Ancient Beast",
       "description": "🐺 Turn Based Strategy Game. Master your beasts!",
       "language": "JavaScript",
