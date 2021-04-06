@@ -19,7 +19,7 @@ const StyledFooter = styled.footer`
 const Footer = () => (
     <StyledFooter>
         <p><a href="https://github.com/gitpod-io/contribute.dev" target="_blank" rel="noopener" title="contribute.dev repository" aria-label="contribute.dev repository"><img src={GithubMark} alt="Github Mark" /></a></p>
-        <p>© {(new Date()).getFullYear()} by <a href="https://www.typefox.io/" target="_blank" rel="noopener">TypeFox</a></p>
+        <p>© {(new Date()).getFullYear()} by <a href="https://www.gitpod.io/" target="_blank" rel="noopener">Gitpod</a></p>
     </StyledFooter>
 )
 
