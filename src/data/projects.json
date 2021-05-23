@@ -391,6 +391,25 @@
       "logo": "nano-id.svg"
     },
     {
+      "title": "DockerSlim",
+      "description": "Optimize Your Experience with Containers. Make Your Containers Better, Smaller, More Secure and Do Less to Get There (free and open source!)",
+      "language": "Go",
+      "tags": [
+        {
+          "href": "https://twitter.com/DockerSlim",
+          "src": "https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Follow",
+          "alt": "Follow"
+        },
+        {
+          "href": "https://discord.gg/9tDyxYS",
+          "src": "https://img.shields.io/static/v1.svg?label=chat&message=on%20discord&color=7389D8",
+          "alt": "Discord chat"
+        }
+      ],
+      "repo": "https://github.com/docker-slim/docker-slim",
+      "logo": "docker-slim.png"
+    },
+    {
       "title": "milligram",
       "description": "A minimalist CSS framework.",
       "language": "HTML",
