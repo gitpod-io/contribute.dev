@@ -157,17 +157,9 @@ const Styled = styled.div`
 
         img {
             display: block;
-            height: 32px;
+            height: 40px;
         }
 
-        &:hover,
-        &:focus {
-            box-shadow: 0 .5rem 1rem rgba(0,0,0, .25);
-        }
-
-        &:active {
-            transform: translateY(-.1rem);
-        }
     }
 `
 
