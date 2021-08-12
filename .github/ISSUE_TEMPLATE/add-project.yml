@@ -9,7 +9,8 @@ body:
       options:
         - label: My project has at least 500 stars
         - label: My project has at least 10 contributors
-      required: true
+      validations:
+        required: true
   - type: markdown
     attributes:
       value: |
@@ -27,13 +28,13 @@ body:
     validations:
       required: true
   - type: textarea
-    id: isBeginnerfriendly
+    id: hasActiveCommunity
     attributes:
       label: "Does your project have an active community?"
     validations:
       required: true
   - type: textarea
-    id: isBeginnerfriendly
+    id: hasDocs
     attributes:
       label: "Does your project have basic newcomer onboarding docs? (e.g. CONTRIBUTING.md, good-first-issues...)"
     validations:
