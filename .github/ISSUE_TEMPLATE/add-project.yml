@@ -9,8 +9,6 @@ body:
       options:
         - label: My project has at least 500 stars
         - label: My project has at least 10 contributors
-      validations:
-        required: true
   - type: markdown
     attributes:
       value: |
