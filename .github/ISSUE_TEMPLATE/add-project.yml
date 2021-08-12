@@ -1,5 +1,5 @@
 name: Add Project
-description:
+description: Request a new Project to be listed on our site.
 title: "Please add <Project-Link>"
 body:
   - type: checkboxes
