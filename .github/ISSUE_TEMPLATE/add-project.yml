@@ -1,0 +1,40 @@
+name: Add Project
+description:
+title: "Please add <Project-Link>"
+body:
+  - type: checkboxes
+    attributes:
+      label: Does your project fullfill the requirements?
+      description: Project should have a minimum of 500 stars and 10 contributors.
+      options:
+        - label: My project has at least 500 stars
+        - label: My project has at least 10 contributors
+      required: true
+  - type: markdown
+      attributes:
+        value: |
+          Exceptions are always possible. Please feel free to reach out if you think your project would be a great fit, by explaining how your project gives new contributors a fantastic first experience. Or reach out with any question, we're super happy to collaborate. 
+  - type: textarea
+    id: isAutomated
+    attributes:
+      label: "Is your project's development setup fully automated? How to use it?"
+    validations:
+      required: true
+  - type: textarea
+    id: isBeginnerfriendly
+    attributes:
+      label: "Why is your project interesting/exciting to contribute to"
+    validations:
+      required: true
+  - type: textarea
+    id: isBeginnerfriendly
+    attributes:
+      label: "Does your project have an active community?"
+    validations:
+      required: true
+  - type: textarea
+    id: isBeginnerfriendly
+    attributes:
+      label: "Does your project have basic newcomer onboarding docs? (e.g. CONTRIBUTING.md, good-first-issues...)"
+    validations:
+      required: true
