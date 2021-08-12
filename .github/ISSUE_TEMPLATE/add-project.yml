@@ -11,9 +11,9 @@ body:
         - label: My project has at least 10 contributors
       required: true
   - type: markdown
-      attributes:
-        value: |
-          Exceptions are always possible. Please feel free to reach out if you think your project would be a great fit, by explaining how your project gives new contributors a fantastic first experience. Or reach out with any question, we're super happy to collaborate. 
+    attributes:
+      value: |
+        Exceptions are always possible. Please feel free to reach out if you think your project would be a great fit, by explaining how your project gives new contributors a fantastic first experience. Or reach out with any question, we're super happy to collaborate.
   - type: textarea
     id: isAutomated
     attributes:
