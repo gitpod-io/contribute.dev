@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { colors } from '../utils/variables'
+import { colors, shadows } from '../utils/variables'
 import projectsData from '../data/projects.json'
-import Project from '../components/Project'
+import Project from './Project'
 import IconSmiley from '../resources/icon-smiley.svg'
 import SearchIcon from '../resources/search.svg'
 
@@ -17,14 +17,11 @@ const SectionFind = styled.section`
 
         input {
             padding: 0.7rem 1.6rem;
-            background: ${colors.offWhite};
+            background: ${colors.white};
+            box-shadow: ${shadows.normal};
             border: none;
             border-radius: 10rem;
             transition: all .2s;
-
-            &:focus,
-            &:hover {
-            }
         }
 
         img {

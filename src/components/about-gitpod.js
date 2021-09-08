@@ -1,7 +1,7 @@
 import React from 'react'
 
 import styled from '@emotion/styled'
-import { breakpoints, colors } from '../utils/variables'
+import { breakpoints, colors, radiuses, shadows } from '../utils/variables'
 import BlogPostPreview from '../resources/teaser-launch-min.jpg'
 
 const SectionAboutGitpod = styled.section`
@@ -14,8 +14,8 @@ const SectionAboutGitpod = styled.section`
         padding: 4rem 3rem;
         margin: 0 auto;
         background: ${colors.white};
-        border: 2px solid ${colors.offWhite2};
-        border-radius: 3px;
+        border-radius: ${radiuses.medium};
+        box-shadow: ${shadows.normal};
 
         @media(max-width: ${breakpoints.md}) {
             flex-direction: column;

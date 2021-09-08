@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { colors, breakpoints } from '../utils/variables'
+import { colors, breakpoints, radiuses, shadows } from '../utils/variables'
 
 const Styled = styled.section`
     background: ${colors.offWhite};
@@ -11,8 +11,8 @@ const Styled = styled.section`
         margin: 0 auto;
         padding: 4rem;
         background: ${colors.white};
-        border: 2px solid ${colors.offWhite2};
-        border-radius: 3px;
+        border-radius: ${radiuses.medium};
+        box-shadow: ${shadows.normal};
 
          & > div {
             @media(min-width: calc(${breakpoints.md} +1px)) {

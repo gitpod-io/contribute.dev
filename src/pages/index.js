@@ -1,12 +1,12 @@
 import React from 'react'
 
-import Layout from '../components/Layout'
-import Header from '../components/Header'
-import FindProject from '../components/FindProject'
-import Feedback from '../components/Feedback'
-import FileIssue from '../components/FileIssue'
-import AboutGitpod from '../components/AboutGitpod'
-import BackToTop from '../components/BackToTop'
+import Layout from '../components/layout'
+import Header from '../components/header'
+import FindProject from '../components/find-project'
+import Feedback from '../components/feedback'
+import FileIssue from '../components/file-issue'
+import AboutGitpod from '../components/about-gitpod'
+import BackToTop from '../components/back-to-top'
 
 export default () => {
     return (

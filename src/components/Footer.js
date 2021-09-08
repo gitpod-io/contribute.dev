@@ -7,8 +7,8 @@ const StyledFooter = styled.footer`
     flex-direction: column;
     justify-content: center;
     width: 80%;
-    margin: 0 auto 6rem;
-    padding-top: 4rem;
+    margin: 0 auto 0;
+    padding: 4rem 0 6rem;
     text-align: center;
 
     & img {
