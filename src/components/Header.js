@@ -3,7 +3,6 @@ import styled from '@emotion/styled'
 import { colors, breakpoints } from '../utils/variables'
 
 const StyledHeader = styled.header`
-    background: ${colors.offWhite};
     padding: 8rem 0;
     text-align: center;
 `

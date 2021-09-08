@@ -2,17 +2,17 @@ import React from 'react'
 import styled from '@emotion/styled'
 import GitHubMark from '../resources/githubmark.png'
 import GitLabMark from '../resources/gitlabmark.svg'
-import GitpodLogo from '../resources/gitpod.png'
 import GitpodButton from '../resources/open-in-gitpod.svg'
-import { breakpoints, colors } from '../utils/variables.js'
+import { breakpoints, colors, radiuses, shadows } from '../utils/variables.js'
 
 const Styled = styled.div`
     position: relative;
     display: flex;
     font-size: 1.6rem;
     padding: 4rem 2rem 2rem;
-    border: 2px solid ${colors.offWhite2};
-    border-radius: 3px;
+    border-radius: ${radiuses.normal};
+    background: ${colors.white};
+    box-shadow: ${shadows.normal};
 
     @media(max-width: ${breakpoints.md}) {
         flex-direction: column;
