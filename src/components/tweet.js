@@ -8,7 +8,7 @@ const StyledTweet = styled.a`
 	text-decoration: none;
 	background: ${colors.white};
 	font-size: 1.6rem;
-	padding: 3rem;
+	padding: 3rem 2rem;
 	border-radius: 1.6rem;
 	box-shadow: ${shadows.normal};
 	color: inherit;
