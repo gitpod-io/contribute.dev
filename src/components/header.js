@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { colors, breakpoints } from '../utils/variables'
+import { breakpoints } from '../utils/variables'
 
 const StyledHeader = styled.header`
     padding: 8rem 0;

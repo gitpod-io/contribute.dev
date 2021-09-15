@@ -1,10 +1,10 @@
 import React from 'react'
 
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 import styled from '@emotion/styled'
 import { Link } from 'gatsby'
 import Error404 from '../resources/error404.svg'
-import { breakpoints, colors } from '../utils/variables'
+import { colors } from '../utils/variables'
 
 const StyledNotFoundPage = styled.div`
     height: 110vh;
