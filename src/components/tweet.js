@@ -53,7 +53,7 @@ const StyledTweet = styled.a`
 	}
 
 	&:not(:last-child) {
-		margin-right: 5rem;
+		margin-right: 3rem;
 	}
 `
 

@@ -1,6 +1,7 @@
 export const colors = {
     textPrimary: '#12100cb3',
     brand: '#ffae33',
+    brandHover: '#ffbe5c',
     white: '#ffffff',
     offWhite: ' #f5f4f4',
     offWhite2: '#D8D8D8',

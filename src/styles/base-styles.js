@@ -178,6 +178,7 @@ const BaseStyles = () => (
 
             &:hover,
             &:focus {
+              background: ${colors.brandHover};
               box-shadow: 0 0.1rem .2rem rgba(0, 0, 0, 0.1);
             }
 
