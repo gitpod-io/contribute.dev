@@ -165,7 +165,7 @@ const Styled = styled.div`
 
 const importAll = (r) => {
     let icons = {}
-    r.keys().map((item, index) => { icons[item.replace('./', '')] = r(item) })
+    r.keys().map((item) => { icons[item.replace('./', '')] = r(item) })
     return icons
 }
 
