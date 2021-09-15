@@ -3,7 +3,7 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { Link } from 'gatsby'
 import Plane from '../resources/plane.svg'
-import { colors } from '../utils/variables'
+import { breakpoints, colors } from '../utils/variables'
 
 const StyledNav = styled.div`
     background: ${colors.offWhite};
@@ -15,6 +15,10 @@ const StyledNav = styled.div`
         justify-content: space-between;
         align-items: center;
         padding: 6rem 0;
+
+        @media(max-width: ${breakpoints.md}) {
+            padding: 3rem 0;
+        }
     }
 
     .logo {
