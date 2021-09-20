@@ -6,12 +6,12 @@
       "language": "Javascript",
       "tags": [
         {
-          "src": "https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square",
+          "src": "https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3",
           "href": "https://about.gitlab.com/community/contribute/",
           "alt": "Contributions welcome"
         },
         {
-          "src": "https://img.shields.io/badge/Chat-Gitter-ff69b4.svg?label=Chat&logo=gitter&style=flat-square",
+          "src": "https://img.shields.io/badge/Chat-Gitter-ff69b4.svg?label=Chat&logo=gitter",
           "href": "https://gitter.im/gitlab/contributors",
           "alt": "Gitter chat"
         }
@@ -50,12 +50,12 @@
       "language": "Python",
       "tags": [
         {
-          "src": "https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square",
+          "src": "https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3",
           "href": "https://github.com/TheAlgorithms/Python/blob/master/CONTRIBUTING.md",
           "alt": "contributions welcome"
         },
         {
-          "src": "https://img.shields.io/badge/Chat-Gitter-ff69b4.svg?label=Chat&logo=gitter&style=flat-square",
+          "src": "https://img.shields.io/badge/Chat-Gitter-ff69b4.svg?label=Chat&logo=gitter",
           "href": "https://gitter.im/TheAlgorithms",
           "alt": "Gitter chat"
         }
@@ -70,8 +70,8 @@
       "tags": [
         {
           "href": "https://github.com/ant-design/ant-design/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22",
-          "src": "https://flat.badgen.net/github/label-issues/ant-design/ant-design/help%20wanted/open",
-          "alt": "Help wanted 40"
+          "src": "https://img.shields.io/github/labels/ant-design/ant-design/help%20wanted.svg",
+          "alt": "Help wanted"
         },
         {
           "href": "https://twitter.com/AntDesignUI",
@@ -127,12 +127,12 @@
       "tags": [
         {
           "href": "https://github.com/algorithm-visualizer/algorithm-visualizer/graphs/contributors",
-          "src": "https://img.shields.io/github/contributors/algorithm-visualizer/algorithm-visualizer.svg?style=flat-square",
+          "src": "https://img.shields.io/github/contributors/algorithm-visualizer/algorithm-visualizer.svg",
           "alt": "GitHub contributors"
         },
         {
           "href": "https://github.com/algorithm-visualizer/algorithm-visualizer/blob/master/LICENSE",
-          "src": "https://img.shields.io/github/license/algorithm-visualizer/algorithm-visualizer.svg?style=flat-square",
+          "src": "https://img.shields.io/github/license/algorithm-visualizer/algorithm-visualizer.svg",
           "alt": "GitHub license"
         }
       ],
@@ -145,12 +145,12 @@
       "tags": [
         {
           "href": "https://discord.gg/phaser",
-          "src": "https://img.shields.io/discord/244245946873937922?style=for-the-badge",
+          "src": "https://img.shields.io/discord/244245946873937922",
           "alt": "Discord Chat"
         },
         {
           "href": "https://twitter.com/phaser_",
-          "src": "https://img.shields.io/twitter/follow/phaser_?style=for-the-badge",
+          "src": "https://img.shields.io/twitter/follow/phaser_",
           "alt": "Twitter Follow"
         }
       ],
@@ -189,7 +189,7 @@
       "tags": [
         {
           "href": "https://github.com/carbon-app/carbon/blob/master/README.md#contributors",
-          "src": "https://img.shields.io/badge/all_contributors-53-orange.svg?style=flat-square",
+          "src": "https://img.shields.io/badge/all_contributors-53-orange.svg",
           "alt": "Contributors"
         },
         {
@@ -306,7 +306,7 @@
       "tags": [
         {
           "href": "https://gitter.im/docsifyjs/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link",
-          "src": "https://img.shields.io/gitter/room/docsifyjs/docsify.svg?style=flat-square",
+          "src": "https://img.shields.io/gitter/room/docsifyjs/docsify.svg",
           "alt": "Chat on Gitter"
         }
       ],
@@ -492,12 +492,12 @@
       "tags": [
         {
           "href": "https://github.com/gofiber/fiber/releases",
-          "src": "https://img.shields.io/github/release/gofiber/fiber?style=flat-square",
+          "src": "https://img.shields.io/github/release/gofiber/fiber",
           "alt": "Releases"
         },
         {
           "href": "https://fiber.wiki",
-          "src": "https://img.shields.io/badge/api-documentation-blue?style=flat-square",
+          "src": "https://img.shields.io/badge/api-documentation-blue",
           "alt": "API Documentation"
         }
       ],
@@ -560,11 +560,6 @@
           "href": "https://npmcharts.com/compare/@google/clasp?minimal=true",
           "src": "https://img.shields.io/npm/dw/@google/clasp.svg",
           "alt": "npm Downloads"
-        },
-        {
-          "href": "https://packagequality.com/#?package=%40google%2Fclasp",
-          "src": "https://npm.packagequality.com/shield/%40google%2Fclasp.svg",
-          "alt": "Package Quality"
         },
         {
           "href": "https://travis-ci.org/google/clasp",
@@ -685,7 +680,7 @@
       "tags": [
         {
           "href": "link=https://join.slack.com/t/aoc-2019/shared_invite/enQtODUzMTE3MDQzMzM0LTUyYmZjOTg1ZTYxMzEwM2JlMmNjNjE4ZDFkOWM0ZDZhMGRhNGYyMzhiMzFjZGMxNjM4YjM2NDZlNTY3NjA1M2Y",
-          "src": "https://img.shields.io/badge/Slack-Invitation-orange.svg?style=for-the-badge",
+          "src": "https://img.shields.io/badge/Slack-Invitation-orange.svg",
           "alt": "Slack Invitation"
         }
       ],
