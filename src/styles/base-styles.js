@@ -48,6 +48,10 @@ const BaseStyles = () => (
             box-sizing: border-box;
           }
 
+          main {
+            padding-top: 10rem;
+          }
+
           .stream-left {
             position: absolute;
             height: 70vh;
@@ -99,6 +103,7 @@ const BaseStyles = () => (
           h3,
           h4 {
             line-height: 1.1;
+            color: ${colors.black};
           }
 
           h1 {
@@ -160,6 +165,7 @@ const BaseStyles = () => (
             display: inline-block;
             padding: 1rem 2.5rem;
             color: ${colors.black};
+            font-size: ${fontSizes["x-small"]};
             text-decoration: none;
             border-radius: ${radiuses.normal};
             transition: all 0.2s ease-in;

@@ -16,6 +16,8 @@ export const radiuses = {
 }
 
 export const fontSizes = {
+    "xx-small": '1.4rem',
+    "x-small": '1.6rem',
     default: '1.8rem',
     small: '2.3rem',
     medium: '2.8rem',

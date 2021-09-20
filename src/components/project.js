@@ -16,6 +16,9 @@ const Styled = styled.div`
 
     @media(max-width: ${breakpoints.md}) {
         flex-direction: column;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     @media(max-width: ${breakpoints.sm}) {
@@ -39,12 +42,16 @@ const Styled = styled.div`
             height: 7rem;
             
             @media(max-width: ${breakpoints.sm}) {
-                max-width: 20rem;
+                max-width: 22rem;
             }
         }
 
         @media(max-width: ${breakpoints.md}) {
             margin-bottom: 2rem;
+
+            .img {
+                max-width: 14rem;
+            }
         }
 
         @media(max-width: ${breakpoints.sm}) {
@@ -94,6 +101,8 @@ const Styled = styled.div`
 
     h3 {
         margin-bottom: 2rem;
+        display: flex;
+        align-items: center;
 
         & img {
             height: 1.8rem;
@@ -204,7 +213,7 @@ const Project = (props) => {
                 {
                     (props.tags || (platform === 'github' && [{
                         href: `${url}/graphs/contributors`,
-                        src: `https://img.shields.io/github/contributors/${repoName}.svg?style=flat-square`,
+                        src: `https://img.shields.io/github/contributors/${repoName}.svg`,
                         alt: `Contributors Count`
                     }] || [])).map((tag, i) =>
                         <a href={tag.href} key={i} aria-label={tag.alt}>
