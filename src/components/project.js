@@ -2,7 +2,7 @@ import React from 'react'
 import styled from '@emotion/styled'
 import GitHubMark from '../resources/githubmark.png'
 import GitLabMark from '../resources/gitlabmark.svg'
-import GitpodButton from '../resources/open-in-gitpod.svg'
+import GitpodMark from '../resources/gitpod-mark.svg'
 import { breakpoints, colors, radiuses, shadows } from '../utils/variables.js'
 
 const Styled = styled.div`
@@ -158,17 +158,30 @@ const Styled = styled.div`
     }
 
     .open-in-gitpod {
-        border: none;
-        padding: 0;
+        display: flex;
+        align-items: center;
         margin: 0;
+        padding: .8rem 1.5rem;
         text-align: right;
         transition: all .2s;
+        font-size: 1.4rem;
+        font-weight: 600;
+        background: ${colors.white};
+        border: none;
+        border-radius: 1.6rem;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
 
         img {
             display: block;
-            height: 40px;
+            height: 24px;
+            width: 24px;
+            margin-right: 1rem;
         }
 
+        &:hover,
+        &:focus {
+            background: #f9f9f9;
+        }
     }
 `
 
@@ -238,7 +251,7 @@ const Project = (props) => {
                 </a>
                 <a href={`https://gitpod.io/#${props.link ? props.link : url}`} target="_blank" rel="noopener">
                     <button className="open-in-gitpod" aria-label="Open in Gitpod">
-                        <img src={GitpodButton} alt="Open in Gitpod" />
+                        <img src={GitpodMark} alt="Gitpod" /> Open in Gitpod
                     </button>
                 </a>
             </div>
