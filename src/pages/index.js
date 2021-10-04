@@ -5,8 +5,8 @@ import Header from '../components/header'
 import FindProject from '../components/find-project'
 import Feedback from '../components/feedback'
 import FileIssue from '../components/file-issue'
-import AboutGitpod from '../components/about-gitpod'
 import BackToTop from '../components/back-to-top'
+import GetStarted from '../components/get-started'
 
 export default () => {
     return (
@@ -15,7 +15,7 @@ export default () => {
             <FindProject />
             <FileIssue />
             <Feedback />
-            <AboutGitpod />
+            <GetStarted />
             <BackToTop />
         </Layout>
     )
