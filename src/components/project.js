@@ -19,10 +19,7 @@ const Styled = styled.div`
         max-width: 500px;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    @media(max-width: ${breakpoints.sm}) {
-        padding: 1rem;
+        padding: 3rem 2rem;
     }
 
     &:not(:last-child) {
@@ -52,10 +49,6 @@ const Styled = styled.div`
             .img {
                 max-width: 14rem;
             }
-        }
-
-        @media(max-width: ${breakpoints.sm}) {
-            margin-top: 2rem;
         }
     }
 
