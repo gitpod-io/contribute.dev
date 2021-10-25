@@ -19,6 +19,7 @@
     "gatsby-plugin-emotion": "^4.3.6",
     "gatsby-plugin-react-helmet": "^3.3.6",
     "global": "^4.4.0",
+    "nanoid": "^3.1.30",
     "npm-check-updates": "^7.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

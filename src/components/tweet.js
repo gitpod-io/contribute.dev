@@ -70,7 +70,7 @@ const Tweet = ({ name, avatar, role, org, text, twitterHandle, tweetId }) => (
         <div>
           <div className="name">{name}</div>
           <p>
-            {role} <span class="role" dangerouslySetInnerHTML={{ __html: org }} />
+            {role} <span className="role" dangerouslySetInnerHTML={{ __html: org }} />
           </p>
         </div>
       </div>

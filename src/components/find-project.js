@@ -5,6 +5,7 @@ import projectsData from '../data/projects.json'
 import Project from './project'
 import IconSmiley from '../resources/icon-smiley.svg'
 import SearchIcon from '../resources/search.svg'
+import { nanoid } from 'nanoid'
 
 const SectionFind = styled.section`
     padding: 4rem 0 12rem;
@@ -135,7 +136,7 @@ class FindProject extends React.Component {
                     <div>
                         {
                             this.state.filteredProjects.length &&
-                            this.state.filteredProjects.map(project => <Project key={project.repoName} {...project} />) || this.state.toggle &&
+                            this.state.filteredProjects.map((project, i) => <Project key={nanoid()} {...project} />) || this.state.toggle &&
                             <div className="nothing-found">
                                 <img src={IconSmiley} alt="" aria-hidden={true} />
                                 <h4>Sorry, we can't find any projects matching your search</h4>
