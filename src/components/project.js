@@ -163,6 +163,8 @@ const Styled = styled.div`
         align-items: center;
         margin: 0;
         padding: .8rem 1.5rem;
+        color: ${colors.black};
+        text-decoration: none;
         text-align: right;
         transition: all .2s;
         font-size: 1.4rem;
@@ -198,14 +200,6 @@ const Project = (props) => {
     const url = props.repo
     const platform = url.includes('github') ? 'github' : url.includes('gitlab') ? 'gitlab' : null
     const repoName = url.split('/').slice(-2).join('/')
-
-    let platformIcon
-
-    if (platform === 'github') {
-        platformIcon = <img src={GitHubMark} alt="GitHub Mark" />      
-    } else if (platform === 'gitlab') { 
-        platformIcon = <img src={GitLabMark} alt="GitLab Mark" />
-    }
 
     return (
         <Styled>
@@ -243,17 +237,15 @@ const Project = (props) => {
             <div className="call-to-action">
                 <a href={url} target="_blank" rel="noopener">
                     <div className="stars">
-                        <img 
-                            src={platform === 'github' && `https://img.shields.io/github/stars/${repoName}.svg?style=social` || platform === "gitlab" && `https://img.shields.io/badge/dynamic/json?color=green&label=gitlab%20stars&query=star_count&url=https://gitlab.com/api/v4/projects/${props.gitLabId}` } 
-                            alt={props.title} 
-                            style={{ height: 20 }} 
+                        <img
+                            src={platform === 'github' && `https://img.shields.io/github/stars/${repoName}.svg?style=social` || platform === "gitlab" && `https://img.shields.io/badge/dynamic/json?color=green&label=gitlab%20stars&query=star_count&url=https://gitlab.com/api/v4/projects/${props.gitLabId}`}
+                            alt={props.title}
+                            style={{ height: 20 }}
                         />
                     </div>
                 </a>
-                <a href={`https://gitpod.io/#${props.link ? props.link : url}`} target="_blank" rel="noopener">
-                    <button className="open-in-gitpod" aria-label="Open in Gitpod">
-                        <img src={GitpodMark} alt="Gitpod" /> Open in Gitpod
-                    </button>
+                <a href={`https://gitpod.io/#${props.link ? props.link : url}`} className="open-in-gitpod" target="_blank" rel="noopener" aria-label="Open in Gitpod">
+                    <img src={GitpodMark} alt="Gitpod" /> Open in Gitpod
                 </a>
             </div>
         </Styled>
