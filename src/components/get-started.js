@@ -23,16 +23,16 @@ const StyledGetStarted = styled.section`
     }
 
     .text {
-        flex: 0 0 40%;
-        padding: 5rem 1rem 5rem 7rem ;
+        flex: 0 0 45%;
+        padding: 5rem 2rem 2rem 7rem;
         
         @media(max-width: 860px) {
-            padding: 5rem;
+            padding: 5rem 0 7rem;
             max-width: 400px;
         }
 
         @media(max-width: ${breakpoints.sm}) {
-            padding: 5rem 2rem;
+            padding: 5rem 0 7rem 5rem;
         }
     }
 
@@ -49,7 +49,7 @@ const StyledGetStarted = styled.section`
         text-align: left;
 
         &::after {
-            margin-left: 0;
+            display: none;
         }
        }
     }
@@ -71,7 +71,7 @@ const GetStarted = () => (
         <StyledGetStarted>
             <div className="container">
                 <div className="text">
-                    <h2>Get Started</h2>
+                    <h2>Get Started with Gitpod</h2>
                     <p>Spin up fresh, automated dev environments for each task, in the cloud, in seconds.</p>
                     <a href="https://www.gitpod.io/#get-started" className="btn">Try Now</a>
                 </div>
