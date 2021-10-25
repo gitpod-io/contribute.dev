@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 import styled from '@emotion/styled'
 import { Link } from 'gatsby'
@@ -9,10 +9,11 @@ const StyledNav = styled.div`
     position: fixed;
     width: 100%;
     z-index: 1000;
-    border-bottom: 1px solid ${colors.offWhite2};
     background: hsl(0 5% 96% / 85%);
     backdrop-filter: saturate(0.5) blur(5px);
-    
+    border-bottom: 1px solid transparent;
+    transition: all .2s;
+
     nav {
         display: flex;
         justify-content: space-between;
@@ -34,23 +35,37 @@ const StyledNav = styled.div`
     }
 `
 
-const Nav = () => (
-    <StyledNav>
-        <div className="row">
-            <nav>
-                <Link
-                    to='/'
-                    className="logo"
-                ><img src={Plane} alt="Plance" /> contribute.dev</Link>
-                <a
-                    href="#add-my-project"
-                    className="btn"
-                >
-                    Add My Project
-                </a>
-            </nav>
-        </div>
-    </StyledNav>
-)
+const Nav = () => {
+    const [scrolledOut, setScrolledOut] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 0) {
+                setScrolledOut(true)
+            } else {
+                setScrolledOut(false)
+            }
+        })
+    })
+
+    return (
+        <StyledNav style={scrolledOut ? { borderBottom: `1px solid ${colors.offWhite2}` } : {}}>
+            <div className="row">
+                <nav>
+                    <Link
+                        to='/'
+                        className="logo"
+                    ><img src={Plane} alt="Plance" /> contribute.dev</Link>
+                    <a
+                        href="#add-my-project"
+                        className="btn"
+                    >
+                        Add My Project
+                    </a>
+                </nav>
+            </div>
+        </StyledNav>
+    )
+}
 
 export default Nav

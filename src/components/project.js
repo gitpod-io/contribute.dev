@@ -112,8 +112,16 @@ const Styled = styled.div`
     }
 
     a {
-        text-decoration: none;
-        color: ${colors.textPrimary};
+        h3 {
+            transition: all .2s;
+        }
+
+        &:hover,
+        &:focus {
+            h3 {
+                color: ${colors.link};
+            }
+        }
     }
 
     .call-to-action {
@@ -208,7 +216,7 @@ const Project = (props) => {
             </div>
             <div className="text">
                 <a href={url} target="_blank" rel="noopener" aria-label={`${props.title} repository`}>
-                    <h3>{props.title}&nbsp;{platformIcon}
+                    <h3>{props.title}
                     </h3>
                 </a>
                 <p>{props.description}</p>

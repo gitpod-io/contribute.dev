@@ -170,7 +170,7 @@ const BaseStyles = () => (
             border-radius: ${radiuses.normal};
             transition: all 0.2s ease-in;
             background: ${colors.brand};
-            font-weight: 400;
+            font-weight: 600;
 
             @media (max-width: ${breakpoints.sm}) {
               padding: 1rem 1.5rem;
