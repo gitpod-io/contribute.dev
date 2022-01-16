@@ -722,7 +722,7 @@
       "language": "Python",
       "tags":[
         {
-          "href": "https://airflow.apache.org",
+          "href": "https://s.apache.org/airflow-slack",
           "src": "https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social",
           "alt": "Apache Airflow"
         }
