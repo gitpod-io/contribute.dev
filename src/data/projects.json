@@ -728,7 +728,7 @@
         }
       ],
       "repo": "https://github.com/apache/airflow",
-      "logo": "https://raw.githubusercontent.com/apache/airflow-site/main/landing-pages/site/assets/icons/airflow-logo.svg"
+      "logo": "airflow-logo.svg"
     }
   ]
 }
