@@ -722,6 +722,20 @@
       ],
       "repo": "https://github.com/robotology/icub-gazebo-grasping-sandbox",
       "logo": "icub-gazebo-grasping-sandbox.png"
+    },
+    {
+      "title": "Apache Airflow",
+      "description": "A platform to programmatically author, schedule, and monitor workflows",
+      "language": "Python",
+      "tags":[
+        {
+          "href": "https://s.apache.org/airflow-slack",
+          "src": "https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social",
+          "alt": "Apache Airflow"
+        }
+      ],
+      "repo": "https://github.com/apache/airflow",
+      "logo": "airflow-logo.svg"
     }
   ]
 }
