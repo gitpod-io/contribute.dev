@@ -6,8 +6,8 @@ tasks:
     command: yarn start
 vscode:
   extensions:
-    - jpoissonnier.vscode-styled-components@0.0.28:Qde/ISuGvFTPjoaMf1FmnQ==
-    - paulmolluzzo.convert-css-in-js@1.1.3:YnjK47pXScU3DMFfQzkkOw==
+    - jpoissonnier.vscode-styled-components
+    - paulmolluzzo.convert-css-in-js
 
 github:
   prebuilds:

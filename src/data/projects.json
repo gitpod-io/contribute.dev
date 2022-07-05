@@ -695,21 +695,6 @@
       "logo": "advent-of-code.png"
     },
     {
-      "title": "Taskord",
-      "description": "Get things done in public with awesome community of makers.",
-      "language": "PHP",
-      "tags": [
-        {
-          "href": "https://taskord.com",
-          "src": "https://img.shields.io/static/v1?label=Link%20to&message=website&color=%3CCOLOR%3E",
-          "alt": "taskord.com"
-        }
-      ],
-      "gitLabId": "20359920",
-      "repo": "https://gitlab.com/taskord/taskord",
-      "logo": "taskord.svg"
-    },
-    {
       "title": "iCub Gazebo Grasping Sandbox",
       "description": "A public sandbox for simulating grasping in Gazebo with the iCub humanoid",
       "language": "C++",
@@ -736,6 +721,48 @@
       ],
       "repo": "https://github.com/apache/airflow",
       "logo": "airflow-logo.svg"
+    },
+    {
+      "title": "Storybook",
+      "description": "The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!",
+      "language": "TypeScript",
+      "tags":[
+        {
+          "href": "https://discord.gg/storybook",
+          "src": "https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat",
+          "alt": "Storybook"
+        }
+      ],
+      "repo": "https://github.com/storybookjs/storybook",
+      "logo": "storybook.png"
+    },
+    {
+      "title": "Babel",
+      "description": "Babel is a compiler for writing next generation JavaScript.",
+      "language": "TypeScript",
+      "tags":[
+        {
+          "href": "https://slack.babeljs.io/",
+          "src": "https://slack.babeljs.io/badge.svg",
+          "alt": "Babel Slack"
+        }
+      ],
+      "repo": "https://github.com/babel/babel",
+      "logo": "babel.png"
+    },
+    {
+      "title": "Jest",
+      "description": "Delightful JavaScript Testing.",
+      "language": "TypeScript",
+      "tags":[
+        {
+          "href": "https://jestjs.io/docs/jest-community",
+          "src": "https://img.shields.io/static/v1?label=Link%20to&message=Community%20Website&color=%3CCOLOR%3E",
+          "alt": "Jest Community"
+        }
+      ],
+      "repo": "https://github.com/facebook/jest",
+      "logo": "facebook.png"
     }
   ]
 }
