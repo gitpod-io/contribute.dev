@@ -205,7 +205,7 @@ const Project = (props) => {
         <Styled>
             <div className="img-container">
                 <a href={url} target="_blank" rel="noopener" aria-label={`${props.title} repository`}>
-                    {props.logo ? <img src={icons[props.logo]} alt={props.title} className="img" /> : null}
+                    {props.logo ? <img src={props.logo} alt={props.title} className="img" /> : null}
                 </a>
             </div>
             <div className="text">
