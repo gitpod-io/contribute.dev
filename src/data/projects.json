@@ -18,7 +18,7 @@
       ],
       "repo": "https://github.com/gitlabhq/gitlabhq",
       "link": "https://gitlab.com/gitlab-org/gitlab",
-      "logo": "https://github.com/gitlabhq.png"
+      "logo": "gitlab.png"
     },
     {
       "title": "freeCodeCamp",
@@ -42,7 +42,7 @@
         }
       ],
       "repo": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "logo": "https://github.com/freeCodeCamp.png"
+      "logo": "freecodecamp.jpg"
     },
     {
       "title": "The Algorithms - Python",
@@ -61,7 +61,7 @@
         }
       ],
       "repo": "https://github.com/TheAlgorithms/Python",
-      "logo": "https://github.com/TheAlgorithms.png"
+      "logo": "algorithms.png"
     },
     {
       "title": "Ant Design",
@@ -80,7 +80,7 @@
         }
       ],
       "repo": "https://github.com/ant-design/ant-design",
-      "logo": "https://github.com/ant-design.png"
+      "logo": "antdesign.svg"
     },
     {
       "title": "Gatsby",
@@ -104,21 +104,21 @@
         }
       ],
       "repo": "https://github.com/gatsbyjs/gatsby",
-      "logo": "https://github.com/gatsbyjs.png"
+      "logo": "gatsby.svg"
     },
-    {
+     {
       "title": "Prometheus",
       "description": "The Prometheus monitoring system and time series database.",
       "language": "Go",
       "repo": "https://github.com/prometheus/prometheus",
-      "logo": "https://github.com/prometheus.png"
+      "logo": "prometheus.svg"
     },
     {
       "title": "PDF.js",
       "description": "PDF.js is a Portable Document Format (PDF) viewer that is built with HTML5.",
       "language": "JavaScript",
       "repo": "https://github.com/mozilla/pdf.js",
-      "logo": "https://github.com/mozilla.png"
+      "logo": "pdf-js.png"
     },
     {
       "title": "Algorithm Visualizer",
@@ -137,7 +137,7 @@
         }
       ],
       "repo": "https://github.com/algorithm-visualizer/algorithm-visualizer",
-      "logo": "https://github.com/algorithm-visualizer.png"
+      "logo": "visualizer.png"
     },
     {
       "title": "Phaser",
@@ -156,7 +156,7 @@
       ],
       "language": "JavaScript",
       "repo": "https://github.com/photonstorm/phaser",
-      "logo": "https://github.com/photonstorm.png"
+      "logo": "phaser.jpg"
     },
     {
       "title": "Nuxt.js",
@@ -180,7 +180,7 @@
       ],
       "language": "JavaScript",
       "repo": "https://github.com/nuxt/nuxt.js",
-      "logo": "https://github.com/nuxt.png"
+      "logo": "nuxtjs.png"
     },
     {
       "title": "Carbon",
@@ -199,7 +199,7 @@
         }
       ],
       "repo": "https://github.com/carbon-app/carbon",
-      "logo": "https://github.com/carbon-app.png"
+      "logo": "carbon.svg"
     },
     {
       "title": "MobX",
@@ -214,7 +214,7 @@
       ],
       "repo": "https://github.com/mobxjs/mobx",
       "repoURL": "https://github.com/mobxjs/mobx",
-      "logo": "https://github.com/mobxjs.png"
+      "logo": "mobx.png"
     },
     {
       "title": "Tesseract",
@@ -233,7 +233,7 @@
         }
       ],
       "repo": "https://github.com/naptha/tesseract.js",
-      "logo": "https://github.com/naptha.png"
+      "logo": "tesseract.png"
     },
     {
       "title": "jsPDF",
@@ -251,15 +251,27 @@
           "alt": "code quality: js/ts A"
         }
       ],
-      "repo": "https://github.com/parallax/jsPDF",
-      "logo": "https://github.com/parallax.png"
+      "repo": "https://github.com/MrRio/jsPDF",
+      "logo": "jspdf.svg"
     },
     {
-      "title": "Hoppscotch",
-      "description": "Open source API development ecosystem",
-      "language": "Vue",
-      "repo": "https://github.com/hoppscotch/hoppscotch",
-      "logo": "https://github.com/hoppscotch.png"
+      "title": "Postwoman",
+      "description": "A free, fast & beautiful API request builder (web alternative to Postman).",
+      "language": "Javascript",
+      "tags": [
+        {
+          "href": "https://github.com/liyasthomas/postwoman/blob/master/CONTRIBUTING.md",
+          "src": "https://img.shields.io/badge/contributions-welcome-brightgreen",
+          "alt": "Contributions welcome"
+        },
+        {
+          "href": "https://discord.gg/GAMWxmR",
+          "src": "https://img.shields.io/badge/chat-Discord-violet?logo=discord",
+          "alt": "Chat on Discord"
+        }
+      ],
+      "repo": "https://github.com/liyasthomas/postwoman",
+      "logo": "post-woman.png"
     },
     {
       "title": "Docusaurus",
@@ -278,14 +290,14 @@
         }
       ],
       "repo": "https://github.com/facebook/docusaurus",
-      "logo": "https://github.com/facebook.png"
+      "logo": "docusaurus.svg"
     },
     {
       "title": "fabric.js",
       "description": "Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser",
       "language": "JavaScript",
       "repo": "https://github.com/fabricjs/fabric.js",
-      "logo": "https://github.com/fabricjs.png"
+      "logo": "fabricjs.png"
     },
     {
       "title": "Docsify",
@@ -299,7 +311,7 @@
         }
       ],
       "repo": "https://github.com/docsifyjs/docsify",
-      "logo": "https://github.com/docsifyjs.png"
+      "logo": "docsify.svg"
     },
     {
       "title": "Dev.to",
@@ -313,14 +325,14 @@
         }
       ],
       "repo": "https://github.com/thepracticaldev/dev.to",
-      "logo": "https://github.com/thepracticaldev.png"
+      "logo": "devto.jpeg"
     },
     {
       "title": "Koel",
       "description": "A personal music streaming server that works.",
       "language": "PHP",
       "repo": "https://github.com/koel/koel",
-      "logo": "https://github.com/koel.png"
+      "logo": "koel.svg"
     },
     {
       "title": "Shields.io",
@@ -344,14 +356,14 @@
         }
       ],
       "repo": "https://github.com/badges/shields",
-      "logo": "https://github.com/badges.png"
+      "logo": "sheilds-io.svg"
     },
     {
       "title": "Theia IDE",
       "description": "Eclipse Theia is an extensible platform to develop multi-language Cloud & Desktop IDEs with state-of-the-art web technologies.",
       "language": "TypeScript",
       "repo": "https://github.com/eclipse-theia/theia",
-      "logo": "https://github.com/eclipse-theia.png"
+      "logo": "theia.svg"
     },
     {
       "title": "A-to-Z-Resources-for-Students",
@@ -369,14 +381,14 @@
         }
       ],
       "repo": "https://github.com/dipakkr/A-to-Z-Resources-for-Students",
-      "logo": "https://github.com/dipakkr.png"
+      "logo": "a2z.png"
     },
     {
       "title": "Nano ID",
       "description": "A tiny (119 bytes), secure, URL-friendly, unique string ID generator for JavaScript",
       "language": "JavaScript",
       "repo": "https://github.com/ai/nanoid",
-      "logo": "https://github.com/ai.png"
+      "logo": "nano-id.svg"
     },
     {
       "title": "DockerSlim",
@@ -395,14 +407,14 @@
         }
       ],
       "repo": "https://github.com/docker-slim/docker-slim",
-      "logo": "https://github.com/docker-slim.png"
+      "logo": "docker-slim.png"
     },
     {
       "title": "milligram",
       "description": "A minimalist CSS framework.",
       "language": "HTML",
       "repo": "https://github.com/milligram/milligram",
-      "logo": "https://github.com/milligram.png"
+      "logo": "milligram.svg"
     },
     {
       "title": "Peertube",
@@ -421,7 +433,7 @@
         }
       ],
       "repo": "https://github.com/Chocobozzz/PeerTube",
-      "logo": "https://github.com/Chocobozzz.png"
+      "logo": "peertube.png"
     },
     {
       "title": "Nu Shell",
@@ -440,21 +452,21 @@
         }
       ],
       "repo": "https://github.com/nushell/nushell",
-      "logo": "https://github.com/nushell.png"
+      "logo": "nushell.png"
     },
     {
       "title": "Dev Hub",
       "description": "DevHub is a mobile and desktop app to help you manage Github Notifications and stay on top of repository activities.",
       "language": "TypeScript",
       "repo": "https://github.com/devhubapp/devhub",
-      "logo": "https://github.com/devhubapp.png"
+      "logo": "devhub.png"
     },
     {
       "title": "RedwoodJS",
       "description": "RedwoodJS is an opinionated, full-stack, serverless-ready web application framework that will allow you to build and deploy with ease.",
       "language": "TypeScript",
       "repo": "https://github.com/redwoodjs/redwood",
-      "logo": "https://github.com/redwoodjs.png"
+      "logo": "redwoodjs.png"
     },
     {
       "title": "inlets",
@@ -478,7 +490,7 @@
         }
       ],
       "repo": "https://github.com/inlets/inlets",
-      "logo": "https://github.com/inlets.png"
+      "logo": "inlets.jpg"
     },
     {
       "title": "Fiber",
@@ -497,7 +509,7 @@
         }
       ],
       "repo": "https://github.com/gofiber/fiber",
-      "logo": "https://github.com/gofiber.png"
+      "logo": "fiber-go.png"
     },
     {
       "title": "Thanos",
@@ -511,21 +523,21 @@
         }
       ],
       "repo": "https://github.com/thanos-io/thanos",
-      "logo": "https://github.com/thanos-io.png"
+      "logo": "thanos.svg"
     },
     {
       "title": "vue-class-component",
       "description": "ES / TypeScript decorator for class-style Vue components.",
       "language": "TypeScript",
       "repo": "https://github.com/vuejs/vue-class-component",
-      "logo": "https://github.com/vuejs.png"
+      "logo": "vue.png"
     },
     {
       "title": "Fusuma",
       "description": "Just write Markdown and create cool slides.",
       "language": "JavaScript",
       "repo": "https://github.com/hiroppy/fusuma",
-      "logo": "https://github.com/hiroppy.png"
+      "logo": "fusuma.svg"
     },
     {
       "title": "Terasology",
@@ -544,7 +556,7 @@
         }
       ],
       "repo": "https://github.com/MovingBlocks/Terasology",
-      "logo": "https://github.com/MovingBlocks.png"
+      "logo": "terasology.jpg"
     },
     {
       "title": "Clasp",
@@ -563,14 +575,14 @@
         }
       ],
       "repo": "https://github.com/google/clasp",
-      "logo": "https://github.com/google.png"
+      "logo": "clasp.png"
     },
     {
       "title": "Canvas",
       "description": "A Laravel publishing platform.",
       "language": "PHP",
-      "repo": "https://github.com/austintoddj/canvas",
-      "logo": "https://github.com/austintoddj.png"
+      "repo": "https://github.com/cnvs/canvas",
+      "logo": "canvas.svg"
     },
     {
       "title": "Statusfy",
@@ -584,7 +596,7 @@
         }
       ],
       "repo": "https://github.com/aceforth/statusfy",
-      "logo": "https://github.com/aceforth.png"
+      "logo": "statusfy.svg"
     },
     {
       "title": "Uppload",
@@ -598,14 +610,14 @@
         }
       ],
       "repo": "https://github.com/elninotech/uppload",
-      "logo": "https://github.com/elninotech.png"
+      "logo": "uppload.svg"
     },
     {
       "title": "pygsheets",
       "description": "Google Sheets Python API v4 | A simple, intuitive library for google sheets which gets your work done.",
       "language": "Python",
       "repo": "https://github.com/nithinmurali/pygsheets",
-      "logo": "https://github.com/nithinmurali.png"
+      "logo": "pyg.png"
     },
     {
       "title": "Ancient Beast",
@@ -624,7 +636,7 @@
         }
       ],
       "repo": "https://github.com/FreezingMoon/AncientBeast",
-      "logo": "https://github.com/FreezingMoon.png"
+      "logo": "ancient-beast.png"
     },
     {
       "title": "basque",
@@ -638,21 +650,21 @@
         }
       ],
       "repo": "https://github.com/ryanpcmcquen/basque",
-      "logo": "https://github.com/ryanpcmcquen.png"
+      "logo": "basque.png"
     },
     {
       "title": "DestinationSol",
       "description": "Official continuation of Destination Sol, the great fun little arcade space shooter",
       "language": "Java",
       "repo": "https://github.com/MovingBlocks/DestinationSol",
-      "logo": "https://github.com/MovingBlocks.png"
+      "logo": "destination-sol.png"
     },
     {
       "title": "dvc.org",
       "description": "🔗 DVC website and documentation",
       "language": "TypeScript",
       "repo": "https://github.com/iterative/dvc.org",
-      "logo": "https://github.com/iterative.png"
+      "logo": "dvc-org.svg"
     },
     {
       "title": "Open VSX",
@@ -666,7 +678,7 @@
         }
       ],
       "repo": "https://github.com/eclipse/openvsx",
-      "logo": "https://github.com/eclipse.png"
+      "logo": "open-vsx.svg"
     },
     {
       "title": "Advent Of Code",
@@ -680,7 +692,7 @@
         }
       ],
       "repo": "https://github.com/docToolchain/aoc-2019",
-      "logo": "https://github.com/docToolchain.png"
+      "logo": "advent-of-code.png"
     },
     {
       "title": "iCub Gazebo Grasping Sandbox",
@@ -694,7 +706,7 @@
         }
       ],
       "repo": "https://github.com/robotology/icub-gazebo-grasping-sandbox",
-      "logo": "https://github.com/robotology.png"
+      "logo": "icub-gazebo-grasping-sandbox.png"
     },
     {
       "title": "Apache Airflow",
@@ -708,7 +720,7 @@
         }
       ],
       "repo": "https://github.com/apache/airflow",
-      "logo": "https://github.com/apache.png"
+      "logo": "airflow-logo.svg"
     },
     {
       "title": "Storybook",
@@ -722,7 +734,7 @@
         }
       ],
       "repo": "https://github.com/storybookjs/storybook",
-      "logo": "https://github.com/storybookjs.png"
+      "logo": "storybook.png"
     },
     {
       "title": "Babel",
@@ -736,7 +748,7 @@
         }
       ],
       "repo": "https://github.com/babel/babel",
-      "logo": "https://github.com/babel.png"
+      "logo": "babel.png"
     },
     {
       "title": "Jest",
@@ -750,7 +762,7 @@
         }
       ],
       "repo": "https://github.com/facebook/jest",
-      "logo": "https://github.com/facebook.png"
+      "logo": "facebook.png"
     }
   ]
 }
