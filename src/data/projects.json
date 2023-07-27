@@ -787,6 +787,30 @@
       ],
       "repo": "https://github.com/SaptarshiSarkar12/Drifty",
       "logo": "drifty.png"
+    },
+    {
+      "title": "Learn JavaScript",
+      "description": "A book that teaches JavaScript.",
+      "language": "JavaScript",
+      "tags": [
+        {
+          "src": "https://img.shields.io/github/stars/sumn2u/learn-javascript",
+          "href": "https://github.com/sumn2u/learn-javascript/stargazers",
+          "alt": "GitHub stars"
+        },
+        {
+          "src": "https://img.shields.io/github/forks/sumn2u/learn-javascript",
+          "href": "https://github.com/sumn2u/learn-javascript/network",
+          "alt": "GitHub forks"
+        },
+        {
+          "src": "https://bestpractices.coreinfrastructure.org/projects/7372/badge",
+          "href": "https://bestpractices.coreinfrastructure.org/projects/7372",
+          "alt": "OpenSSF Best Practices"
+        }
+      ],
+      "repo": "https://github.com/sumn2u/learn-javascript",
+      "logo": "learn-javascript.jpg"
     }
   ]
 }
