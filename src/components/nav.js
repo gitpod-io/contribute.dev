@@ -56,12 +56,12 @@ const Nav = () => {
                         to='/'
                         className="logo"
                     ><img src={Plane} alt="Plance" /> contribute.dev</Link>
-                    <a
+                    {/* <a
                         href="#add-my-project"
                         className="btn"
                     >
                         Add My Project
-                    </a>
+                    </a> */}
                 </nav>
             </div>
         </StyledNav>
